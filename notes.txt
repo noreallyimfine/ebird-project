@@ -7,6 +7,7 @@ WORK DONE SO FAR
         - create crosstabs and pivot tables to understand data
         - plot lat/lon points to see spread
         - determine threshold for 'Rare' (currently <0.15)
+        - add inital label, based on seasonal raredness
         
 
 STEPS TOWARDS MODELING
@@ -15,9 +16,12 @@ STEPS TOWARDS MODELING
         - location rare will be if this bird appears in <15% of all sightings
         - season rare is when <15% of that birds sightings in that location appear in that season
         - for season rare I will need the polygon groupings
+        - will start with only US to narrow down, make it easier
+        - 
         
 STILL TO FIGURE OUT
         - plot points with different colors for different seasons
         - plot points with rare and common colored separately
         - apply all feature engineering steps to full dataset
         - can i make a regression line plot of a single bird to determine a path of migration?
+        - maybe use total observed birds instead of a count of observation instances
