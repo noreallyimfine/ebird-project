@@ -1,3 +1,20 @@
+Feature engineering to be done:
+    - columns used:
+        - COMMON NAME
+        - COUNTRY
+        - STATE
+        - COUNTY
+        - LATITUDE
+        - LONGITUDE
+        - OBSERVATION DATE
+    - convert OBSERVATION DATE to Datetime
+    - extract year, month from OBSERVATION DATE
+    - new column Season mapped from month (should I use month/day for more accurate?)
+    - new column Region from map dataset
+    - new column LocationRare from percent of total observations 
+    - new column SeasonRare from percent of total that bird ovser
+
+
 WORK DONE SO FAR
         - read in part of massive file to df
         - explore data
@@ -11,6 +28,7 @@ WORK DONE SO FAR
         
 
 STEPS TOWARDS MODELING
+        - create labels using excel sheet of the map
         - df with bird name, lat, lon, season, and label
         - 3 labelling columns (location-rare, season-rare, final rare)
         - location rare will be if this bird appears in <15% of all sightings
