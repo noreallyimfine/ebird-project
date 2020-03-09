@@ -12,7 +12,7 @@ Feature engineering to be done:
     - new column Season mapped from month (should I use month/day for more accurate?)
     - new column Region from map dataset
     - new column LocationRare from percent of total observations 
-    - new column SeasonRare from percent of total that bird ovser
+    - new column SeasonRare from percent of total that bird observations by season
 
 
 WORK DONE SO FAR
