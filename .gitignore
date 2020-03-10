@@ -129,5 +129,6 @@ dmypy.json
 .pyre/
 
 # data files
-blackbird.txt
-us_birds.txt
+*.txt
+*.csv
+*.xlsx
