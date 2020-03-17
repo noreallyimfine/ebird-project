@@ -30,3 +30,32 @@ df = pd.read_csv('C:\\Users\\ajaco\\Downloads\\ebd_relJan-2020.txt',
 				 		  'LONGITUDE', 'OBSERVATION DATE', 'OBSERVATION COUNT'])
 
 assert(df.shape == (200000, 8))
+
+#===============================
+
+df.rename(columns={
+    'COMMON NAME': 'name',
+    'OBSERVATION COUNT': 'observ_count',
+    'COUNTRY': 'country',
+    'STATE': 'state',
+    'COUNTY': 'county',
+    'LATITUDE': 'latitude',
+    'LONGITUDE': 'longitude',
+    'OBSERVATION DATE': 'observ_date'
+}, inplace=True)
+
+assert('name' in df.columns)
+
+#=================================
+
+us_birds = df.query("country == 'United States'")
+assert(us_birds.shape == (105294, 8))
+assert(len(us_birds['country'].unique() == 1))
+
+#==================================
+
+us_birds.dropna(subset=['county'], inplace=True)
+assert(us_birds.isnull().sum()['county'] == 0)
+
+#==================================
+
