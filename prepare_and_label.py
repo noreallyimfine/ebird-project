@@ -1,4 +1,6 @@
+import warnings
 import pandas as pd
+warnings.filterwarnings("ignore")
 
 """Clean and label subset of data for test modelling
 
@@ -59,3 +61,9 @@ assert(us_birds.isnull().sum()['county'] == 0)
 
 #==================================
 
+us_birds['observ_count'] = us_birds['observ_count'].apply(
+									lambda x: 1 if x == 'X' else x)
+
+assert('X' not in us_birds.observ_count.unique())
+
+#===================================
