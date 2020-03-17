@@ -93,3 +93,8 @@ us_birds['season'] = us_birds['month'].apply(season_from_month)
 assert(us_birds.season.value_counts()['Spring'] == 39610)
 
 #======================================
+
+us_birds['county_state'] = us_birds['county'] + us_birds['state']
+assert(us_birds.shape == (105077, 11))
+
+#=======================================
