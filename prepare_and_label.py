@@ -58,7 +58,7 @@ assert(len(us_birds['country'].unique() == 1))
 
 us_birds.dropna(subset=['county'], inplace=True)
 assert(us_birds.isnull().sum()['county'] == 0)
-
+assert(us_birds.shape == (105077, 8))
 #==================================
 
 us_birds['observ_count'] = us_birds['observ_count'].apply(
@@ -67,3 +67,29 @@ us_birds['observ_count'] = us_birds['observ_count'].apply(
 assert('X' not in us_birds.observ_count.unique())
 
 #===================================
+
+us_birds['observ_date'] = pd.to_datetime(us_birds['observ_date'], infer_datetime_format=True)
+assert(us_birds.observ_date.dtype == 'datetime64[ns]')
+
+#===================================
+
+us_birds['month'] = us_birds.observ_date.dt.month
+assert('month' in us_birds.columns)
+assert(us_birds.month.dtype == 'int64')
+
+#===================================
+
+def season_from_month(x):
+	if x in [12, 1, 2]:
+		return 'Winter'
+	elif x in [3, 4, 5]:
+		return 'Spring'
+	elif x in [6, 7, 8]:
+		return 'Summer'
+	else:
+		return 'Fall'
+
+us_birds['season'] = us_birds['month'].apply(season_from_month)
+assert(us_birds.season.value_counts()['Spring'] == 39610)
+
+#======================================
