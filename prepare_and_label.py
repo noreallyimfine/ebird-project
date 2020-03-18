@@ -161,3 +161,16 @@ assert('North Slope Borough' not in regions['CountyName'].values)
 
 #===============================================
 
+regions['CountyName'] = regions['CountyName'].apply(lambda x: x if 'Parish' not in x else ' '.join(x.split()[:-1]))
+
+assert('West Baton Rouge' in regions['CountyName'].values)
+
+#================================================
+
+assert(regions.at[2944, 'CountyName'] == 'Richmond city')
+assert(regions.at[1597, 'CountyName'] == 'St. Louis city')
+regions.at[2944, 'CountyName'] = 'Richmond City'
+regions.at[1597, 'CountyName'] = 'St. Louis City'
+
+#===============================================
+
