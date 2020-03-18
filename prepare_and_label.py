@@ -112,3 +112,8 @@ regions['State'] = regions['State'].str.strip()
 assert('California' in regions['State'].values)
 
 #======================================
+
+regions['RegionName'] = regions['RegionName'].apply(lambda x: ' '.join(x.split()[1:]))
+assert('Deep South' in regions['RegionName'].values)
+
+#======================================
