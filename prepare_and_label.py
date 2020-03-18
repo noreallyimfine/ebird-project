@@ -117,3 +117,8 @@ regions['RegionName'] = regions['RegionName'].apply(lambda x: ' '.join(x.split()
 assert('Deep South' in regions['RegionName'].values)
 
 #======================================
+
+regions['CountyName'] = regions['CountyName'].apply(lambda x: x.split(',')[0])
+assert('Cook County' in regions['CountyName'].values)
+
+#======================================
