@@ -98,3 +98,9 @@ us_birds['county_state'] = us_birds['county'] + us_birds['state']
 assert(us_birds.shape == (105077, 11))
 
 #=======================================
+
+regions = pd.read_excel("C:\\Users\\ajaco\\Desktop\\repos\\noreallyimfine\\ebird-project\\URAmericaMapCountyList.xlsx",
+						skiprows=3,
+						usecols=['State', 'CountyName', 'RegionName'])
+
+assert(regions.shape == (3142, 3))
