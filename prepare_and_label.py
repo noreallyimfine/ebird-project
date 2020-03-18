@@ -179,3 +179,9 @@ assert('Los Angeles' in regions['CountyName'].values)
 
 #===============================================
 
+regions['county_state'] = regions['CountyName'] + regions['State']
+assert('AutaugaAlabama' in regions['county_state'].values)
+
+#===============================================
+
+merged = us_birds.merge
