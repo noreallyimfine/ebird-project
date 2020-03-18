@@ -174,3 +174,8 @@ regions.at[1597, 'CountyName'] = 'St. Louis City'
 
 #===============================================
 
+regions['CountyName'] = regions['CountyName'].apply(lambda x: x if 'County' not in x else ' '.join(x.split()[:-1]))
+assert('Los Angeles' in regions['CountyName'].values)
+
+#===============================================
+
