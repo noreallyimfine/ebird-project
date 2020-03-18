@@ -122,3 +122,42 @@ regions['CountyName'] = regions['CountyName'].apply(lambda x: x.split(',')[0])
 assert('Cook County' in regions['CountyName'].values)
 
 #======================================
+
+county_dict = {
+    'Aleutians East Borough': 'Aleutians East',
+    'Aleutians West Census Area': 'Aleutians West',
+    'Anchorage Municipality': 'Anchorage',
+    'Bethel Census Area': 'Bethel',
+    'Bristol Bay Borough': 'Bristol Bay',
+    'Denali Borough': 'Denali',
+    'Dillingham Census Area': 'Dillingham',
+    'Fairbanks North Star Borough': 'Fairbanks North Star',
+    'Haines Borough': 'Haines',
+    'Hoonah-Angoon Census Area': 'Skagway-Hoonah-Angoon',
+    'Juneau City and Borough': 'Juneau',
+    'Kenai Peninsula Borough': 'Kenai Peninsula',
+    'Ketchikan Gateway Borough': 'Ketchikan Gateway',
+    'Kodiak Island Borough': 'Kodiak Island',
+    'Kusilvak Census Area': 'Kusilvak',
+    'Lake and Peninsula Borough': 'Lake and Peninsula',
+    'Matanuska-Susitna Borough': 'Matanuska-Susitna',
+    'Nome Census Area': 'Nome',
+    'North Slope Borough': 'North Slope',
+    'Northwest Arctic Borough': 'Northwest Arctic',
+    'Petersburg Borough': 'Petersburg Borough',
+    'Prince of Wales-Hyder Census Area': 'Prince of Wales-Outer Ketchikan',
+    'Sitka City and Borough': 'Sitka',
+    'Southeast Fairbanks Census Area': 'Southeast Fairbanks',
+    'Valdez-Cordova Census Area': 'Valdez-Cordova',
+    'Yakutat City and Borough': 'Yakutat',
+    'Yukon-Koyukuk Census Area': 'Yukon-Koyukuk'
+}
+
+regions['CountyName'] = regions['CountyName'].apply(
+	lambda x: county_dict[x] if x in county_dict.keys() else x
+	)
+
+assert('North Slope Borough' not in regions['CountyName'].values)
+
+#===============================================
+
