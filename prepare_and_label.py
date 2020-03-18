@@ -104,3 +104,11 @@ regions = pd.read_excel("C:\\Users\\ajaco\\Desktop\\repos\\noreallyimfine\\ebird
 						usecols=['State', 'CountyName', 'RegionName'])
 
 assert(regions.shape == (3142, 3))
+
+#======================================
+
+regions['State'] = regions['State'].str.strip()
+
+assert('California' in regions['State'].values)
+
+#======================================
