@@ -184,4 +184,7 @@ assert('AutaugaAlabama' in regions['county_state'].values)
 
 #===============================================
 
-merged = us_birds.merge
+merged = us_birds.merge(regions)
+assert(merged.shape == (104732, 14))
+
+#===============================================
