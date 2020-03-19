@@ -245,5 +245,24 @@ assert(0.8642057823778788 == merged.bird_rarity.value_counts(normalize=True)['Co
 
 #==============================================
 
+region_freq_ct = pd.crosstab(merged['name'],
+							 values=merged['name'],
+							 columns=merged['RegionName'],
+							 aggfunc='count',
+							 normalize='columns')
+
+def regional_rare_bird(x, y):
+    bird_percent = region_freq_ct.loc[x][y]
+    if bird_percent > 0.005:
+        return "Common"
+    elif bird_percent > 0.0005:
+        return "Uncommon"
+    else:
+        return "Rare"
+    
+merged['region_rarity'] = merged.apply(
+	lambda x: regional_rare_bird(x['name'], x['RegionName']), axis=1
+	)
+assert(merged.region_rarity.value_counts(normalize=True)['Rare'] == 0.02744146965588359)
 #===============================================
 print("Data Cleaning and Preparation Complete.")
