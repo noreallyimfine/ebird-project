@@ -227,4 +227,23 @@ merged = us_birds.merge(regions)
 assert(merged.shape == (104732, 14))
 
 #===============================================
+
+print("Bird rarity column from percent of total sightings")
+print()
+counts = merged.name.value_counts(normalize=True)
+def rare_bird(x):
+    bird_percent = counts[x]
+    if bird_percent > 0.001:
+        return "Common"
+    elif bird_percent > 0.00001:
+        return "Uncommon"
+    else:
+        return "Rare"
+
+merged['bird_rarity'] = merged['name'].apply(rare_bird)
+assert(0.8642057823778788 == merged.bird_rarity.value_counts(normalize=True)['Common'])
+
+#==============================================
+
+#===============================================
 print("Data Cleaning and Preparation Complete.")
