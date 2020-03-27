@@ -119,7 +119,7 @@ assert(us_birds.shape == (105077, 11))
 
 #=======================================
 
-print("Reading in file with reions on it...")
+print("Reading in file with regions on it...")
 print()
 regions = pd.read_excel("C:\\Users\\ajaco\\Desktop\\repos\\noreallyimfine\\ebird-project\\URAmericaMapCountyList.xlsx",
 						skiprows=3,
@@ -264,5 +264,42 @@ merged['region_rarity'] = merged.apply(
 	lambda x: regional_rare_bird(x['name'], x['RegionName']), axis=1
 	)
 assert(merged.region_rarity.value_counts(normalize=True)['Rare'] == 0.02744146965588359)
+
+#==============================================
+
+print("Bird rarity column for bird sightings by region")
+print()
+season_region_ct = pd.pivot_table(merged, 
+								  index='name',
+								  columns=['RegionName', 'season'],
+								  values='observ_count',
+								  aggfunc='count',
+								  fill_value=0.0)
+
+def season_region_bird_rarity(bird, region, season):
+    bird_percent = season_region_ct[(region, season)][bird] / season_region_ct[(region, season)].sum()
+    if bird_percent > 0.01:
+        return "Common"
+    elif bird_percent > 0.001:
+        return "Uncommon"
+    else:
+        return "Rare"
+    
+merged['seas_reg_rare'] = merged.apply(
+	lambda x: season_region_bird_rarity(x['name'],
+										x['RegionName'],
+										x['season']), axis=1
+	)
+
+#print(merged.seas_reg_rare.value_counts(normalize=True)['Uncommon'])
+assert(merged.seas_reg_rare.value_counts(normalize=True)['Uncommon'] == 0.6153706603521368)
+
+#==============================================
+
+print("Writing to csv...")
+print()
+merged.to_csv("labelled_bird_sample.csv", index=False)
+
 #===============================================
+
 print("Data Cleaning and Preparation Complete.")
