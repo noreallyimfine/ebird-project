@@ -125,7 +125,7 @@ assert(us_birds.shape == (105077, 11))
 
 print("Reading in file with regions on it...")
 print()
-regions = pd.read_excel("C:\\Users\\ajaco\\Desktop\\repos\\noreallyimfine\\ebird-project\\URAmericaMapCountyList.xlsx",
+regions = pd.read_excel("C:\\Users\\ajaco\\Desktop\\repos\\noreallyimfine\\ebird-project\\data\\URAmericaMapCountyList.xlsx",
                         skiprows=3,
                         usecols=['State', 'CountyName', 'RegionName'])
 
@@ -303,6 +303,27 @@ merged['seas_reg_rare'] = merged.apply(
     )
 
 assert(merged.seas_reg_rare.value_counts(normalize=True)['Uncommon'] == 0.6153706603521368)
+
+# ==============================================
+
+print("Dropping birds that only appear once in dataset...")
+print()
+
+counts = merged.name.value_counts()
+one_time_birds = counts[counts == 1].tolist()
+
+merged['one_timer'] = merged['name'].apply(lambda x: False if x in one_time_birds else True)
+
+merged = merged[merged['one_timer'] == True]
+assert(merged.shape == (104732, 18))
+
+# ==============================================
+
+print("Dropping redundant column...")
+print()
+
+merged = merged.drop(columns=['one_timer'])
+assert(merged.shape == (104732, 17))
 
 # ==============================================
 
