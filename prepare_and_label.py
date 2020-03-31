@@ -76,8 +76,8 @@ print("Dropping birds that only appear once in dataset...")
 print()
 
 counts = us_birds.name.value_counts()
-one_time_birds = counts[counts == 1].tolist()
-
+one_time_birds = counts[counts == 1]
+print(len(one_time_birds))
 us_birds['one_timer'] = us_birds['name'].apply(lambda x: False if x in one_time_birds else True)
 
 us_birds = us_birds[us_birds['one_timer'] == True]
@@ -132,7 +132,7 @@ def season_from_month(x):
 
 
 us_birds['season'] = us_birds['month'].apply(season_from_month)
-assert(us_birds.season.value_counts()['Spring'] == 39610)
+assert(us_birds.season.value_counts()['Spring'] == 39578)
 
 # ======================================
 
@@ -268,7 +268,7 @@ def rare_bird(x):
 
 
 merged['bird_rarity'] = merged['name'].apply(rare_bird)
-assert(0.8642057823778788 == merged.bird_rarity.value_counts(normalize=True)['Common'])
+assert(0.8651888388632388 == merged.bird_rarity.value_counts(normalize=True)['Common'])
 
 # ==============================================
 
@@ -292,7 +292,7 @@ def regional_rare_bird(x, y):
 merged['region_rarity'] = merged.apply(
     lambda x: regional_rare_bird(x['name'], x['RegionName']), axis=1
     )
-assert(merged.region_rarity.value_counts(normalize=True)['Rare'] == 0.02744146965588359)
+assert(merged.region_rarity.value_counts(normalize=True)['Rare'] == 0.026335159110244425)
 
 # ==============================================
 
