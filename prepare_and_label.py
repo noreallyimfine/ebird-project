@@ -77,7 +77,6 @@ print()
 
 counts = us_birds.name.value_counts()
 one_time_birds = counts[counts == 1]
-print(len(one_time_birds))
 us_birds['one_timer'] = us_birds['name'].apply(lambda x: False if x in one_time_birds else True)
 
 us_birds = us_birds[us_birds['one_timer'] == True]
@@ -308,9 +307,9 @@ season_region_ct = pd.pivot_table(merged,
 
 def season_region_bird_rarity(bird, region, season):
     bird_percent = season_region_ct[(region, season)][bird] / season_region_ct[(region, season)].sum()
-    if bird_percent > 0.01:
+    if bird_percent > 0.005:
         return "Common"
-    elif bird_percent > 0.001:
+    elif bird_percent > 0.0005:
         return "Uncommon"
     else:
         return "Rare"
@@ -322,7 +321,7 @@ merged['seas_reg_rare'] = merged.apply(
                                         x['season']), axis=1
     )
 
-assert(merged.seas_reg_rare.value_counts(normalize=True)['Uncommon'] == 0.6159655109785591)
+assert(merged.seas_reg_rare.value_counts(normalize=True)['Uncommon'] == 0.3394511198417023)
 
 # ==============================================
 
