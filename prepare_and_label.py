@@ -322,7 +322,7 @@ merged['seas_reg_rare'] = merged.apply(
                                         x['season']), axis=1
     )
 
-assert(merged.seas_reg_rare.value_counts(normalize=True)['Uncommon'] == 0.6153706603521368)
+assert(merged.seas_reg_rare.value_counts(normalize=True)['Uncommon'] == 0.6159655109785591)
 
 # ==============================================
 
