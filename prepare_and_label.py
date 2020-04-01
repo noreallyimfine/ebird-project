@@ -72,23 +72,23 @@ assert(us_birds.shape == (105077, 8))
 
 # ==================================
 
-print("Dropping birds that only appear once in dataset...")
+print("Dropping birds that are named poorly...")
 print()
 
-counts = us_birds.name.value_counts()
-one_time_birds = counts[counts == 1]
-us_birds['one_timer'] = us_birds['name'].apply(lambda x: False if x in one_time_birds else True)
+us_birds['bad_name'] = us_birds['name'].apply(lambda x: 0 if ("sp." in x) or ("(" in x) else 1)
 
-us_birds = us_birds[us_birds['one_timer'] == True]
-assert(us_birds.shape == (104958, 9))
+mask = us_birds['bad_name'] == 0
+us_birds = us_birds[~mask]
+
+assert(us_birds.shape == (104589, 9))
 
 # ==============================================
 
 print("Dropping redundant column...")
 print()
 
-us_birds = us_birds.drop(columns=['one_timer'])
-assert(us_birds.shape == (104958, 8))
+us_birds = us_birds.drop(columns=['bad_name'])
+assert(us_birds.shape == (104589, 8))
 
 # ==============================================
 print('Replacing "X" in "Observation Count" with 1...')
@@ -131,14 +131,14 @@ def season_from_month(x):
 
 
 us_birds['season'] = us_birds['month'].apply(season_from_month)
-assert(us_birds.season.value_counts()['Spring'] == 39578)
+assert(us_birds.season.value_counts()['Spring'] == 39461)
 
 # ======================================
 
 print('Creating joint county and state column to merge on...')
 print()
 us_birds['county_state'] = us_birds['county'] + us_birds['state']
-assert(us_birds.shape == (104958, 11))
+assert(us_birds.shape == (104589, 11))
 
 # =======================================
 
@@ -247,7 +247,7 @@ assert('AutaugaAlabama' in regions['county_state'].values)
 print("Merging birds and regions...")
 print()
 merged = us_birds.merge(regions)
-assert(merged.shape == (104613, 14))
+assert(merged.shape == (104247, 14))
 
 # ===============================================
 
@@ -267,7 +267,7 @@ def rare_bird(x):
 
 
 merged['bird_rarity'] = merged['name'].apply(rare_bird)
-assert(0.8651888388632388 == merged.bird_rarity.value_counts(normalize=True)['Common'])
+assert(0.8672096079503487 == merged.bird_rarity.value_counts(normalize=True)['Common'])
 
 # ==============================================
 
@@ -291,7 +291,7 @@ def regional_rare_bird(x, y):
 merged['region_rarity'] = merged.apply(
     lambda x: regional_rare_bird(x['name'], x['RegionName']), axis=1
     )
-assert(merged.region_rarity.value_counts(normalize=True)['Rare'] == 0.026335159110244425)
+assert(merged.region_rarity.value_counts(normalize=True)['Rare'] == 0.024518691185357853)
 
 # ==============================================
 
@@ -322,27 +322,6 @@ merged['seas_reg_rare'] = merged.apply(
     )
 
 assert(merged.seas_reg_rare.value_counts(normalize=True)['Uncommon'] == 0.3394511198417023)
-
-# ==============================================
-
-# print("Dropping birds that only appear once in dataset...")
-# print()
-
-# counts = merged.name.value_counts()
-# one_time_birds = counts[counts == 1].tolist()
-
-# merged['one_timer'] = merged['name'].apply(lambda x: False if x in one_time_birds else True)
-
-# merged = merged[merged['one_timer'] == True]
-# assert(merged.shape == (104732, 18))
-
-# # ==============================================
-
-# print("Dropping redundant column...")
-# print()
-
-# merged = merged.drop(columns=['one_timer'])
-# assert(merged.shape == (104732, 17))
 
 # ==============================================
 
