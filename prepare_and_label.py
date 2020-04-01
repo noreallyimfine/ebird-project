@@ -59,7 +59,7 @@ print("Filtering for birds seen in the United States...")
 print()
 us_birds = df.query("country == 'United States'")
 assert(us_birds.shape == (105294, 8))
-assert(len(us_birds['country'].unique() == 1))
+assert(len(us_birds['country'].unique()) == 1)
 
 # ==================================
 
@@ -75,12 +75,12 @@ assert(us_birds.shape == (105077, 8))
 print("Dropping birds that are named poorly...")
 print()
 
-us_birds['bad_name'] = us_birds['name'].apply(lambda x: 0 if ("sp." in x) or ("(" in x) else 1)
+us_birds['bad_name'] = us_birds['name'].apply(lambda x: 0 if ("sp." in x) or ("(" in x) or ("/" in x) else 1)
 
 mask = us_birds['bad_name'] == 0
 us_birds = us_birds[~mask]
 
-assert(us_birds.shape == (104589, 9))
+assert(us_birds.shape == (104333, 9))
 
 # ==============================================
 
@@ -88,7 +88,7 @@ print("Dropping redundant column...")
 print()
 
 us_birds = us_birds.drop(columns=['bad_name'])
-assert(us_birds.shape == (104589, 8))
+assert(us_birds.shape == (104333, 8))
 
 # ==============================================
 print('Replacing "X" in "Observation Count" with 1...')
@@ -131,14 +131,14 @@ def season_from_month(x):
 
 
 us_birds['season'] = us_birds['month'].apply(season_from_month)
-assert(us_birds.season.value_counts()['Spring'] == 39461)
+assert(us_birds.season.value_counts()['Spring'] == 39395)
 
 # ======================================
 
 print('Creating joint county and state column to merge on...')
 print()
 us_birds['county_state'] = us_birds['county'] + us_birds['state']
-assert(us_birds.shape == (104589, 11))
+assert(us_birds.shape == (104333, 11))
 
 # =======================================
 
@@ -247,55 +247,11 @@ assert('AutaugaAlabama' in regions['county_state'].values)
 print("Merging birds and regions...")
 print()
 merged = us_birds.merge(regions)
-assert(merged.shape == (104247, 14))
-
-# ===============================================
-
-print("Bird rarity column from percent of total sightings")
-print()
-counts = merged.name.value_counts(normalize=True)
-
-
-def rare_bird(x):
-    bird_percent = counts[x]
-    if bird_percent > 0.001:
-        return "Common"
-    elif bird_percent > 0.00001:
-        return "Uncommon"
-    else:
-        return "Rare"
-
-
-merged['bird_rarity'] = merged['name'].apply(rare_bird)
-assert(0.8672096079503487 == merged.bird_rarity.value_counts(normalize=True)['Common'])
+assert(merged.shape == (103992, 14))
 
 # ==============================================
 
-region_freq_ct = pd.crosstab(merged['name'],
-                             values=merged['name'],
-                             columns=merged['RegionName'],
-                             aggfunc='count',
-                             normalize='columns')
-
-
-def regional_rare_bird(x, y):
-    bird_percent = region_freq_ct.loc[x][y]
-    if bird_percent > 0.005:
-        return "Common"
-    elif bird_percent > 0.0005:
-        return "Uncommon"
-    else:
-        return "Rare"
-
-
-merged['region_rarity'] = merged.apply(
-    lambda x: regional_rare_bird(x['name'], x['RegionName']), axis=1
-    )
-assert(merged.region_rarity.value_counts(normalize=True)['Rare'] == 0.024518691185357853)
-
-# ==============================================
-
-print("Bird rarity column for bird sightings by region")
+print("Rarity label column for bird sightings by region and season...")
 print()
 season_region_ct = pd.pivot_table(merged,
                                   index='name',
@@ -309,7 +265,7 @@ def season_region_bird_rarity(bird, region, season):
     bird_percent = season_region_ct[(region, season)][bird] / season_region_ct[(region, season)].sum()
     if bird_percent > 0.005:
         return "Common"
-    elif bird_percent > 0.0005:
+    elif bird_percent > 0.001:
         return "Uncommon"
     else:
         return "Rare"
@@ -321,7 +277,7 @@ merged['seas_reg_rare'] = merged.apply(
                                         x['season']), axis=1
     )
 
-assert(merged.seas_reg_rare.value_counts(normalize=True)['Uncommon'] == 0.3394511198417023)
+assert(merged.seas_reg_rare.value_counts(normalize=True)['Uncommon'] == 0.3044945765058851)
 
 # ==============================================
 
