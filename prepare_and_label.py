@@ -285,8 +285,11 @@ print("Map rarity label to numeric...")
 print()
 
 label_dict = {"Common": 0, "Uncommon": 1, "Rare": 2}
+merged['target'] = merged['seas_reg_rare'].map(label_dict)
 
-merged['target']
+assert(merged.shape == (103992, 16))
+assert(merged['target'].value_counts()[0] == merged['seas_reg_rare'].value_counts()['Common'])
+
 # ==============================================
 print("Writing to csv...")
 print()
