@@ -281,6 +281,13 @@ assert(merged.seas_reg_rare.value_counts(normalize=True)['Uncommon'] == 0.304494
 
 # ==============================================
 
+print("Map rarity label to numeric...")
+print()
+
+label_dict = {"Common": 0, "Uncommon": 1, "Rare": 2}
+
+merged['target']
+# ==============================================
 print("Writing to csv...")
 print()
 merged.to_csv("labelled_bird_sample.csv", index=False)
