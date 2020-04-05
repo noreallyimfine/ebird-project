@@ -1,6 +1,8 @@
 import pandas as pd
 import joblib
 
+from sklearn.metrics import accuracy_score
+
 
 # Get 50,000 new instances from dataset
 df = pd.read_csv("C:\\Users\\ajaco\\Desktop\\repos\\noreallyimfine\\ebird-project\\data\\ebd_relJan-2020.txt",
@@ -163,3 +165,12 @@ target = 'target'
 X = merged[features]
 y = merged[target]
 
+X = encoder.transform(X)
+
+preds = model.predict(X)
+
+print("\n\n")
+print("=====================\n")
+print(f"    {accuracy_score(y, preds)}    ")
+print("=====================\n")
+print("\n\n")
