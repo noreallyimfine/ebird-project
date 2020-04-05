@@ -23,3 +23,14 @@ target = 'target'
 
 X = df[features]
 y = df[target]
+
+# =======================================
+
+print("Encoding categorical features...")
+print()
+
+encoder = ce.CatBoostEncoder()
+
+X = encoder.fit_transform(X, y)
+
+# ======================================
