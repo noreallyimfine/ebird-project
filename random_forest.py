@@ -37,3 +37,20 @@ encoder = ce.CatBoostEncoder()
 X = encoder.fit_transform(X, y)
 
 # ======================================
+
+print("Splitting X and y into train and test...")
+print()
+
+X_train, X_test, y_train, y_test = train_test_split(X, y, test_size=0.2)
+
+assert(X_train.shape == (83193, 5))
+assert(X_test.shape == (20799, 5))
+assert(y_train.shape == (83193,))
+assert(y_test.shape == (20799,))
+
+# =====================================
+
+print("Training model...")
+print()
+
+model = RandomForestClassifier()
