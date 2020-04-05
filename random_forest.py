@@ -1,9 +1,11 @@
 from sklearn.model_selection import train_test_split
 from sklearn.ensemble import RandomForestClassifier
+from sklearn.metrics import accuracy_score
 
 import category_encoders as ce
 import pandas as pd
 import numpy as np
+import joblib
 
 # ======================================
 
@@ -50,10 +52,29 @@ assert(y_test.shape == (20799,))
 
 # =====================================
 
-print("Training model...")
+print("Training Random Forest Classifier...")
 print()
 
 model = RandomForestClassifier(n_estimators=1000, max_depth=None, random_state=42)
 model.fit(X_train, y_train)
 
 # =====================================
+
+print("Making predictions and fetching score...")
+print()
+
+preds = model.predict(X_test)
+
+print("\n\n")
+print("ACCURACY SCORE: ")
+print("================")
+print(f"    {accuracy_score(y_test, preds)}    ")
+print("================")
+print("\n\n")
+# =======================================
+
+print("Saving encoder and model... ")
+print()
+
+joblib.dump(model, "rf.joblib")
+joblib.dump(encoder, "cat_boost.joblib")
