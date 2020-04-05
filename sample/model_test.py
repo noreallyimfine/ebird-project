@@ -149,5 +149,17 @@ merged['seas_reg_rare'] = merged.apply(
                                         x['season']), axis=1
     )
 
+# Numeric label
+label_dict = {"Common": 0, "Uncommon": 1, "Rare": 2}
+merged['target'] = merged['seas_reg_rare'].map(label_dict)
+
 # Run through model
-model = joblib.load("..\")
+model = joblib.load("rf.joblib")
+encoder = joblib.load("cat_boost.joblib")
+
+features = ['name', 'season', 'RegionName', 'latitude', 'longitude']
+target = 'target'
+
+X = merged[features]
+y = merged[target]
+
