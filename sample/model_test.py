@@ -47,3 +47,30 @@ mask = us_birds['bad_name'] == 0
 us_birds = us_birds[~mask].drop(columns=['bad_name'])
 assert(us_birds.shape == (28373, 8))
 
+# Extract month for season
+us_birds['observ_date'] = pd.to_datetime(us_birds['observ_date'], infer_datetime_format=True)
+us_birds['month'] = us_birds.observ_date.dt.month
+
+
+def season_from_month(x):
+    if x in [12, 1, 2]:
+        return 'Winter'
+    elif x in [3, 4, 5]:
+        return 'Spring'
+    elif x in [6, 7, 8]:
+        return 'Summer'
+    else:
+        return 'Fall'
+
+
+us_birds['season'] = us_birds['month'].apply(season_from_month)
+
+# Merge column
+us_birds['county_state'] = us_birds['county'] + us_birds['state']
+
+
+# Read in regions file
+regions = pd.read_excel("C:\\Users\\ajaco\\Desktop\\repos\\noreallyimfine\\ebird-project\\data\\URAmericaMapCountyList.xlsx",
+                        skiprows=3,
+                        usecols=['State', 'CountyName', 'RegionName'])
+
