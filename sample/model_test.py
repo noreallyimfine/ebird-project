@@ -13,3 +13,25 @@ df = pd.read_csv("C:\\Users\\ajaco\\Desktop\\repos\\noreallyimfine\\ebird-projec
 
 assert(df.shape == (50000, 8))
 
+# Renaming columns
+df.rename(columns={
+    'COMMON NAME': 'name',
+    'OBSERVATION COUNT': 'observ_count',
+    'COUNTRY': 'country',
+    'STATE': 'state',
+    'COUNTY': 'county',
+    'LATITUDE': 'latitude',
+    'LONGITUDE': 'longitude',
+    'OBSERVATION DATE': 'observ_date'
+}, inplace=True)
+
+assert('name' in df.columns)
+
+
+# Slice to just birds in the U.S.
+us_birds = df.query("country == 'United States'")
+assert(us_birds.shape == (28548, 8))
+assert(len(us_birds['country'].unique()) == 1)
+
+# Drop columns where county is missing
+print(us_birds.isnull().sum()['county'])
