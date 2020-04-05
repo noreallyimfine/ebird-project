@@ -24,6 +24,9 @@ target = 'target'
 X = df[features]
 y = df[target]
 
+assert(X.shape == (103992, 5))
+assert(y.shape == (103992,))
+
 # =======================================
 
 print("Encoding categorical features...")
