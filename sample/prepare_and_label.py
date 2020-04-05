@@ -27,7 +27,7 @@ Stesp include:
 
 print("Reading in bird csv...")
 print()
-df = pd.read_csv('C:\\Users\\ajaco\\Downloads\\ebd_relJan-2020.txt',
+df = pd.read_csv('C:\\Users\\ajaco\\Desktop\\repos\\noreallyimfine\\ebird-project\\data\\ebd_relJan-2020.txt',
                  sep='\t',
                  nrows=200000,
                  usecols=['COMMON NAME', 'COUNTRY', 'STATE', 'COUNTY',
@@ -293,7 +293,7 @@ assert(merged['target'].value_counts()[0] == merged['seas_reg_rare'].value_count
 # ==============================================
 print("Writing to csv...")
 print()
-merged.to_csv("labelled_bird_sample.csv", index=False)
+merged.to_csv("..\\data\\labelled_bird_sample.csv", index=False)
 
 # ===============================================
 
