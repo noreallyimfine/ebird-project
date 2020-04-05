@@ -121,8 +121,33 @@ regions['CountyName'] = regions['CountyName'].apply(lambda x: x if 'County' not 
 
 regions['county_state'] = regions['CountyName'] + regions['State']
 
-print(us_birds.shape)
-print(regions.shape)
 # Merge dataframes
 merged = us_birds.merge(regions)
 print(merged.shape)
+
+season_region_ct = pd.pivot_table(merged,
+                                  index='name',
+                                  columns=['RegionName', 'season'],
+                                  values='observ_count',
+                                  aggfunc='count',
+                                  fill_value=0.0)
+
+
+def season_region_bird_rarity(bird, region, season):
+    bird_percent = season_region_ct[(region, season)][bird] / season_region_ct[(region, season)].sum()
+    if bird_percent > 0.005:
+        return "Common"
+    elif bird_percent > 0.001:
+        return "Uncommon"
+    else:
+        return "Rare"
+
+
+merged['seas_reg_rare'] = merged.apply(
+    lambda x: season_region_bird_rarity(x['name'],
+                                        x['RegionName'],
+                                        x['season']), axis=1
+    )
+
+# Run through model
+model = joblib.load("..\")
