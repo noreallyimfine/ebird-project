@@ -12,7 +12,7 @@ import joblib
 print("Reading in labeled dataset sample...")
 print()
 
-df = pd.read_csv("C:\\Users\\ajaco\\Desktop\\repos\\noreallyimfine\\ebird-project\\labelled_bird_sample.csv")
+df = pd.read_csv("C:\\Users\\ajaco\\Desktop\\repos\\noreallyimfine\\ebird-project\\data\\labelled_bird_sample.csv")
 assert(df.shape == (103992, 16))
 
 # ========================================
