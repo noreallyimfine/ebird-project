@@ -21,6 +21,6 @@ Before diving in to PySpark and working with the entire dataset, I wanted to get
 
 Working locally in **Jupyter Notebooks**, I used **Pandas**, **Matplotlib**, and **Scikit-Learn** to explore, visualize, and model a sample portion of the dataset. 
 
-After fiddling and testing a bunch, I landed on a *data-cleaning pipeline* and a reasonable *Random Forest* using features encoded with *CatBoost Encoder* from **category_encoders**
+After fiddling and testing a bunch, I landed on a *data-cleaning pipeline* that led to a *Random Forest* model using features encoded with *CatBoost Encoder* from **category_encoders**
 
 
