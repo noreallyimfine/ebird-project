@@ -9,9 +9,9 @@ Data drawn from [eBird by Cornell Lab of Ornithology](https://ebird.org/data/dow
 
 ### Purpose
 
-..* Fun to look at bird data
-..* Keep my pipeline skills fresh
-..* Learn PySpark
-..* Deploy a nice end product
+* Fun to look at bird data
+* Keep my pipeline skills fresh
+* Learn PySpark
+* Deploy a nice end product
 
 
