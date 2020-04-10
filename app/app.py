@@ -6,7 +6,7 @@ app = Flask(__name__)
 # TODO: load pickled encoder and model
 # Path here is relative, may get messed up in future
 encoder = load("sample\\cat_boost.joblib")
-model = load("sample\\rf.joblib")
+# model = load("sample\\rf.joblib")
 
 
 def predict(data):
@@ -16,7 +16,9 @@ def predict(data):
     season = data['season']
     region = data['region']
     # encode features
-
+    X = [name, season, region]
+    X_encoded = encoder.transform(X)
+    
     # get prediction
     pass
 
