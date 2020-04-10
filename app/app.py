@@ -1,4 +1,6 @@
-from flask import Flask, request
+import numpy as np
+
+from flask import Flask, request, jsonify
 from joblib import load
 
 app = Flask(__name__)
@@ -6,7 +8,7 @@ app = Flask(__name__)
 # TODO: load pickled encoder and model
 # Path here is relative, may get messed up in future
 encoder = load("sample\\cat_boost.joblib")
-# model = load("sample\\rf.joblib")
+model = load("sample\\rf.joblib")
 
 
 def predict(data):
@@ -16,11 +18,12 @@ def predict(data):
     season = data['season']
     region = data['region']
     # encode features
-    X = [name, season, region]
+    X = np.array([name, season, region]).reshape(1,3)
+    print(X.shape)
     X_encoded = encoder.transform(X)
-    
     # get prediction
-    pass
+    pred = model.predict(X_encoded)
+    return pred
 
 
 @app.route('/', methods=['GET', 'POST'])
@@ -40,14 +43,15 @@ def home():
         # If not, return error
         req_values = ['name', 'season', 'region']
         if not all(value in data for value in req_values):
-            message = """Error: Missing required features. 
+            message = """Error: Missing required features.
                          Needs ['name', 'season', 'region']"""
             return message, 400
 
         # Pass to predict function
         pred = predict(data)
         # return redirect to results route
-        return "Thank you for posting"
+        msg = {'prediction': pred}
+        return jsonify(msg)
 
 
 @app.route('/results', methods=['GET'])
