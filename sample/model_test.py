@@ -159,7 +159,7 @@ merged['target'] = merged['seas_reg_rare'].map(label_dict)
 model = joblib.load("rf.joblib")
 encoder = joblib.load("cat_boost.joblib")
 
-features = ['name', 'season', 'RegionName', 'latitude', 'longitude']
+features = ['name', 'season', 'RegionName']
 target = 'target'
 
 X = merged[features]
