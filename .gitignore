@@ -133,3 +133,5 @@ dmypy.json
 *.csv
 *.xlsx
 
+# pickled model files
+*.joblib
