@@ -1,9 +1,12 @@
 from flask import Flask, request
-
+from joblib import load
 
 app = Flask(__name__)
 
 # TODO: load pickled encoder and model
+# Path here is relative, may get messed up in future
+encoder = load("sample\\cat_boost.joblib")
+model = load("sample\\rf.joblib")
 
 
 def predict(data):
