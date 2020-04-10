@@ -24,3 +24,10 @@ Working locally in **Jupyter Notebooks**, I used **Pandas**, **Matplotlib**, and
 After fiddling and testing a bunch, I landed on a *data-cleaning pipeline* that led to a *Random Forest* model using features encoded with *CatBoost Encoder* from **category_encoders**
 
 
+### To Run
+Steps:
+- get data from ebird
+- run data through prepare_and_label.py
+- model using random_forest.py
+- can take pickled models to use going forward
+
