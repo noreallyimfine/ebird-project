@@ -5,10 +5,15 @@ app = Flask(__name__)
 
 # TODO: load pickled encoder and model
 
+
 def predict(data):
     # TODO: 
     # parse data
+    name = data['name']
+    season = data['season']
+    region = data['region']
     # encode features
+
     # get prediction
     pass
 
@@ -20,22 +25,24 @@ def home():
         # TODO: Display dropdowns to choose bird, season, and region
         # STRETCH: Let them input county and state and the app will find the region
         return "You are home"
+
     elif request.method == 'POST':
         # get values from post
         data = request.get_json()
         print("Data", data)
-        # Pass to predict function
-        req_values = ['name', 'season', 'region']
+
         # Check all required values are in the data
         # If not, return error
+        req_values = ['name', 'season', 'region']
         if not all(value in data for value in req_values):
             message = """Error: Missing required features. 
                          Needs ['name', 'season', 'region']"""
             return message, 400
+
+        # Pass to predict function
         pred = predict(data)
         # return redirect to results route
         return "Thank you for posting"
-    # return "You are home"
 
 
 @app.route('/results', methods=['GET'])
