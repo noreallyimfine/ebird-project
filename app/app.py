@@ -5,16 +5,16 @@ from joblib import load
 app = Flask(__name__)
 
 # Path here is relative, may get messed up in future
-encoder = load("sample\\cat_boost.joblib")
-model = load("sample\\rf.joblib")
+encoder = load("utils/cat_boost.joblib")
+model = load("utils/rf.joblib")
 
 # TODO: save mapper from prepare_and_label and load in here
 # Temp dict to map results from model to english
-labels = {
-    0: 'Common',
-    1: 'Uncommon',
-    2: 'Rare'
-}
+labels = load('utils/labels_dict.joblib') 
+birds = load('utils/birds_list.joblib')
+seasons = load('utils/seasons_list.joblib')
+regions = load('utils/regions_list.joblib')
+
 
 def predict(data):
     # TODO:
