@@ -1,4 +1,5 @@
 import warnings
+import joblib
 import pandas as pd
 warnings.filterwarnings("ignore")
 
@@ -289,11 +290,12 @@ merged['target'] = merged['seas_reg_rare'].map(label_dict)
 
 assert(merged.shape == (103992, 16))
 assert(merged['target'].value_counts()[0] == merged['seas_reg_rare'].value_counts()['Common'])
+joblib.dump(label_dict, "sample/labels_dict.joblib")
 
 # ==============================================
 print("Writing to csv...")
 print()
-merged.to_csv("..\\data\\labelled_bird_sample.csv", index=False)
+merged.to_csv("data\\labelled_bird_sample.csv", index=False)
 
 # ===============================================
 
