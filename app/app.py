@@ -1,29 +1,39 @@
-import numpy as np
-
+import pandas as pd
 from flask import Flask, request, jsonify
 from joblib import load
 
 app = Flask(__name__)
 
-# TODO: load pickled encoder and model
 # Path here is relative, may get messed up in future
 encoder = load("sample\\cat_boost.joblib")
 model = load("sample\\rf.joblib")
 
+# TODO: save mapper from prepare_and_label and load in here
+# Temp dict to map results from model to english
+labels = {
+    0: 'Common',
+    1: 'Uncommon',
+    2: 'Rare'
+}
 
 def predict(data):
-    # TODO: 
+    # TODO:
     # parse data
     name = data['name']
     season = data['season']
     region = data['region']
     # encode features
-    X = np.array([name, season, region]).reshape(1,3)
+    X = pd.DataFrame({
+        'name': [name],
+        'season': [season],
+        'RegionName': [region]
+    })
     print(X.shape)
     X_encoded = encoder.transform(X)
     # get prediction
     pred = model.predict(X_encoded)
-    return pred
+    print("Prediction:", pred)
+    return pred[0]
 
 
 @app.route('/', methods=['GET', 'POST'])
@@ -49,8 +59,9 @@ def home():
 
         # Pass to predict function
         pred = predict(data)
-        # return redirect to results route
-        msg = {'prediction': pred}
+        label = labels[pred]
+        msg = {'prediction': label}
+        # TODO: return redirect to results route
         return jsonify(msg)
 
 
