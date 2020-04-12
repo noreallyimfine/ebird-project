@@ -1,5 +1,5 @@
 import pandas as pd
-from flask import Flask, request, jsonify
+from flask import Flask, request, jsonify, render_template
 from joblib import load
 
 app = Flask(__name__)
@@ -42,7 +42,7 @@ def home():
     if request.method == 'GET':
         # TODO: Display dropdowns to choose bird, season, and region
         # STRETCH: Let them input county and state and the app will find the region
-        return "You are home"
+        return render_template('home.html')
 
     elif request.method == 'POST':
         # get values from post
