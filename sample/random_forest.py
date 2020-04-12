@@ -29,6 +29,14 @@ y = df[target]
 assert(X.shape == (103992, 3))
 assert(y.shape == (103992,))
 
+# Saving list of birds, seasons, and regions
+birds_list = X['name'].unique().tolist()
+seasons_list = X['season'].unique().tolist()
+regions_list = X['RegionName'].unique().tolist()
+
+joblib.dump(birds_list, 'sample/birds_list.joblib')
+joblib.dump(seasons_list, 'sample/seasons_list.joblib')
+joblib.dump(regions_list, 'sample/regions_list.joblib')
 # =======================================
 
 print("Encoding categorical features...")
