@@ -42,7 +42,7 @@ def home():
     if request.method == 'GET':
         # TODO: Display dropdowns to choose bird, season, and region
         # STRETCH: Let them input county and state and the app will find the region
-        return render_template('home.html')
+        return render_template('home.html', seasons=seasons)
 
     elif request.method == 'POST':
         # get values from post
