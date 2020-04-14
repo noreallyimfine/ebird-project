@@ -1,7 +1,13 @@
 {% extends "layout.html" %}
 {% block content %}
     <h1>Bird Check Home!</h1>
-    {% for season in seasons %}
+    <!-- Dropdown form with birds, seasons, and regions -->
+    <select id="seasons">
+        {% for season in seasons %}
+            <option value={{ season.season }}>{{ season.season }}</option>
+        {% endfor %}
+    </select>
+    <!-- {% for season in seasons %}
         <h6>{{ season.season }}</h6>
-    {% endfor %}
+    {% endfor %} -->
 {% endblock content %}
