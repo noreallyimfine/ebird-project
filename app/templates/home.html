@@ -1,9 +1,7 @@
 {% extends "layout.html" %}
 {% block content %}
     <h1>Bird Check Home!</h1>
-    {% for season in season %}
-        <li>
-            <ul>{{ season }}</ul>
-        </li>
+    {% for season in seasons %}
+        <h6>{{ season.season }}</h6>
     {% endfor %}
 {% endblock content %}
