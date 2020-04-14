@@ -11,13 +11,15 @@ model = load("utils/rf.joblib")
 # TODO: save mapper from prepare_and_label and load in here
 # Temp dict to map results from model to english
 labels = load('utils/labels_dict.joblib')
-birds = load('utils/birds_list.joblib')
-seasons = load('utils/seasons_list.joblib')
-regions = load('utils/regions_list.joblib')
+birds_list = load('utils/birds_list.joblib')
+seasons_list = load('utils/seasons_list.joblib')
+regions_list = load('utils/regions_list.joblib')
 
 # convert list to dict for displaying through flask template
 # (Hoping this isn't necessary for displaying all the birds)
-seasons_dict = [{'season': season} for season in seasons]
+birds = [{'bird': bird} for bird in birds_list]
+seasons = [{'season': season} for season in seasons_list]
+regions = [{'region': region} for region in regions_list]
 
 
 def predict(data):
@@ -46,7 +48,10 @@ def home():
     if request.method == 'GET':
         # TODO: Display dropdowns to choose bird, season, and region
         # STRETCH: Let them input county and state and the app will find the region
-        return render_template('home.html', seasons=seasons_dict)
+        return render_template('home.html',
+                               seasons=seasons,
+                               birds=birds,
+                               regions=regions)
 
     elif request.method == 'POST':
         # get values from post

@@ -2,12 +2,19 @@
 {% block content %}
     <h1>Bird Check Home!</h1>
     <!-- Dropdown form with birds, seasons, and regions -->
+    <select id="birds">
+        {% for bird in birds %}
+            <option value={{ bird.bird }}>{{ bird.bird }}</option>
+        {% endfor %}
+    </select>
     <select id="seasons">
         {% for season in seasons %}
             <option value={{ season.season }}>{{ season.season }}</option>
         {% endfor %}
     </select>
-    <!-- {% for season in seasons %}
-        <h6>{{ season.season }}</h6>
-    {% endfor %} -->
+    <select id="regions">
+        {% for region in regions %}
+            <option value={{ region.region }}>{{ region.region }}</option>
+        {% endfor %}
+    </select>
 {% endblock content %}
