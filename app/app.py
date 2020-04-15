@@ -10,7 +10,8 @@ model = load("utils/rf.joblib")
 
 # TODO: save mapper from prepare_and_label and load in here
 # Temp dict to map results from model to english
-labels = load('utils/labels_dict.joblib')
+# labels = load('utils/labels_dict.joblib')
+labels = {0: "Common", 1: "Uncommon", 2: "Rare"}
 birds_list = load('utils/birds_list.joblib')
 seasons_list = load('utils/seasons_list.joblib')
 regions_list = load('utils/regions_list.joblib')
@@ -25,12 +26,12 @@ regions = [{'region': region} for region in regions_list]
 def predict(data):
     # TODO:
     # parse data
-    name = data['name']
+    bird = data['bird']
     season = data['season']
     region = data['region']
     # encode features
     X = pd.DataFrame({
-        'name': [name],
+        'name': [bird],
         'season': [season],
         'RegionName': [region]
     })
@@ -55,15 +56,18 @@ def home():
 
     elif request.method == 'POST':
         # get values from post
-        data = request.get_json()
+        print(dir(request))
+        data = request.json
+        print(request.args)
+        print(request.form_data_parser_class())
         print("Data", data)
 
         # Check all required values are in the data
         # If not, return error
-        req_values = ['name', 'season', 'region']
+        req_values = ['bird', 'season', 'region']
         if not all(value in data for value in req_values):
             message = """Error: Missing required features.
-                         Needs ['name', 'season', 'region']"""
+                         Needs ['bird', 'season', 'region']"""
             return message, 400
 
         # Pass to predict function
