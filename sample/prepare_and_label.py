@@ -293,6 +293,15 @@ assert(merged['target'].value_counts()[0] == merged['seas_reg_rare'].value_count
 joblib.dump(label_dict, "sample/labels_dict.joblib")
 
 # ==============================================
+
+print("Renaming RegionName column to 'region'...")
+print()
+
+merged = merged.rename(columns={'RegionName': 'region'})
+assert('region' in merged.columns)
+
+# =============================================
+
 print("Writing to csv...")
 print()
 merged.to_csv("data\\labelled_bird_sample.csv", index=False)
