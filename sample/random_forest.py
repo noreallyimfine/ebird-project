@@ -20,7 +20,7 @@ assert(df.shape == (103992, 16))
 print("Select features and target to split dataframe into X and y...")
 print()
 
-features = ['name', 'season', 'RegionName']
+features = ['name', 'season', 'region']
 target = 'target'
 
 X = df[features]
@@ -32,7 +32,7 @@ assert(y.shape == (103992,))
 # Saving list of birds, seasons, and regions
 birds_list = X['name'].unique().tolist()
 seasons_list = X['season'].unique().tolist()
-regions_list = X['RegionName'].unique().tolist()
+regions_list = X['region'].unique().tolist()
 
 joblib.dump(birds_list, 'sample/birds_list.joblib')
 joblib.dump(seasons_list, 'sample/seasons_list.joblib')
