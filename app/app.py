@@ -46,8 +46,8 @@ def predict(data):
 def home():
     print("Method:", request.method)
     if request.method == 'GET':
-        # TODO: Display dropdowns to choose bird, season, and region
-        # STRETCH: Let them input county and state and the app will find the region
+        # TODO: Let them input county and state and the app will find the region
+        # This is not a stretch goal because the regions aren't intuitive
         return render_template('home.html',
                                seasons=seasons,
                                birds=birds,
