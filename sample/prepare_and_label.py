@@ -138,7 +138,7 @@ assert(us_birds.season.value_counts()['Spring'] == 39395)
 
 print('Creating joint county and state column to merge on...')
 print()
-us_birds['county_state'] = us_birds['county'] + us_birds['state']
+us_birds['county_state'] = us_birds['county'] + "," + us_birds['state']
 assert(us_birds.shape == (104333, 11))
 
 # =======================================
@@ -240,8 +240,8 @@ assert('Los Angeles' in regions['CountyName'].values)
 
 print('Creating joint county and state column to merge on...')
 print()
-regions['county_state'] = regions['CountyName'] + regions['State']
-assert('AutaugaAlabama' in regions['county_state'].values)
+regions['county_state'] = regions['CountyName'] + "," + regions['State']
+assert('Autauga,Alabama' in regions['county_state'].values)
 
 # ===============================================
 
