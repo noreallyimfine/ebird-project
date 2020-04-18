@@ -40,33 +40,11 @@ def home():
         label = labels[pred]
         msg = {'prediction': label}
         # TODO: return redirect to results route
-        return jsonify(msg)
-
-    print("Method:", request.method)
-    if request.method == 'GET':
-        # TODO: Let them input county and state and the app will find the region
-        # This is not a stretch goal because the regions aren't intuitive
-        return render_template('home.html',
-                               seasons=seasons,
-                               birds=birds,
-                               regions=regions)
-
-    elif request.method == 'POST':
-        # get values from post
-        # print(dir(request))
-        # data = request.json
-        # print(request.args)
-        # print(request.form_data_parser_class())
-        # print("Data", data)
-
-        # Check all required values are in the data
-        # If not, return error
-        req_values = ['bird', 'season', 'region']
-        if not all(value in data for value in req_values):
-            message = """Error: Missing required features.
-                         Needs ['bird', 'season', 'region']"""
-            return message, 400
-
+        return (msg)
+    return render_template('home.html',
+                            seasons=seasons,
+                            birds=birds,
+                            regions=regions)
 
 
 @app.route('/results', methods=['GET'])
