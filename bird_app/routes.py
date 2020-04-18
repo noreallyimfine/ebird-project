@@ -1,11 +1,8 @@
 import pandas as pd
-from flask import Flask, request, jsonify, render_template
-from joblib import load
+from flask import request, jsonify, render_template
+from bird_app import app
 from bird_app.forms import SightingForm
 from bird_app.util import encoder, model, birds, seasons, regions
-
-app = Flask(__name__)
-
 
 # Dict to map results from model to english
 labels = {0: "Common", 1: "Uncommon", 2: "Rare"}
