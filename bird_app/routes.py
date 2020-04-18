@@ -8,11 +8,15 @@ from bird_app.util import encoder, model, birds, seasons, regions
 labels = {0: "Common", 1: "Uncommon", 2: "Rare"}
 
 
-def predict(data):
+def predict(form):
     # parse data
-    bird = data['bird']
-    season = data['season']
-    region = data['region']
+    bird = form.bird.data
+    season = form.season.data
+    state = form.state.data
+    county = form.county.data
+    
+    # TODO: Map State,county to region
+    region = county + state
     # encode features
     X = pd.DataFrame({
         'name': [bird],
@@ -29,6 +33,15 @@ def predict(data):
 
 @app.route('/', methods=['GET', 'POST'])
 def home():
+    form = SightingForm()
+    if form.validate_on_submit():
+        # Pass to predict function
+        pred = predict(form)
+        label = labels[pred]
+        msg = {'prediction': label}
+        # TODO: return redirect to results route
+        return jsonify(msg)
+
     print("Method:", request.method)
     if request.method == 'GET':
         # TODO: Let them input county and state and the app will find the region
@@ -54,12 +67,6 @@ def home():
                          Needs ['bird', 'season', 'region']"""
             return message, 400
 
-        # Pass to predict function
-        pred = predict(data)
-        label = labels[pred]
-        msg = {'prediction': label}
-        # TODO: return redirect to results route
-        return jsonify(msg)
 
 
 @app.route('/results', methods=['GET'])
