@@ -15,6 +15,11 @@ print()
 df = pd.read_csv("C:\\Users\\ajaco\\Desktop\\repos\\noreallyimfine\\ebird-project\\data\\labelled_bird_sample.csv")
 assert(df.shape == (103992, 16))
 
+countystate_list = df.county_state.unique().tolist()
+
+joblib.dump(countystate_list, "bird_app/utils/county_state.joblib")
+
+
 # ========================================
 
 print("Select features and target to split dataframe into X and y...")
@@ -34,9 +39,9 @@ birds_list = X['name'].unique().tolist()
 seasons_list = X['season'].unique().tolist()
 regions_list = X['region'].unique().tolist()
 
-joblib.dump(birds_list, 'sample/birds_list.joblib')
-joblib.dump(seasons_list, 'sample/seasons_list.joblib')
-joblib.dump(regions_list, 'sample/regions_list.joblib')
+joblib.dump(birds_list, 'bird_app/utils/birds_list.joblib')
+joblib.dump(seasons_list, 'bird_app/utils/seasons_list.joblib')
+joblib.dump(regions_list, 'bird_app/utils/regions_list.joblib')
 # =======================================
 
 print("Encoding categorical features...")
@@ -84,5 +89,5 @@ print("\n\n")
 print("Saving encoder and model... ")
 print()
 
-joblib.dump(model, "rf.joblib")
-joblib.dump(encoder, "cat_boost.joblib")
+joblib.dump(model, "bird_app/utils/rf.joblib")
+joblib.dump(encoder, "bird_app/utils/cat_boost.joblib")
