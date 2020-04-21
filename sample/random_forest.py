@@ -15,8 +15,6 @@ print()
 df = pd.read_csv("C:\\Users\\ajaco\\Desktop\\repos\\noreallyimfine\\ebird-project\\data\\labelled_bird_sample.csv")
 assert(df.shape == (103992, 16))
 
-joblib.dump(countystate_list, "bird_app/utils/county_state.joblib")
-
 # ========================================
 
 print("Select features and target to split dataframe into X and y...")
