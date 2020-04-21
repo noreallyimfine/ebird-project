@@ -15,10 +15,7 @@ print()
 df = pd.read_csv("C:\\Users\\ajaco\\Desktop\\repos\\noreallyimfine\\ebird-project\\data\\labelled_bird_sample.csv")
 assert(df.shape == (103992, 16))
 
-countystate_list = df.county_state.unique().tolist()
-
 joblib.dump(countystate_list, "bird_app/utils/county_state.joblib")
-
 
 # ========================================
 
@@ -42,6 +39,7 @@ regions_list = X['region'].unique().tolist()
 joblib.dump(birds_list, 'bird_app/utils/birds_list.joblib')
 joblib.dump(seasons_list, 'bird_app/utils/seasons_list.joblib')
 joblib.dump(regions_list, 'bird_app/utils/regions_list.joblib')
+
 # =======================================
 
 print("Encoding categorical features...")
