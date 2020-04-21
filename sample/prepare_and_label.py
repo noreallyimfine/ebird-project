@@ -263,7 +263,7 @@ for idx, row in c2r.iterrows():
     region = row['region']
     cs_to_region[cs] = region
 
-joblib.dump(cs_to_region, "counties_to_regions.joblib")
+joblib.dump(cs_to_region, "bird_app/utils/counties_to_regions.joblib")
 
 # ============================================
 
