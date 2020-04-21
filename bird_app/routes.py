@@ -41,10 +41,7 @@ def home():
         msg = {'prediction': label}
         # TODO: return redirect to results route
         return (msg)
-    return render_template('home.html',
-                            seasons=seasons,
-                            birds=birds,
-                            regions=regions)
+    return render_template('home.html', form=form)
 
 
 @app.route('/results', methods=['GET'])
