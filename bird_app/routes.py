@@ -1,4 +1,4 @@
-from flask import render_template
+from flask import render_template, redirect, url_for
 from bird_app import app
 from bird_app.forms import SightingForm
 from bird_app.predict import rare_pred
@@ -15,9 +15,8 @@ def home():
         # Pass to predict function
         pred = rare_pred(form)
         label = labels[pred]
-        msg = {'prediction': label}
         # TODO: return redirect to results route
-        return (msg)
+        return redirect(url_for('results', label=label))
     return render_template('home.html', form=form)
 
 
