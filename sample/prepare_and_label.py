@@ -245,6 +245,28 @@ assert('Autauga,Alabama' in regions['county_state'].values)
 
 # ===============================================
 
+print("Renaming RegionName column to regions...")
+print()
+
+regions = regions.rename(columns={'RegionName': 'region'})
+assert('region' in regions.columns)
+
+# ==============================================
+
+print("Creating the mapping dict to take county state and map to region...")
+print()
+c2r = regions[['county_state', 'region']]
+
+cs_to_region = {}
+for idx, row in c2r.iterrows():
+    cs = row['county_state']
+    region = row['region']
+    cs_to_region[cs] = region
+
+joblib.dump(cs_to_region, "counties_to_regions.joblib")
+
+# ============================================
+
 print("Merging birds and regions...")
 print()
 merged = us_birds.merge(regions)
@@ -256,7 +278,7 @@ print("Rarity label column for bird sightings by region and season...")
 print()
 season_region_ct = pd.pivot_table(merged,
                                   index='name',
-                                  columns=['RegionName', 'season'],
+                                  columns=['region', 'season'],
                                   values='observ_count',
                                   aggfunc='count',
                                   fill_value=0.0)
@@ -274,7 +296,7 @@ def season_region_bird_rarity(bird, region, season):
 
 merged['seas_reg_rare'] = merged.apply(
     lambda x: season_region_bird_rarity(x['name'],
-                                        x['RegionName'],
+                                        x['region'],
                                         x['season']), axis=1
     )
 
@@ -290,14 +312,6 @@ merged['target'] = merged['seas_reg_rare'].map(label_dict)
 
 assert(merged.shape == (103992, 16))
 assert(merged['target'].value_counts()[0] == merged['seas_reg_rare'].value_counts()['Common'])
-
-# ==============================================
-
-print("Renaming RegionName column to 'region'...")
-print()
-
-merged = merged.rename(columns={'RegionName': 'region'})
-assert('region' in merged.columns)
 
 # =============================================
 
