@@ -20,3 +20,6 @@ regions = [{'region': region} for region in regions_list]
 county_state_list = load('bird_app/utils/county_state.joblib')
 counties = [x.split(',')[0] for x in county_state_list]
 states = [x.split(',')[1] for x in county_state_list]
+
+# Load county-to-region mapping dict
+cs_to_region = load('bird_app/utils/counties_to_regions.joblib')
