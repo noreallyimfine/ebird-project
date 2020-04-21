@@ -3,37 +3,26 @@
     <h1>Bird Check Home!</h1>
     <!-- Dropdown form with birds, seasons, and regions -->
     <form action="" method="POST">
+        <!-- Bird Selection Div-->
+        <div>
         {{ form.bird.label }}
         {{ form.bird }}
+        </div>
+        <!-- Season Selection Div-->
+        <div>
         {{ form.season.label }}
         {{ form.season }}
+        </div>
+        <!-- State Selection Div-->
+        <div>
         {{ form.state.label }}
         {{ form.state }}
+        </div>
+        <!-- County Selection Div-->
+        <div>
         {{ form.county.label }}
         {{ form.county }}
-        <!-- Bird Dropdown
-        <label for="bird">Bird</label>
-        <select name="bird" id="bird">
-        {% for bird in birds %}
-            <option value={{ bird.bird }}>{{ bird.bird }}</option>
-        {% endfor %}
-        </select>
-         Season Dropdown
-        <label for="season">Season</label>
-        <select name="season" id="season">
-        {% for season in seasons %}
-            <option value={{ season.season }}>{{ season.season }}</option>
-        {% endfor %}
-        </select>
-         Season Dropdown
-        <label for="region">Region</label>
-        <select name="region" id="region">
-        {% for region in regions %}
-            <option value={{ region.region }}>{{ region.region }}</option>
-        {% endfor %}
-        </select>
-        <input type="submit" value="Submit">
-        -->
+        </div>
     </form>
 
 {% endblock content %}
