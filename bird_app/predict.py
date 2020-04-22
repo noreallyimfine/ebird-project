@@ -17,7 +17,7 @@ def rare_pred(form):
     X = pd.DataFrame({
         'name': [bird],
         'season': [season],
-        'RegionName': [region]
+        'region': [region]
     })
     X_encoded = encoder.transform(X)
     # get prediction
