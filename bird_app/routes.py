@@ -16,7 +16,7 @@ def home():
         pred = rare_pred(form)
         label = labels[pred]
         # TODO: return redirect to results route
-        return redirect(url_for('results', label=label))
+        return render_template('results.html', label=label)
     return render_template('home.html', form=form)
 
 
