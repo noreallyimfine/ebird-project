@@ -32,4 +32,10 @@ Steps:
 - running both files will create a trained model as well as some pickled files for the app
 
 
+**Coming Soon** 
+
+Front-end by Jimmy McBride
+
+
+
 
