@@ -69,6 +69,18 @@ def county_fixer(df):
     )
 
 
+def bird_column_renamer(df):
+    pass
+
+def us_bird_filter(df):
+    pass
+
+def bad_name_cleaner(df):
+    pass
+
+def get_season(df):
+    pass
+
 # Master region cleaning function
 def clean_regions(df):
 
