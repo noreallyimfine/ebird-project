@@ -10,6 +10,17 @@ def region_column_renamer(df):
         'RegionName': 'region'
     })
 
+def clean_cols(df):
+
+    # Strip leading whitespace
+    df['state'] = df['state'].str.strip()
+
+    # drop number from region
+    df['region'] = df['region'].apply(lambda x: ' '.join(x.split()[1:]))
+
+    # drop state from county
+    df['county'] = df['county'].apply(lambda x: x.split(',')[0])
+
 # Master region cleaning function
 def clean_regions(df):
 
