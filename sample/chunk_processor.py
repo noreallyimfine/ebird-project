@@ -21,6 +21,9 @@ def clean_cols(df):
     # drop state from county
     df['county'] = df['county'].apply(lambda x: x.split(',')[0])
 
+def county_fixer(df):
+    pass
+
 # Master region cleaning function
 def clean_regions(df):
 
@@ -34,7 +37,7 @@ def clean_regions(df):
     df = clean_cols(df)
 
     # fix county names
-    df = county_fixed(df)
+    df = county_fixer(df)
 
     # combine county state
     df = county_state_merger(df)
