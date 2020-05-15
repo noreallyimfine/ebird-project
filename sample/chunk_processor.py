@@ -58,6 +58,16 @@ def county_fixer(df):
         lambda x: county_dict[x] if x in county_dict.keys() else x
     )
 
+    # drop parish from county col
+    df['county'] = df['county'].apply(
+        lambda x: x if 'Parish' not in x else ' '.join(x.split()[:-1])
+    )
+
+    # drop county from county col
+    df['county'] = df['county'].apply(
+        lambda x: x if 'County' not in x else ' '.join(x.split()[:-1])
+    )
+
 
 # Master region cleaning function
 def clean_regions(df):
