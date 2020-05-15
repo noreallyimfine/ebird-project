@@ -79,7 +79,7 @@ def bird_column_renamer(df):
     })
 
 def us_bird_filter(df):
-    pass
+    return df.query("country == 'United States'")
 
 def bad_name_cleaner(df):
     pass
