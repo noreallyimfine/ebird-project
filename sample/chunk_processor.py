@@ -70,7 +70,13 @@ def county_fixer(df):
 
 
 def bird_column_renamer(df):
-    pass
+    return df.rename(columns={
+        'COMMON NAME': 'name',
+        'OBSERVATION DATE': 'observ_date',
+        'COUNTRY': 'country',
+        'STATE': 'state',
+        'COUNTY': 'county'
+    })
 
 def us_bird_filter(df):
     pass
