@@ -3,6 +3,12 @@ Using Pandas to process the entire bird file by using chunks and not reading
 it all into memory at once. Then writes it to a new file.
 '''
 
+def region_column_renamer(df):
+    return df.rename(columns={
+        'State': 'state',
+        'CountyName': 'county',
+        'RegionName': 'region'
+    })
 
 # Master region cleaning function
 def clean_regions(df):
