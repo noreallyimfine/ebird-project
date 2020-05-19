@@ -82,7 +82,11 @@ def us_bird_filter(df):
     return df.query("country == 'United States'")
 
 def bad_name_cleaner(df):
-    pass
+    df['bad_name'] = df['name'].apply(
+        lambda x: 0 if ("sp." in x) or ("(" in x) or ("/" in x) else 1
+    )
+    mask = (df['bad_name'] == 0)
+    df = df[~mask].drop(columns=['bad_name'])
 
 def get_season(df):
     pass
