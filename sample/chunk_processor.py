@@ -89,7 +89,8 @@ def bad_name_cleaner(df):
     df = df[~mask].drop(columns=['bad_name'])
 
 def get_season(df):
-    pass
+    df['observ_date'] = pd.to_datetime(df['observ_date'], infer_datetime_format=True)
+
 
 # Master region cleaning function
 def clean_regions(df):
