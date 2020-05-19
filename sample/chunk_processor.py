@@ -91,6 +91,23 @@ def bad_name_cleaner(df):
 def get_season(df):
     df['observ_date'] = pd.to_datetime(df['observ_date'], infer_datetime_format=True)
 
+    df['month'] = df['observ_date'].dt.month
+
+    def season_from_month(x):
+        if x in [12, 1, 2]:
+            return 'Winter'
+        elif x in [3, 4, 5]:
+            return 'Spring'
+        elif x in [6, 7, 8]:
+            return 'Summer'
+        else: 
+            return 'Fall'
+    
+    df['season'] = df['month'].apply(season_from_month)
+
+    df = df.drop(columns=['observ_date', 'month'])
+
+    return df
 
 # Master region cleaning function
 def clean_regions(df):
