@@ -19,5 +19,19 @@ bird_chunks = pd.read_csv("..//Bird-Check/bird_data.csv",
                           chunksize=500000,
                           usecols=['COMMON NAME', 'COUNTRY', 'STATE', 'COUNTY',
                             'LATITUDE', 'LONGITUDE', 'OBSERVATION DATE',
-                            'OBSERVATION COUNT'])
+                            'OBSERVATION COUNT']
                           )
+
+chunks = []
+
+for chunk in bird_chunks:
+    chunk = clean_bird_chunks(chunk)
+
+    merged = chunk.merge(regions)
+
+    chunks.append(merged)
+
+
+df = pd.concat(chunks)
+
+df.to_csv("cleaned_bird_data.csv")
