@@ -2,6 +2,8 @@
 Helper functions for cleaning data
 '''
 
+import pandas as pd
+
 def region_column_renamer(df):
     return df.rename(columns={
         'State': 'state',
