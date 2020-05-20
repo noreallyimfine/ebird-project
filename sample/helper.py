@@ -69,6 +69,8 @@ def county_fixer(df):
         lambda x: x if 'County' not in x else ' '.join(x.split()[:-1])
     )
 
+    return df
+
 
 def bird_column_renamer(df):
     return df.rename(columns={
