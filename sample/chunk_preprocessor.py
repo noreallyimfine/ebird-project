@@ -14,7 +14,7 @@ regions = pd.read_excel("../../../Bird-Check/Back-End/URAmericaMapCountyList.xls
 
 
 regions = clean_regions(regions)
-bird_chunks = pd.read_csv(".././../Bird-Check/bird_data.csv",
+bird_chunks = pd.read_csv("../../../Bird-Check/bird_data.csv",
                           sep='\t',
                           chunksize=500000,
                           usecols=['COMMON NAME', 'COUNTRY', 'STATE', 'COUNTY',
