@@ -89,10 +89,14 @@ def bad_name_cleaner(df):
     mask = (df['bad_name'] == 0)
     df = df[~mask].drop(columns=['bad_name'])
 
+    return df
+
 def get_season(df):
     df['observ_date'] = pd.to_datetime(df['observ_date'], infer_datetime_format=True)
 
     df['month'] = df['observ_date'].dt.month
+
+    return df
 
     def season_from_month(x):
         if x in [12, 1, 2]:
