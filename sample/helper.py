@@ -20,6 +20,8 @@ def clean_cols(df):
     # drop state from county
     df['county'] = df['county'].apply(lambda x: x.split(',')[0])
 
+    return df
+
 def county_fixer(df):
     
     # Map Alaska counties
