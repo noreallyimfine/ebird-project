@@ -110,6 +110,11 @@ def get_season(df):
 
     return df
 
+def county_state_merger(df):
+    df['county_state'] = df['county'] + ',' + df['state']
+
+    return df
+
 # Master region cleaning function
 def clean_regions(df):
 
