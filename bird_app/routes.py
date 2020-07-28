@@ -1,31 +1,41 @@
-from flask import render_template, request, redirect, url_for
+from flask import jsonify, request
 from bird_app import app
-from bird_app.forms import SightingForm
-from bird_app.predict import rare_pred
+from joblib import load
 
 
 # Dict to map results from model to english
 labels = {0: "Common", 1: "Uncommon", 2: "Rare"}
 
+birds = load('bird_app/utils/birds_list.joblib')
+seasons = load('bird_app/utils/seasons_list.joblib')
 
-@app.route('/', methods=['GET', 'POST'])
-def home():
-    form = SightingForm()
-    if request.method == 'POST':
-        # Pass to predict function
-        pred = rare_pred(form)
-        label = labels[pred]
-        # TODO: return redirect to results route
-        return render_template('results.html', label=label)
-    return render_template('home.html', form=form)
+county_state_list = load('bird_app/utils/county_state.joblib')
+counties = [x.split(',')[0] for x in county_state_list]
+states = [x.split(',')[1] for x in county_state_list]
 
 
-@app.route('/results', methods=['GET'])
-def results():
-    # TODO: Display prediction
-    # Display image of bird
-    # Display map of that birds prevalence
-    pass
+@app.route('/api/birds', methods=['GET'])
+def get_birds():
+    response = {
+        'birds': birds
+    }
+    return jsonify(response)
+
+
+@app.route('/api/seasons', methods=['GET'])
+def get_seasons():
+    response = {
+        'seasons': seasons
+    }
+    return jsonify(response)
+
+
+@app.route('/api/states', methods=['GET'])
+def get_states():
+    response = {
+        'states': states
+    }
+    return jsonify(response)
 
 
 if __name__ == "__main__":
