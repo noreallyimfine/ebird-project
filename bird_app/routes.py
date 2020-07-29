@@ -37,6 +37,10 @@ def get_states():
     }
     return jsonify(response)
 
+@app.route('', methods=['GET', 'POST'])
+def home():
+    pass
+
 
 if __name__ == "__main__":
     app.run(debug=True)
