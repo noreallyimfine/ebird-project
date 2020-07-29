@@ -9,6 +9,8 @@ flake8 = "*"
 [packages]
 pandas = "*"
 flask = "*"
+decouple = "*"
+joblib = "*"
 
 [requires]
 python_version = "3.7"
