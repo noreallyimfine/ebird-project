@@ -15,6 +15,9 @@ regions = load('bird_app/utils/regions_list.joblib')
 
 # TODO: load county_state list and parse to separate for form
 # TODO: create dict to map countystate combo to region
+county_states = load('bird_app/utils/county_state.joblib')
+states = [cs.split(',')[1] for cs in county_states]
+counties = [cs.split(',')[0] for cs in county_states]
 
 # Load county-to-region mapping dict
 cs_to_region = load('bird_app/utils/counties_to_regions.joblib')
