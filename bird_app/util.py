@@ -5,8 +5,6 @@ from joblib import load
 # model = load("bird_app/utils/rf.joblib")
 
 # Load birds, seasons, and regions
-birds = load('bird_app/utils/birds_list.joblib')
-seasons = load('bird_app/utils/seasons_list.joblib')
 regions = load('bird_app/utils/regions_list.joblib')
 
 # convert list to dict for displaying through flask template
@@ -17,9 +15,6 @@ regions = load('bird_app/utils/regions_list.joblib')
 
 # TODO: load county_state list and parse to separate for form
 # TODO: create dict to map countystate combo to region
-county_state_list = load('bird_app/utils/county_state.joblib')
-counties = [x.split(',')[0] for x in county_state_list]
-states = [x.split(',')[1] for x in county_state_list]
 
 # Load county-to-region mapping dict
 cs_to_region = load('bird_app/utils/counties_to_regions.joblib')

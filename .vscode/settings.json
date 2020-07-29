@@ -1,5 +1,4 @@
 {
-    "python.pythonPath": "C:\\Users\\ajaco\\Anaconda3\\envs\\ebird-project\\python.exe",
     "python.linting.pycodestyleEnabled": false,
     "python.linting.flake8Enabled": true,
     "python.linting.enabled": true,

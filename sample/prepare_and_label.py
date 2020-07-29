@@ -284,41 +284,42 @@ season_region_ct = pd.pivot_table(merged,
                                   fill_value=0.0)
 
 
-def season_region_bird_rarity(bird, region, season):
-    bird_percent = season_region_ct[(region, season)][bird] / season_region_ct[(region, season)].sum()
-    if bird_percent > 0.005:
-        return "Common"
-    elif bird_percent > 0.001:
-        return "Uncommon"
-    else:
-        return "Rare"
+joblib.dump(season_region_ct, 'lookup_table.joblib')
+# def season_region_bird_rarity(bird, region, season):
+#     bird_percent = season_region_ct[(region, season)][bird] / season_region_ct[(region, season)].sum()
+#     if bird_percent > 0.005:
+#         return "Common"
+#     elif bird_percent > 0.001:
+#         return "Uncommon"
+#     else:
+#         return "Rare"
 
 
-merged['seas_reg_rare'] = merged.apply(
-    lambda x: season_region_bird_rarity(x['name'],
-                                        x['region'],
-                                        x['season']), axis=1
-    )
+# merged['seas_reg_rare'] = merged.apply(
+#     lambda x: season_region_bird_rarity(x['name'],
+#                                         x['region'],
+#                                         x['season']), axis=1
+#     )
 
-assert(merged.seas_reg_rare.value_counts(normalize=True)['Uncommon'] == 0.3044945765058851)
+# assert(merged.seas_reg_rare.value_counts(normalize=True)['Uncommon'] == 0.3044945765058851)
 
-# ==============================================
+# # ==============================================
 
-print("Map rarity label to numeric...")
-print()
+# print("Map rarity label to numeric...")
+# print()
 
-label_dict = {"Common": 0, "Uncommon": 1, "Rare": 2}
-merged['target'] = merged['seas_reg_rare'].map(label_dict)
+# label_dict = {"Common": 0, "Uncommon": 1, "Rare": 2}
+# merged['target'] = merged['seas_reg_rare'].map(label_dict)
 
-assert(merged.shape == (103992, 16))
-assert(merged['target'].value_counts()[0] == merged['seas_reg_rare'].value_counts()['Common'])
+# assert(merged.shape == (103992, 16))
+# assert(merged['target'].value_counts()[0] == merged['seas_reg_rare'].value_counts()['Common'])
 
-# =============================================
+# # =============================================
 
-print("Writing to csv...")
-print()
-merged.to_csv("data\\labelled_bird_sample.csv", index=False)
+# print("Writing to csv...")
+# print()
+# merged.to_csv("data\\labelled_bird_sample.csv", index=False)
 
-# ===============================================
+# # ===============================================
 
-print("Data Cleaning and Preparation Complete.")
+# print("Data Cleaning and Preparation Complete.")
