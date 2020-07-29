@@ -1,5 +1,5 @@
 import pandas as pd
-from bird_app.util import encoder, model, cs_to_region
+from bird_app.util import cs_to_region
 
 
 def rare_pred(form):
@@ -14,12 +14,5 @@ def rare_pred(form):
     region = cs_to_region[cs]
 
     # encode features
-    X = pd.DataFrame({
-        'name': [bird],
-        'season': [season],
-        'region': [region]
-    })
-    X_encoded = encoder.transform(X)
-    # get prediction
-    pred = model.predict(X_encoded)
-    return pred[0]
+    message = f"You saw {bird} in {county},{state} in {season}"
+    return message

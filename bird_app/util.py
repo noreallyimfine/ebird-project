@@ -1,8 +1,8 @@
 from joblib import load
 
 # Path here is relative, may get messed up in future
-encoder = load("bird_app/utils/cat_boost.joblib")
-model = load("bird_app/utils/rf.joblib")
+# encoder = load("bird_app/utils/cat_boost.joblib")
+# model = load("bird_app/utils/rf.joblib")
 
 # Load birds, seasons, and regions
 birds = load('bird_app/utils/birds_list.joblib')
