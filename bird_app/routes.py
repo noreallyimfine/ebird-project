@@ -1,7 +1,7 @@
 from flask import render_template, request, redirect, url_for
 from bird_app import app
 from bird_app.forms import SightingForm
-from bird_app.predict import rare_pred
+from bird_app.lookup import rareness_lookup
 
 
 # Dict to map results from model to english
@@ -13,8 +13,7 @@ def home():
     form = SightingForm()
     if request.method == 'POST':
         # Pass to predict function
-        pred = rare_pred(form)
-        label = labels[pred]
+        label = rareness_lookup(form)
         # TODO: return redirect to results route
         return render_template('results.html', label=label)
     return render_template('home.html', form=form)

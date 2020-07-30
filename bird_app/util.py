@@ -21,3 +21,6 @@ counties = [cs.split(',')[0] for cs in county_states]
 
 # Load county-to-region mapping dict
 cs_to_region = load('bird_app/utils/counties_to_regions.joblib')
+
+# Load pivot (lookup) table
+lookup = load("bird_app/utils/lookup.joblib")
