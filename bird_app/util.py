@@ -19,6 +19,8 @@ county_states = load('bird_app/utils/county_state.joblib')
 states = [cs.split(',')[1] for cs in county_states]
 counties = [cs.split(',')[0] for cs in county_states]
 
+# Load counties by state dict
+state_counties_dict = load("bird_app/utils/state_to_counties_dict.joblib")
 # Load county-to-region mapping dict
 cs_to_region = load('bird_app/utils/counties_to_regions.joblib')
 

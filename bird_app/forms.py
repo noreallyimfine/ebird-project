@@ -1,7 +1,7 @@
 from flask_wtf import FlaskForm
 from wtforms import SelectField, SubmitField
 from wtforms.validators import DataRequired
-from bird_app.util import birds, seasons, states, counties
+from bird_app.util import birds, seasons, states, counties, state_counties_dict
 
 
 class SightingForm(FlaskForm):
