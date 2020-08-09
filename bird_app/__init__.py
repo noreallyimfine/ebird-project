@@ -5,6 +5,7 @@ from os import environ
 
 app = Flask(__name__)
 app.config['SECRET_KEY'] = environ.get('SECRET_KEY')
+app.config['SQLALCHEMY_DATABASE_URI'] = "postgresql://postgres:postgres@localhost:5432/birds"
 
 db = SQLAlchemy(app)
 

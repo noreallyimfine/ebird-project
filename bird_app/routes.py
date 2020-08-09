@@ -1,5 +1,5 @@
 from flask import render_template, request, redirect, url_for
-from bird_app import app
+from bird_app import app, db
 from bird_app.forms import SightingForm
 from bird_app.lookup import rareness_lookup
 
@@ -18,7 +18,9 @@ def home():
         return render_template('results.html', label=label)
     return render_template('home.html', form=form)
 
-
+@app.route('/test', methods=['GET'])
+def db_test():
+    birds = db.query.
 @app.route('/results', methods=['GET'])
 def results():
     # TODO: Display prediction
