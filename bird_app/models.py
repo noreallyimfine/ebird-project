@@ -1,5 +1,7 @@
 from bird_app import db
 
 
-class States(db.Model):
-    state = db.Column(db.Integer, primary_key=True)
+class State(db.Model):
+    state = db.Column(db.String(20), primary_key=True)
+
+
