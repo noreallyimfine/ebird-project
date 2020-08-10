@@ -16,3 +16,7 @@ class County(db.Model):
     id = db.Column(db.Integer, primary_key=True)
     state = db.Column(db.String(20), db.ForeignKey('state.id'), nullable=False)
     county = db.Column(db.String(50), nullable=False)
+
+
+class Region(db.Model):
+    pass
