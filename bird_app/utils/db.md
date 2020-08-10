@@ -1,7 +1,7 @@
 # Database Schema
 
   ### States:
-      state: varchar(15) primary key
+      state: varchar(20) primary key
 
   ### Counties:
       ID: incremnter. primary key
