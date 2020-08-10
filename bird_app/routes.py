@@ -24,6 +24,8 @@ def home():
 def states():
     states = State.query.all()
     return render_template('states.html', states=states)
+
+
 @app.route('/results', methods=['GET'])
 def results():
     # TODO: Display prediction
