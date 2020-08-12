@@ -14,5 +14,7 @@ class RareForm(FlaskForm):
                        choices=[(b.name, b.name) for b in birds])
     state = SelectField('Choose a State',
                        validators=[DataRequired()],
-                       choices=[(s.name, s.name) for s in states])
+                       choices=[(s.id, s.name) for s in states])
+    county = SelectField('Choose a County',
+                       validators=[DataRequired()])
     submit = SubmitField('How rare?')
