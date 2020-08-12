@@ -8,6 +8,7 @@ def home():
     return render_template('home.html', title='Home')
 
 
-@app.route('/rare_bird', methods=['GET', 'POST'])
-def rare_bird():
+@app.route('/how_rare', methods=['GET', 'POST'])
+def how_rare():
+    return render_template('how_rare.html')
     pass
