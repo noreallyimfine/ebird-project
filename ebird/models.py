@@ -8,6 +8,7 @@ class Bird(db.Model):
 class State(db.Model):
     id = db.Column(db.Integer, primary_key=True)
     name = db.Column(db.String(25), nullable=False)
+    counties = db.relationship('County', backref='county_state', lazy=True)
 
 
 class County(db.Model):
