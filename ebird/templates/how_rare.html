@@ -1,4 +1,25 @@
 {% extends 'layout.html' %}
 {% block content %}
     <!-- display the form -->
+    <div class='content-section'>
+        <form method='POST' action="">
+            {{ form.hidden_tag() }}
+            <fieldset class="form-group">
+                <legend class="border-bottom mb-4">Login</legend>
+                <div class="form-group">
+                    {{ form.bird.label(class="form-control-label") }}
+                    {% if form.bird.errors %}
+                        {{ form.bird(class="form-control form-control-lg is-invalid") }}
+                        <div class="invalid-feedback">
+                            {% for error in form.bird.errors %}
+                                <span>{{ error }}</span>
+                            {% endfor %}
+                        </div>
+                    {% else %}
+                        {{ form.bird(class="form-control form-control-lg") }}
+                    {% endif %}
+                </div>
+            </fieldset>
+        </form>
+    </div>
 {% endblock content %}

@@ -1,5 +1,6 @@
 from flask import render_template
 from ebird import app
+from ebird.forms import RareForm
 
 @app.route('/')
 @app.route('/home')
@@ -10,5 +11,5 @@ def home():
 
 @app.route('/how_rare', methods=['GET', 'POST'])
 def how_rare():
-    return render_template('how_rare.html')
-    pass
+    form = RareForm()
+    return render_template('how_rare.html', form=form)
