@@ -14,11 +14,11 @@ class RareForm(FlaskForm):
                        validators=[DataRequired()],
                        choices=[(b.name, b.name) for b in birds])
     state = SelectField('Choose a State',
-                       validators=[DataRequired()],
-                       choices=[(s.id, s.name) for s in states])
+                        validators=[DataRequired()],
+                        choices=[(s.name, s.name) for s in states])
     county = SelectField('Choose a County',
-                       validators=[DataRequired()])
+                         validators=[DataRequired()])
     season = SelectField('Choose a Season',
                          validators=[DataRequired()],
-                         choices = [(s.id, s.name) for s in seasons])
+                         choices=[(s.name, s.name) for s in seasons])
     submit = SubmitField('How rare?')
