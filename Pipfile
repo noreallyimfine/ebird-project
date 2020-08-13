@@ -8,7 +8,9 @@ verify_ssl = true
 [packages]
 flask = "*"
 flask-sqlalchemy = "*"
+joblib = "*"
 flask-wtf = "*"
+wtforms = "*"
 
 [requires]
-python_version = "3.7"
+python_version = "3.8"
