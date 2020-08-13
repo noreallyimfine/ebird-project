@@ -45,6 +45,19 @@
                         {{ form.county(class="form-control form-control-lg") }}
                     {% endif %}
                 </div>
+                <div class="form-group">
+                    {{ form.season.label(class="form-control-label") }}
+                    {% if form.season.errors %}
+                        {{ form.season(class="form-control form-control-lg is-invalid") }}
+                        <div class="invalid-feedback">
+                            {% for error in form.season.errors %}
+                                <span>{{ error }}</span>
+                            {% endfor %}
+                        </div>
+                    {% else %}
+                        {{ form.season(class="form-control form-control-lg") }}
+                    {% endif %}
+                </div>
             </fieldset>
         </form>
     </div>
