@@ -55,4 +55,4 @@ class Lookup(db.Model):
     region = db.Column(db.String(20), nullable=False)
     season = db.Column(db.String(10), nullable=False)
     bird = db.Column(db.String(40), nullable=False)
-    pct_of_total = db.Column(db.Numeric(5, 0), nullable=False)
+    pct_of_total = db.Column(db.Numeric(5, 4), nullable=False)
