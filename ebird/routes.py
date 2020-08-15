@@ -1,7 +1,7 @@
-from flask import render_template, redirect, url_for
+from flask import render_template, redirect, url_for, request, jsonify
 from ebird import app
 from ebird.forms import RareForm
-from ebird.models import County
+from ebird.models import County, State
 from ebird.utils import get_rareness, rareness_to_label
 
 
@@ -16,7 +16,8 @@ def home():
 def how_rare():
     form = RareForm()
     form.county.choices = [(row.id, row.county_name) for row in County.query.filter_by(state_id=1).all()]
-    if form.validate_on_submit():
+
+    if request.method == 'POST':
         bird_sighting = {
             'bird': form.bird.data,
             'county': form.county.data,
@@ -27,6 +28,20 @@ def how_rare():
         return redirect(url_for('results', result=result))
     return render_template('how_rare.html', form=form)
 
+
+@app.route("/county/<state>/")
+def city(state):
+    counties = County.query.filter_by(state_id=state)
+
+    county_list = []
+    for county in counties:
+        county_dict = {
+            'id': county.id,
+            'name': county.county_name
+        }
+        county_list.append(county_dict)
+    
+    return jsonify({'counties': county_list})
 
 @app.route('/results/<string:result>')
 def results(result):
