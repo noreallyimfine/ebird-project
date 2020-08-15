@@ -65,3 +65,28 @@
         </form>
     </div>
 {% endblock content %}
+{% block script %}
+    <script>
+        let state_select = document.getElementById('state');
+        let county_select = document.getElementById('county');
+
+        state_select.onchange = function() {
+            state = state_select.value;
+
+            fetch('/county/' + state).then(function(response) {
+                response.json().then(function(data) {
+                    console.log(Object.keys(data))
+                    let optionHTML = '';
+                    for (let county of data.counties) {
+                        console.log(county)
+                        optionHTML += '<option value="' + county.id + '">' + county.name + '</option>';
+                    }
+
+                    county_select.innerHTML = optionHTML;
+
+                })
+            })
+
+        }
+    </script>
+{% endblock script %}
