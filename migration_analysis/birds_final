@@ -1,0 +1,1441 @@
+,codes,state,season,bird,amount,Frequency
+0,AL,Alabama,Fall,Turkey Vulture,1424.0,7.261225091971921
+1,AK,Alaska,Fall,Turkey Vulture,1.0,0.0
+2,AS,American Samoa,Fall,Turkey Vulture,1.0,0.0
+3,AZ,Arizona,Fall,Turkey Vulture,3409.0,8.134174272137903
+4,AR,Arkansas,Fall,Turkey Vulture,1759.0,7.472500744737558
+5,CA,California,Fall,Turkey Vulture,27077.0,10.206439938023752
+6,CO,Colorado,Fall,Turkey Vulture,869.0,6.767343125265392
+7,CT,Connecticut,Fall,Turkey Vulture,1636.0,7.400009517162692
+8,DE,Delaware,Fall,Turkey Vulture,1960.0,7.580699752224563
+9,DC,District Of Columbia,Fall,Turkey Vulture,1.0,0.0
+10,FM,Federated States Of Micronesia,Fall,Turkey Vulture,1.0,0.0
+11,FL,Florida,Fall,Turkey Vulture,19887.0,9.897821530909502
+12,GA,Georgia,Fall,Turkey Vulture,4382.0,8.385260520155413
+13,GU,Guam,Fall,Turkey Vulture,1.0,0.0
+14,HI,Hawaii,Fall,Turkey Vulture,1.0,0.0
+15,ID,Idaho,Fall,Turkey Vulture,179.0,5.187385805840755
+16,IL,Illinois,Fall,Turkey Vulture,2572.0,7.85243908535751
+17,IN,Indiana,Fall,Turkey Vulture,2631.0,7.875119281040293
+18,IA,Iowa,Fall,Turkey Vulture,709.0,6.5638555265321274
+19,KS,Kansas,Fall,Turkey Vulture,1072.0,6.977281341630747
+20,KY,Kentucky,Fall,Turkey Vulture,2283.0,7.733245646529795
+21,LA,Louisiana,Fall,Turkey Vulture,1860.0,7.528331766707247
+22,ME,Maine,Fall,Turkey Vulture,739.0,6.6052979209482015
+23,MH,Marshall Islands,Fall,Turkey Vulture,1.0,0.0
+24,MD,Maryland,Fall,Turkey Vulture,8683.0,9.069122370060645
+25,MA,Massachusetts,Fall,Turkey Vulture,2455.0,7.805882040228621
+26,MI,Michigan,Fall,Turkey Vulture,2742.0,7.91644286012226
+27,MN,Minnesota,Fall,Turkey Vulture,890.0,6.7912214627261855
+28,MS,Mississippi,Fall,Turkey Vulture,1038.0,6.945051063725834
+29,MO,Missouri,Fall,Turkey Vulture,2381.0,7.7752758464868625
+30,MT,Montana,Fall,Turkey Vulture,95.0,4.553876891600541
+31,NE,Nebraska,Fall,Turkey Vulture,200.0,5.298317366548036
+32,NV,Nevada,Fall,Turkey Vulture,134.0,4.897839799950911
+33,NH,New Hampshire,Fall,Turkey Vulture,763.0,6.637258031284457
+34,NJ,New Jersey,Fall,Turkey Vulture,8505.0,9.048409504829962
+35,NM,New Mexico,Fall,Turkey Vulture,861.0,6.7580945044277305
+36,NY,New York,Fall,Turkey Vulture,5343.0,8.583542571957771
+37,NC,North Carolina,Fall,Turkey Vulture,5793.0,8.664405571096625
+38,ND,North Dakota,Fall,Turkey Vulture,94.0,4.543294782270004
+39,MP,Northern Mariana Islands,Fall,Turkey Vulture,1.0,0.0
+40,OH,Ohio,Fall,Turkey Vulture,5950.0,8.691146498539675
+41,OK,Oklahoma,Fall,Turkey Vulture,892.0,6.79346613258001
+42,OR,Oregon,Fall,Turkey Vulture,1314.0,7.1808311990445555
+43,PW,Palau,Fall,Turkey Vulture,1.0,0.0
+44,PA,Pennsylvania,Fall,Turkey Vulture,9479.0,9.156834104453042
+45,PR,Puerto Rico,Fall,Turkey Vulture,1.0,0.0
+46,RI,Rhode Island,Fall,Turkey Vulture,288.0,5.662960480135946
+47,SC,South Carolina,Fall,Turkey Vulture,3894.0,8.267192185932146
+48,SD,South Dakota,Fall,Turkey Vulture,82.0,4.406719247264253
+49,TN,Tennessee,Fall,Turkey Vulture,2924.0,7.980707820869669
+50,TX,Texas,Fall,Turkey Vulture,20532.0,9.929739923680193
+51,UT,Utah,Fall,Turkey Vulture,310.0,5.736572297479192
+52,VT,Vermont,Fall,Turkey Vulture,817.0,6.705639094860003
+53,VI,Virgin Islands,Fall,Turkey Vulture,1.0,0.0
+54,VA,Virginia,Fall,Turkey Vulture,9882.0,9.198470199405696
+55,WA,Washington,Fall,Turkey Vulture,507.0,6.2285110035911835
+56,WV,West Virginia,Fall,Turkey Vulture,1084.0,6.988413181999592
+57,WI,Wisconsin,Fall,Turkey Vulture,963.0,6.870053411798126
+58,WY,Wyoming,Fall,Turkey Vulture,136.0,4.912654885736052
+59,2,District of Columbia,Fall,Turkey Vulture,356.0,5.87493073085203
+60,AL,Alabama,Winter,Turkey Vulture,1896.0,7.547501682814967
+61,AK,Alaska,Winter,Turkey Vulture,1.0,0.0
+62,AS,American Samoa,Winter,Turkey Vulture,1.0,0.0
+63,AZ,Arizona,Winter,Turkey Vulture,3775.0,8.236155661683124
+64,AR,Arkansas,Winter,Turkey Vulture,1578.0,7.363913501405819
+65,CA,California,Winter,Turkey Vulture,32240.0,10.380963196620565
+66,CO,Colorado,Winter,Turkey Vulture,80.0,4.382026634673881
+67,CT,Connecticut,Winter,Turkey Vulture,1215.0,7.102499355774649
+68,DE,Delaware,Winter,Turkey Vulture,2182.0,7.687997166393016
+69,DC,District Of Columbia,Winter,Turkey Vulture,1.0,0.0
+70,FM,Federated States Of Micronesia,Winter,Turkey Vulture,1.0,0.0
+71,FL,Florida,Winter,Turkey Vulture,43401.0,10.6782377612977
+72,GA,Georgia,Winter,Turkey Vulture,5861.0,8.676075516476429
+73,GU,Guam,Winter,Turkey Vulture,1.0,0.0
+74,HI,Hawaii,Winter,Turkey Vulture,1.0,0.0
+75,ID,Idaho,Winter,Turkey Vulture,54.0,3.9889840465642745
+76,IL,Illinois,Winter,Turkey Vulture,1723.0,7.45182223652793
+77,IN,Indiana,Winter,Turkey Vulture,2064.0,7.6324011266014535
+78,IA,Iowa,Winter,Turkey Vulture,128.0,4.852030263919617
+79,KS,Kansas,Winter,Turkey Vulture,394.0,5.976350909297934
+80,KY,Kentucky,Winter,Turkey Vulture,1581.0,7.365812837209472
+81,LA,Louisiana,Winter,Turkey Vulture,2892.0,7.969703583278656
+82,ME,Maine,Winter,Turkey Vulture,195.0,5.272999558563747
+83,MH,Marshall Islands,Winter,Turkey Vulture,1.0,0.0
+84,MD,Maryland,Winter,Turkey Vulture,9909.0,9.201198714058899
+85,MA,Massachusetts,Winter,Turkey Vulture,1264.0,7.142036574706803
+86,MI,Michigan,Winter,Turkey Vulture,1471.0,7.293697720601438
+87,MN,Minnesota,Winter,Turkey Vulture,12.0,2.4849066497880004
+88,MS,Mississippi,Winter,Turkey Vulture,1564.0,7.355001921105257
+89,MO,Missouri,Winter,Turkey Vulture,1693.0,7.4342573821331355
+90,MT,Montana,Winter,Turkey Vulture,4.0,1.3862943611198906
+91,NE,Nebraska,Winter,Turkey Vulture,28.0,3.332204510175204
+92,NV,Nevada,Winter,Turkey Vulture,201.0,5.303304908059076
+93,NH,New Hampshire,Winter,Turkey Vulture,330.0,5.799092654460526
+94,NJ,New Jersey,Winter,Turkey Vulture,6805.0,8.825412915085566
+95,NM,New Mexico,Winter,Turkey Vulture,218.0,5.384495062789089
+96,NY,New York,Winter,Turkey Vulture,2925.0,7.981049759665957
+97,NC,North Carolina,Winter,Turkey Vulture,6309.0,8.74973246437081
+98,ND,North Dakota,Winter,Turkey Vulture,1.0,0.0
+99,MP,Northern Mariana Islands,Winter,Turkey Vulture,1.0,0.0
+100,OH,Ohio,Winter,Turkey Vulture,4097.0,8.318010277546872
+101,OK,Oklahoma,Winter,Turkey Vulture,706.0,6.559615237493242
+102,OR,Oregon,Winter,Turkey Vulture,1300.0,7.170119543449628
+103,PW,Palau,Winter,Turkey Vulture,1.0,0.0
+104,PA,Pennsylvania,Winter,Turkey Vulture,7827.0,8.965334573804839
+105,PR,Puerto Rico,Winter,Turkey Vulture,1.0,0.0
+106,RI,Rhode Island,Winter,Turkey Vulture,217.0,5.37989735354046
+107,SC,South Carolina,Winter,Turkey Vulture,5675.0,8.643825842349603
+108,SD,South Dakota,Winter,Turkey Vulture,1.0,0.0
+109,TN,Tennessee,Winter,Turkey Vulture,2770.0,7.926602599181384
+110,TX,Texas,Winter,Turkey Vulture,27065.0,10.205996659231078
+111,UT,Utah,Winter,Turkey Vulture,131.0,4.875197323201151
+112,VT,Vermont,Winter,Turkey Vulture,169.0,5.1298987149230735
+113,VI,Virgin Islands,Winter,Turkey Vulture,1.0,0.0
+114,VA,Virginia,Winter,Turkey Vulture,10543.0,9.26321741157695
+115,WA,Washington,Winter,Turkey Vulture,260.0,5.560681631015528
+116,WV,West Virginia,Winter,Turkey Vulture,819.0,6.70808408385307
+117,WI,Wisconsin,Winter,Turkey Vulture,437.0,6.07993319509559
+118,WY,Wyoming,Winter,Turkey Vulture,1.0,0.0
+119,1,District of Columbia,Winter,Turkey Vulture,299.0,5.700443573390687
+120,AL,Alabama,Spring,Turkey Vulture,1984.0,7.592870287844818
+121,AK,Alaska,Spring,Turkey Vulture,1.0,0.0
+122,AS,American Samoa,Spring,Turkey Vulture,1.0,0.0
+123,AZ,Arizona,Spring,Turkey Vulture,16779.0,9.727883383489697
+124,AR,Arkansas,Spring,Turkey Vulture,2065.0,7.632885505395133
+125,CA,California,Spring,Turkey Vulture,32668.0,10.394151284478166
+126,CO,Colorado,Spring,Turkey Vulture,7986.0,8.985445287623167
+127,CT,Connecticut,Spring,Turkey Vulture,3842.0,8.253748343328501
+128,DE,Delaware,Spring,Turkey Vulture,3385.0,8.127109185346375
+129,DC,District Of Columbia,Spring,Turkey Vulture,1.0,0.0
+130,FM,Federated States Of Micronesia,Spring,Turkey Vulture,1.0,0.0
+131,FL,Florida,Spring,Turkey Vulture,15967.0,9.678279371339702
+132,GA,Georgia,Spring,Turkey Vulture,5660.0,8.641179171197228
+133,GU,Guam,Spring,Turkey Vulture,1.0,0.0
+134,HI,Hawaii,Spring,Turkey Vulture,1.0,0.0
+135,ID,Idaho,Spring,Turkey Vulture,1489.0,7.305860032684009
+136,IL,Illinois,Spring,Turkey Vulture,8731.0,9.074635189810808
+137,IN,Indiana,Spring,Turkey Vulture,7900.0,8.974618038455112
+138,IA,Iowa,Spring,Turkey Vulture,3469.0,8.15162164696975
+139,KS,Kansas,Spring,Turkey Vulture,6219.0,8.735364401103888
+140,KY,Kentucky,Spring,Turkey Vulture,3670.0,8.207946941048617
+141,LA,Louisiana,Spring,Turkey Vulture,1760.0,7.473069088032197
+142,ME,Maine,Spring,Turkey Vulture,2838.0,7.950854857719988
+143,MH,Marshall Islands,Spring,Turkey Vulture,1.0,0.0
+144,MD,Maryland,Spring,Turkey Vulture,13157.0,9.484709215365838
+145,MA,Massachusetts,Spring,Turkey Vulture,5666.0,8.642238680390461
+146,MI,Michigan,Spring,Turkey Vulture,15438.0,9.6445872815098
+147,MN,Minnesota,Spring,Turkey Vulture,4865.0,8.489821994620105
+148,MS,Mississippi,Spring,Turkey Vulture,1643.0,7.404279118037268
+149,MO,Missouri,Spring,Turkey Vulture,7978.0,8.984443032465352
+150,MT,Montana,Spring,Turkey Vulture,1501.0,7.313886831633462
+151,NE,Nebraska,Spring,Turkey Vulture,1747.0,7.465655310134056
+152,NV,Nevada,Spring,Turkey Vulture,1114.0,7.01571242048723
+153,NH,New Hampshire,Spring,Turkey Vulture,1796.0,7.493317248862145
+154,NJ,New Jersey,Spring,Turkey Vulture,12758.0,9.4539138048019
+155,NM,New Mexico,Spring,Turkey Vulture,4162.0,8.33375100695358
+156,NY,New York,Spring,Turkey Vulture,16296.0,9.698674957906642
+157,NC,North Carolina,Spring,Turkey Vulture,8114.0,9.001346243766392
+158,ND,North Dakota,Spring,Turkey Vulture,581.0,6.364750756851911
+159,MP,Northern Mariana Islands,Spring,Turkey Vulture,1.0,0.0
+160,OH,Ohio,Spring,Turkey Vulture,22944.0,10.040811743399347
+161,OK,Oklahoma,Spring,Turkey Vulture,3016.0,8.011686729127847
+162,OR,Oregon,Spring,Turkey Vulture,11485.0,9.3487971151232
+163,PW,Palau,Spring,Turkey Vulture,1.0,0.0
+164,PA,Pennsylvania,Spring,Turkey Vulture,17619.0,9.77673314419063
+165,PR,Puerto Rico,Spring,Turkey Vulture,1.0,0.0
+166,RI,Rhode Island,Spring,Turkey Vulture,488.0,6.1903154058531475
+167,SC,South Carolina,Spring,Turkey Vulture,4889.0,8.494743062578646
+168,SD,South Dakota,Spring,Turkey Vulture,986.0,6.893656354602635
+169,TN,Tennessee,Spring,Turkey Vulture,4759.0,8.46779284112111
+170,TX,Texas,Spring,Turkey Vulture,31422.0,10.355263563507542
+171,UT,Utah,Spring,Turkey Vulture,3084.0,8.03398273468322
+172,VT,Vermont,Spring,Turkey Vulture,3090.0,8.035926369891792
+173,VI,Virgin Islands,Spring,Turkey Vulture,1.0,0.0
+174,VA,Virginia,Spring,Turkey Vulture,14464.0,9.579418082631959
+175,WA,Washington,Spring,Turkey Vulture,5891.0,8.681181041521688
+176,WV,West Virginia,Spring,Turkey Vulture,2246.0,7.716906135298388
+177,WI,Wisconsin,Spring,Turkey Vulture,8501.0,9.04793908261736
+178,WY,Wyoming,Spring,Turkey Vulture,1060.0,6.966024187106113
+179,1,District of Columbia,Spring,Turkey Vulture,585.0,6.371611847231857
+180,AL,Alabama,Summer,Turkey Vulture,1028.0,6.93537044601511
+181,AK,Alaska,Summer,Turkey Vulture,1.0,0.0
+182,AS,American Samoa,Summer,Turkey Vulture,1.0,0.0
+183,AZ,Arizona,Summer,Turkey Vulture,13017.0,9.47401147446646
+184,AR,Arkansas,Summer,Turkey Vulture,1157.0,7.053585727193677
+185,CA,California,Summer,Turkey Vulture,24117.0,10.090672264996071
+186,CO,Colorado,Summer,Turkey Vulture,6384.0,8.761550139129644
+187,CT,Connecticut,Summer,Turkey Vulture,1401.0,7.244941546337007
+188,DE,Delaware,Summer,Turkey Vulture,1909.0,7.554334823725748
+189,DC,District Of Columbia,Summer,Turkey Vulture,1.0,0.0
+190,FM,Federated States Of Micronesia,Summer,Turkey Vulture,1.0,0.0
+191,FL,Florida,Summer,Turkey Vulture,6380.0,8.760923376338836
+192,GA,Georgia,Summer,Turkey Vulture,3012.0,8.010359588919783
+193,GU,Guam,Summer,Turkey Vulture,1.0,0.0
+194,HI,Hawaii,Summer,Turkey Vulture,1.0,0.0
+195,ID,Idaho,Summer,Turkey Vulture,1218.0,7.1049654482698426
+196,IL,Illinois,Summer,Turkey Vulture,3745.0,8.22817689595132
+197,IN,Indiana,Summer,Turkey Vulture,3209.0,8.073714641109857
+198,IA,Iowa,Summer,Turkey Vulture,1723.0,7.45182223652793
+199,KS,Kansas,Summer,Turkey Vulture,2817.0,7.943427767876373
+200,KY,Kentucky,Summer,Turkey Vulture,1904.0,7.55171221535131
+201,LA,Louisiana,Summer,Turkey Vulture,750.0,6.620073206530356
+202,ME,Maine,Summer,Turkey Vulture,1737.0,7.459914766241105
+203,MH,Marshall Islands,Summer,Turkey Vulture,1.0,0.0
+204,MD,Maryland,Summer,Turkey Vulture,6253.0,8.740816627567298
+205,MA,Massachusetts,Summer,Turkey Vulture,2577.0,7.854381210652365
+206,MI,Michigan,Summer,Turkey Vulture,6911.0,8.840869624091395
+207,MN,Minnesota,Summer,Turkey Vulture,2821.0,7.944846711001996
+208,MS,Mississippi,Summer,Turkey Vulture,663.0,6.4967749901858625
+209,MO,Missouri,Summer,Turkey Vulture,3466.0,8.150756470275551
+210,MT,Montana,Summer,Turkey Vulture,1324.0,7.188412736496954
+211,NE,Nebraska,Summer,Turkey Vulture,1056.0,6.962243464266207
+212,NV,Nevada,Summer,Turkey Vulture,823.0,6.71295620067707
+213,NH,New Hampshire,Summer,Turkey Vulture,1249.0,7.130098510125578
+214,NJ,New Jersey,Summer,Turkey Vulture,4667.0,8.448271745949816
+215,NM,New Mexico,Summer,Turkey Vulture,3193.0,8.068716192714781
+216,NY,New York,Summer,Turkey Vulture,6915.0,8.841448244098858
+217,NC,North Carolina,Summer,Turkey Vulture,3851.0,8.25608813381491
+218,ND,North Dakota,Summer,Turkey Vulture,447.0,6.102558594613569
+219,MP,Northern Mariana Islands,Summer,Turkey Vulture,1.0,0.0
+220,OH,Ohio,Summer,Turkey Vulture,8219.0,9.0142038261485
+221,OK,Oklahoma,Summer,Turkey Vulture,1205.0,7.094234845924755
+222,OR,Oregon,Summer,Turkey Vulture,8751.0,9.076923258535832
+223,PW,Palau,Summer,Turkey Vulture,1.0,0.0
+224,PA,Pennsylvania,Summer,Turkey Vulture,7812.0,8.96341629199657
+225,PR,Puerto Rico,Summer,Turkey Vulture,1.0,0.0
+226,RI,Rhode Island,Summer,Turkey Vulture,260.0,5.560681631015528
+227,SC,South Carolina,Summer,Turkey Vulture,2870.0,7.962067308753666
+228,SD,South Dakota,Summer,Turkey Vulture,721.0,6.580639137284949
+229,TN,Tennessee,Summer,Turkey Vulture,2340.0,7.757906208351747
+230,TX,Texas,Summer,Turkey Vulture,12122.0,9.402777262511231
+231,UT,Utah,Summer,Turkey Vulture,1791.0,7.490529402060711
+232,VT,Vermont,Summer,Turkey Vulture,1573.0,7.360739903058278
+233,VI,Virgin Islands,Summer,Turkey Vulture,1.0,0.0
+234,VA,Virginia,Summer,Turkey Vulture,7301.0,8.895766604056085
+235,WA,Washington,Summer,Turkey Vulture,3891.0,8.266421472984554
+236,WV,West Virginia,Summer,Turkey Vulture,1379.0,7.229113877793302
+237,WI,Wisconsin,Summer,Turkey Vulture,3809.0,8.245121966478605
+238,WY,Wyoming,Summer,Turkey Vulture,1095.0,6.9985096422506015
+239,DC,District of Columbia,Summer,Turkey Vulture,131.0,4.875197323201151
+240,AL,Alabama,Fall,Baltimore Oriole,122.0,4.804021044733257
+241,AK,Alaska,Fall,Baltimore Oriole,1.0,0.0
+242,AS,American Samoa,Fall,Baltimore Oriole,1.0,0.0
+243,AZ,Arizona,Fall,Baltimore Oriole,1.0,0.0
+244,AR,Arkansas,Fall,Baltimore Oriole,1.0,0.0
+245,CA,California,Fall,Baltimore Oriole,20.0,2.995732273553991
+246,CO,Colorado,Fall,Baltimore Oriole,1.0,0.0
+247,CT,Connecticut,Fall,Baltimore Oriole,67.0,4.204692619390966
+248,DE,Delaware,Fall,Baltimore Oriole,9.0,2.1972245773362196
+249,DC,District Of Columbia,Fall,Baltimore Oriole,1.0,0.0
+250,FM,Federated States Of Micronesia,Fall,Baltimore Oriole,1.0,0.0
+251,FL,Florida,Fall,Baltimore Oriole,826.0,6.716594773520978
+252,GA,Georgia,Fall,Baltimore Oriole,180.0,5.19295685089021
+253,GU,Guam,Fall,Baltimore Oriole,1.0,0.0
+254,HI,Hawaii,Fall,Baltimore Oriole,1.0,0.0
+255,ID,Idaho,Fall,Baltimore Oriole,1.0,0.0
+256,IL,Illinois,Fall,Baltimore Oriole,2.0,0.6931471805599453
+257,IN,Indiana,Fall,Baltimore Oriole,6.0,1.791759469228055
+258,IA,Iowa,Fall,Baltimore Oriole,2.0,0.6931471805599453
+259,KS,Kansas,Fall,Baltimore Oriole,3.0,1.0986122886681098
+260,KY,Kentucky,Fall,Baltimore Oriole,4.0,1.3862943611198906
+261,LA,Louisiana,Fall,Baltimore Oriole,25.0,3.2188758248682006
+262,ME,Maine,Fall,Baltimore Oriole,171.0,5.14166355650266
+263,MH,Marshall Islands,Fall,Baltimore Oriole,1.0,0.0
+264,MD,Maryland,Fall,Baltimore Oriole,53.0,3.970291913552122
+265,MA,Massachusetts,Fall,Baltimore Oriole,298.0,5.697093486505405
+266,MI,Michigan,Fall,Baltimore Oriole,31.0,3.4339872044851463
+267,MN,Minnesota,Fall,Baltimore Oriole,14.0,2.6390573296152584
+268,MS,Mississippi,Fall,Baltimore Oriole,8.0,2.0794415416798357
+269,MO,Missouri,Fall,Baltimore Oriole,13.0,2.5649493574615367
+270,MT,Montana,Fall,Baltimore Oriole,1.0,0.0
+271,NE,Nebraska,Fall,Baltimore Oriole,1.0,0.0
+272,NV,Nevada,Fall,Baltimore Oriole,1.0,0.0
+273,NH,New Hampshire,Fall,Baltimore Oriole,42.0,3.7376696182833684
+274,NJ,New Jersey,Fall,Baltimore Oriole,345.0,5.84354441703136
+275,NM,New Mexico,Fall,Baltimore Oriole,1.0,0.0
+276,NY,New York,Fall,Baltimore Oriole,213.0,5.3612921657094255
+277,NC,North Carolina,Fall,Baltimore Oriole,314.0,5.749392985908253
+278,ND,North Dakota,Fall,Baltimore Oriole,1.0,0.0
+279,MP,Northern Mariana Islands,Fall,Baltimore Oriole,1.0,0.0
+280,OH,Ohio,Fall,Baltimore Oriole,12.0,2.4849066497880004
+281,OK,Oklahoma,Fall,Baltimore Oriole,5.0,1.6094379124341003
+282,OR,Oregon,Fall,Baltimore Oriole,1.0,0.0
+283,PW,Palau,Fall,Baltimore Oriole,1.0,0.0
+284,PA,Pennsylvania,Fall,Baltimore Oriole,50.0,3.912023005428146
+285,PR,Puerto Rico,Fall,Baltimore Oriole,1.0,0.0
+286,RI,Rhode Island,Fall,Baltimore Oriole,48.0,3.871201010907891
+287,SC,South Carolina,Fall,Baltimore Oriole,190.0,5.247024072160486
+288,SD,South Dakota,Fall,Baltimore Oriole,5.0,1.6094379124341003
+289,TN,Tennessee,Fall,Baltimore Oriole,38.0,3.6375861597263857
+290,TX,Texas,Fall,Baltimore Oriole,474.0,6.161207321695077
+291,UT,Utah,Fall,Baltimore Oriole,1.0,0.0
+292,VT,Vermont,Fall,Baltimore Oriole,3.0,1.0986122886681098
+293,VI,Virgin Islands,Fall,Baltimore Oriole,1.0,0.0
+294,VA,Virginia,Fall,Baltimore Oriole,211.0,5.351858133476067
+295,WA,Washington,Fall,Baltimore Oriole,1.0,0.0
+296,WV,West Virginia,Fall,Baltimore Oriole,5.0,1.6094379124341003
+297,WI,Wisconsin,Fall,Baltimore Oriole,15.0,2.70805020110221
+298,WY,Wyoming,Fall,Baltimore Oriole,1.0,0.0
+299,2,District of Columbia,Fall,Baltimore Oriole,9.0,2.1972245773362196
+300,AL,Alabama,Winter,Baltimore Oriole,225.0,5.41610040220442
+301,AK,Alaska,Winter,Baltimore Oriole,1.0,0.0
+302,AS,American Samoa,Winter,Baltimore Oriole,1.0,0.0
+303,AZ,Arizona,Winter,Baltimore Oriole,23.0,3.1354942159291497
+304,AR,Arkansas,Winter,Baltimore Oriole,3.0,1.0986122886681098
+305,CA,California,Winter,Baltimore Oriole,106.0,4.663439094112067
+306,CO,Colorado,Winter,Baltimore Oriole,1.0,0.0
+307,CT,Connecticut,Winter,Baltimore Oriole,4.0,1.3862943611198906
+308,DE,Delaware,Winter,Baltimore Oriole,1.0,0.0
+309,DC,District Of Columbia,Winter,Baltimore Oriole,1.0,0.0
+310,FM,Federated States Of Micronesia,Winter,Baltimore Oriole,1.0,0.0
+311,FL,Florida,Winter,Baltimore Oriole,1203.0,7.0925737159746784
+312,GA,Georgia,Winter,Baltimore Oriole,493.0,6.20050917404269
+313,GU,Guam,Winter,Baltimore Oriole,1.0,0.0
+314,HI,Hawaii,Winter,Baltimore Oriole,1.0,0.0
+315,ID,Idaho,Winter,Baltimore Oriole,1.0,0.0
+316,IL,Illinois,Winter,Baltimore Oriole,1.0,0.0
+317,IN,Indiana,Winter,Baltimore Oriole,1.0,0.0
+318,IA,Iowa,Winter,Baltimore Oriole,1.0,0.0
+319,KS,Kansas,Winter,Baltimore Oriole,1.0,0.0
+320,KY,Kentucky,Winter,Baltimore Oriole,1.0,0.0
+321,LA,Louisiana,Winter,Baltimore Oriole,43.0,3.7612001156935624
+322,ME,Maine,Winter,Baltimore Oriole,8.0,2.0794415416798357
+323,MH,Marshall Islands,Winter,Baltimore Oriole,1.0,0.0
+324,MD,Maryland,Winter,Baltimore Oriole,17.0,2.833213344056216
+325,MA,Massachusetts,Winter,Baltimore Oriole,48.0,3.871201010907891
+326,MI,Michigan,Winter,Baltimore Oriole,1.0,0.0
+327,MN,Minnesota,Winter,Baltimore Oriole,1.0,0.0
+328,MS,Mississippi,Winter,Baltimore Oriole,4.0,1.3862943611198906
+329,MO,Missouri,Winter,Baltimore Oriole,1.0,0.0
+330,MT,Montana,Winter,Baltimore Oriole,1.0,0.0
+331,NE,Nebraska,Winter,Baltimore Oriole,1.0,0.0
+332,NV,Nevada,Winter,Baltimore Oriole,1.0,0.0
+333,NH,New Hampshire,Winter,Baltimore Oriole,1.0,0.0
+334,NJ,New Jersey,Winter,Baltimore Oriole,29.0,3.367295829986474
+335,NM,New Mexico,Winter,Baltimore Oriole,1.0,0.0
+336,NY,New York,Winter,Baltimore Oriole,21.0,3.044522437723423
+337,NC,North Carolina,Winter,Baltimore Oriole,279.0,5.631211781821365
+338,ND,North Dakota,Winter,Baltimore Oriole,1.0,0.0
+339,MP,Northern Mariana Islands,Winter,Baltimore Oriole,1.0,0.0
+340,OH,Ohio,Winter,Baltimore Oriole,2.0,0.6931471805599453
+341,OK,Oklahoma,Winter,Baltimore Oriole,1.0,0.0
+342,OR,Oregon,Winter,Baltimore Oriole,1.0,0.0
+343,PW,Palau,Winter,Baltimore Oriole,1.0,0.0
+344,PA,Pennsylvania,Winter,Baltimore Oriole,1.0,0.0
+345,PR,Puerto Rico,Winter,Baltimore Oriole,1.0,0.0
+346,RI,Rhode Island,Winter,Baltimore Oriole,3.0,1.0986122886681098
+347,SC,South Carolina,Winter,Baltimore Oriole,460.0,6.131226489483141
+348,SD,South Dakota,Winter,Baltimore Oriole,1.0,0.0
+349,TN,Tennessee,Winter,Baltimore Oriole,5.0,1.6094379124341003
+350,TX,Texas,Winter,Baltimore Oriole,23.0,3.1354942159291497
+351,UT,Utah,Winter,Baltimore Oriole,1.0,0.0
+352,VT,Vermont,Winter,Baltimore Oriole,1.0,0.0
+353,VI,Virgin Islands,Winter,Baltimore Oriole,1.0,0.0
+354,VA,Virginia,Winter,Baltimore Oriole,141.0,4.948759890378168
+355,WA,Washington,Winter,Baltimore Oriole,1.0,0.0
+356,WV,West Virginia,Winter,Baltimore Oriole,1.0,0.0
+357,WI,Wisconsin,Winter,Baltimore Oriole,1.0,0.0
+358,WY,Wyoming,Winter,Baltimore Oriole,1.0,0.0
+359,1,District of Columbia,Winter,Baltimore Oriole,1.0,0.0
+360,AL,Alabama,Spring,Baltimore Oriole,261.0,5.564520407322694
+361,AK,Alaska,Spring,Baltimore Oriole,1.0,0.0
+362,AS,American Samoa,Spring,Baltimore Oriole,1.0,0.0
+363,AZ,Arizona,Spring,Baltimore Oriole,20.0,2.995732273553991
+364,AR,Arkansas,Spring,Baltimore Oriole,846.0,6.740519359606223
+365,CA,California,Spring,Baltimore Oriole,85.0,4.442651256490317
+366,CO,Colorado,Spring,Baltimore Oriole,155.0,5.043425116919247
+367,CT,Connecticut,Spring,Baltimore Oriole,5691.0,8.646641258603124
+368,DE,Delaware,Spring,Baltimore Oriole,533.0,6.278521424165844
+369,DC,District Of Columbia,Spring,Baltimore Oriole,1.0,0.0
+370,FM,Federated States Of Micronesia,Spring,Baltimore Oriole,1.0,0.0
+371,FL,Florida,Spring,Baltimore Oriole,951.0,6.85751406254539
+372,GA,Georgia,Spring,Baltimore Oriole,246.0,5.5053315359323625
+373,GU,Guam,Spring,Baltimore Oriole,1.0,0.0
+374,HI,Hawaii,Spring,Baltimore Oriole,1.0,0.0
+375,ID,Idaho,Spring,Baltimore Oriole,1.0,0.0
+376,IL,Illinois,Spring,Baltimore Oriole,9053.0,9.11085147347544
+377,IN,Indiana,Spring,Baltimore Oriole,4425.0,8.39502555744203
+378,IA,Iowa,Spring,Baltimore Oriole,2356.0,7.764720544771477
+379,KS,Kansas,Spring,Baltimore Oriole,3725.0,8.22282213081366
+380,KY,Kentucky,Spring,Baltimore Oriole,942.0,6.848005274576363
+381,LA,Louisiana,Spring,Baltimore Oriole,901.0,6.803505257608338
+382,ME,Maine,Spring,Baltimore Oriole,2295.0,7.738488122494646
+383,MH,Marshall Islands,Spring,Baltimore Oriole,1.0,0.0
+384,MD,Maryland,Spring,Baltimore Oriole,3350.0,8.116715624819111
+385,MA,Massachusetts,Spring,Baltimore Oriole,11724.0,9.369393301830783
+386,MI,Michigan,Spring,Baltimore Oriole,13091.0,9.479680250180099
+387,MN,Minnesota,Spring,Baltimore Oriole,5382.0,8.590815331286851
+388,MS,Mississippi,Spring,Baltimore Oriole,225.0,5.41610040220442
+389,MO,Missouri,Spring,Baltimore Oriole,2708.0,7.903965634032166
+390,MT,Montana,Spring,Baltimore Oriole,226.0,5.420534999272286
+391,NE,Nebraska,Spring,Baltimore Oriole,1428.0,7.2640301428995295
+392,NV,Nevada,Spring,Baltimore Oriole,1.0,0.0
+393,NH,New Hampshire,Spring,Baltimore Oriole,1670.0,7.4205789054108005
+394,NJ,New Jersey,Spring,Baltimore Oriole,5490.0,8.610683534503575
+395,NM,New Mexico,Spring,Baltimore Oriole,3.0,1.0986122886681098
+396,NY,New York,Spring,Baltimore Oriole,18710.0,9.836813419268136
+397,NC,North Carolina,Spring,Baltimore Oriole,513.0,6.240275845170769
+398,ND,North Dakota,Spring,Baltimore Oriole,621.0,6.431331081933479
+399,MP,Northern Mariana Islands,Spring,Baltimore Oriole,1.0,0.0
+400,OH,Ohio,Spring,Baltimore Oriole,16362.0,9.702716852073644
+401,OK,Oklahoma,Spring,Baltimore Oriole,752.0,6.62273632394984
+402,OR,Oregon,Spring,Baltimore Oriole,1.0,0.0
+403,PW,Palau,Spring,Baltimore Oriole,1.0,0.0
+404,PA,Pennsylvania,Spring,Baltimore Oriole,11633.0,9.361601165816767
+405,PR,Puerto Rico,Spring,Baltimore Oriole,1.0,0.0
+406,RI,Rhode Island,Spring,Baltimore Oriole,686.0,6.530877627725885
+407,SC,South Carolina,Spring,Baltimore Oriole,115.0,4.74493212836325
+408,SD,South Dakota,Spring,Baltimore Oriole,481.0,6.175867270105761
+409,TN,Tennessee,Spring,Baltimore Oriole,760.0,6.633318433280377
+410,TX,Texas,Spring,Baltimore Oriole,6655.0,8.803123730829212
+411,UT,Utah,Spring,Baltimore Oriole,1.0,0.0
+412,VT,Vermont,Spring,Baltimore Oriole,2102.0,7.650644551436897
+413,VI,Virgin Islands,Spring,Baltimore Oriole,1.0,0.0
+414,VA,Virginia,Spring,Baltimore Oriole,2473.0,7.813187267521416
+415,WA,Washington,Spring,Baltimore Oriole,1.0,0.0
+416,WV,West Virginia,Spring,Baltimore Oriole,693.0,6.541029999189903
+417,WI,Wisconsin,Spring,Baltimore Oriole,10376.0,9.24725072599628
+418,WY,Wyoming,Spring,Baltimore Oriole,2.0,0.6931471805599453
+419,1,District of Columbia,Spring,Baltimore Oriole,517.0,6.248042874508429
+420,AL,Alabama,Summer,Baltimore Oriole,73.0,4.290459441148391
+421,AK,Alaska,Summer,Baltimore Oriole,1.0,0.0
+422,AS,American Samoa,Summer,Baltimore Oriole,1.0,0.0
+423,AZ,Arizona,Summer,Baltimore Oriole,5.0,1.6094379124341003
+424,AR,Arkansas,Summer,Baltimore Oriole,96.0,4.564348191467836
+425,CA,California,Summer,Baltimore Oriole,6.0,1.791759469228055
+426,CO,Colorado,Summer,Baltimore Oriole,110.0,4.700480365792417
+427,CT,Connecticut,Summer,Baltimore Oriole,958.0,6.86484777797086
+428,DE,Delaware,Summer,Baltimore Oriole,177.0,5.176149732573829
+429,DC,District Of Columbia,Summer,Baltimore Oriole,1.0,0.0
+430,FM,Federated States Of Micronesia,Summer,Baltimore Oriole,1.0,0.0
+431,FL,Florida,Summer,Baltimore Oriole,225.0,5.41610040220442
+432,GA,Georgia,Summer,Baltimore Oriole,88.0,4.477336814478207
+433,GU,Guam,Summer,Baltimore Oriole,1.0,0.0
+434,HI,Hawaii,Summer,Baltimore Oriole,1.0,0.0
+435,ID,Idaho,Summer,Baltimore Oriole,1.0,0.0
+436,IL,Illinois,Summer,Baltimore Oriole,2035.0,7.618251097876695
+437,IN,Indiana,Summer,Baltimore Oriole,850.0,6.745236349484363
+438,IA,Iowa,Summer,Baltimore Oriole,793.0,6.675823221634848
+439,KS,Kansas,Summer,Baltimore Oriole,1277.0,7.152268856032539
+440,KY,Kentucky,Summer,Baltimore Oriole,203.0,5.313205979041787
+441,LA,Louisiana,Summer,Baltimore Oriole,64.0,4.1588830833596715
+442,ME,Maine,Summer,Baltimore Oriole,599.0,6.395261598115449
+443,MH,Marshall Islands,Summer,Baltimore Oriole,1.0,0.0
+444,MD,Maryland,Summer,Baltimore Oriole,942.0,6.848005274576363
+445,MA,Massachusetts,Summer,Baltimore Oriole,3004.0,8.007700012884026
+446,MI,Michigan,Summer,Baltimore Oriole,3188.0,8.067149039910106
+447,MN,Minnesota,Summer,Baltimore Oriole,2131.0,7.664346632098617
+448,MS,Mississippi,Summer,Baltimore Oriole,27.0,3.295836866004329
+449,MO,Missouri,Summer,Baltimore Oriole,567.0,6.340359303727752
+450,MT,Montana,Summer,Baltimore Oriole,26.0,3.258096538021482
+451,NE,Nebraska,Summer,Baltimore Oriole,593.0,6.385194398997726
+452,NV,Nevada,Summer,Baltimore Oriole,1.0,0.0
+453,NH,New Hampshire,Summer,Baltimore Oriole,406.0,6.0063531596017325
+454,NJ,New Jersey,Summer,Baltimore Oriole,1343.0,7.202661196523238
+455,NM,New Mexico,Summer,Baltimore Oriole,1.0,0.0
+456,NY,New York,Summer,Baltimore Oriole,4368.0,8.38206051742474
+457,NC,North Carolina,Summer,Baltimore Oriole,187.0,5.231108616854587
+458,ND,North Dakota,Summer,Baltimore Oriole,306.0,5.723585101952381
+459,MP,Northern Mariana Islands,Summer,Baltimore Oriole,1.0,0.0
+460,OH,Ohio,Summer,Baltimore Oriole,2253.0,7.720017940432244
+461,OK,Oklahoma,Summer,Baltimore Oriole,189.0,5.241747015059643
+462,OR,Oregon,Summer,Baltimore Oriole,1.0,0.0
+463,PW,Palau,Summer,Baltimore Oriole,1.0,0.0
+464,PA,Pennsylvania,Summer,Baltimore Oriole,2556.0,7.846198815497425
+465,PR,Puerto Rico,Summer,Baltimore Oriole,1.0,0.0
+466,RI,Rhode Island,Summer,Baltimore Oriole,175.0,5.1647859739235145
+467,SC,South Carolina,Summer,Baltimore Oriole,60.0,4.0943445622221
+468,SD,South Dakota,Summer,Baltimore Oriole,206.0,5.327876168789581
+469,TN,Tennessee,Summer,Baltimore Oriole,169.0,5.1298987149230735
+470,TX,Texas,Summer,Baltimore Oriole,956.0,6.862757913051401
+471,UT,Utah,Summer,Baltimore Oriole,5.0,1.6094379124341003
+472,VT,Vermont,Summer,Baltimore Oriole,424.0,6.049733455231958
+473,VI,Virgin Islands,Summer,Baltimore Oriole,1.0,0.0
+474,VA,Virginia,Summer,Baltimore Oriole,643.0,6.466144724237619
+475,WA,Washington,Summer,Baltimore Oriole,1.0,0.0
+476,WV,West Virginia,Summer,Baltimore Oriole,124.0,4.820281565605037
+477,WI,Wisconsin,Summer,Baltimore Oriole,3242.0,8.08394570229562
+478,WY,Wyoming,Summer,Baltimore Oriole,1.0,0.0
+479,DC,District of Columbia,Summer,Baltimore Oriole,139.0,4.9344739331306915
+480,AL,Alabama,Fall,Bald Eagle,563.0,6.333279628139691
+481,AK,Alaska,Fall,Bald Eagle,1373.0,7.224753405767971
+482,AS,American Samoa,Fall,Bald Eagle,1.0,0.0
+483,AZ,Arizona,Fall,Bald Eagle,583.0,6.368187186350492
+484,AR,Arkansas,Fall,Bald Eagle,625.0,6.437751649736401
+485,CA,California,Fall,Bald Eagle,2092.0,7.645875825184813
+486,CO,Colorado,Fall,Bald Eagle,3094.0,8.037220031133012
+487,CT,Connecticut,Fall,Bald Eagle,960.0,6.866933284461882
+488,DE,Delaware,Fall,Bald Eagle,1389.0,7.236339342754344
+489,DC,District Of Columbia,Fall,Bald Eagle,1.0,0.0
+490,FM,Federated States Of Micronesia,Fall,Bald Eagle,1.0,0.0
+491,FL,Florida,Fall,Bald Eagle,7168.0,8.877381954654766
+492,GA,Georgia,Fall,Bald Eagle,1099.0,7.002155954403621
+493,GU,Guam,Fall,Bald Eagle,1.0,0.0
+494,HI,Hawaii,Fall,Bald Eagle,1.0,0.0
+495,ID,Idaho,Fall,Bald Eagle,622.0,6.432940092739179
+496,IL,Illinois,Fall,Bald Eagle,2342.0,7.758760544157663
+497,IN,Indiana,Fall,Bald Eagle,1585.0,7.368339686311381
+498,IA,Iowa,Fall,Bald Eagle,1185.0,7.077498053569231
+499,KS,Kansas,Fall,Bald Eagle,1046.0,6.952728644624869
+500,KY,Kentucky,Fall,Bald Eagle,677.0,6.517671272912275
+501,LA,Louisiana,Fall,Bald Eagle,1009.0,6.9167150203536085
+502,ME,Maine,Fall,Bald Eagle,1742.0,7.462789157412448
+503,MH,Marshall Islands,Fall,Bald Eagle,1.0,0.0
+504,MD,Maryland,Fall,Bald Eagle,5086.0,8.534246945982066
+505,MA,Massachusetts,Fall,Bald Eagle,1531.0,7.333676395657684
+506,MI,Michigan,Fall,Bald Eagle,3247.0,8.085486772102845
+507,MN,Minnesota,Fall,Bald Eagle,4553.0,8.423541635334782
+508,MS,Mississippi,Fall,Bald Eagle,628.0,6.4425401664681985
+509,MO,Missouri,Fall,Bald Eagle,1809.0,7.500529485395295
+510,MT,Montana,Fall,Bald Eagle,1678.0,7.425357887027151
+511,NE,Nebraska,Fall,Bald Eagle,623.0,6.434546518787453
+512,NV,Nevada,Fall,Bald Eagle,82.0,4.406719247264253
+513,NH,New Hampshire,Fall,Bald Eagle,652.0,6.480044561926653
+514,NJ,New Jersey,Fall,Bald Eagle,4306.0,8.367764677924308
+515,NM,New Mexico,Fall,Bald Eagle,638.0,6.45833828334479
+516,NY,New York,Fall,Bald Eagle,4521.0,8.416488487294606
+517,NC,North Carolina,Fall,Bald Eagle,1418.0,7.257002707092073
+518,ND,North Dakota,Fall,Bald Eagle,568.0,6.342121418721152
+519,MP,Northern Mariana Islands,Fall,Bald Eagle,1.0,0.0
+520,OH,Ohio,Fall,Bald Eagle,3828.0,8.250097752572845
+521,OK,Oklahoma,Fall,Bald Eagle,321.0,5.771441123130016
+522,OR,Oregon,Fall,Bald Eagle,3738.0,8.226305988015508
+523,PW,Palau,Fall,Bald Eagle,1.0,0.0
+524,PA,Pennsylvania,Fall,Bald Eagle,4238.0,8.351846738828245
+525,PR,Puerto Rico,Fall,Bald Eagle,1.0,0.0
+526,RI,Rhode Island,Fall,Bald Eagle,74.0,4.30406509320417
+527,SC,South Carolina,Fall,Bald Eagle,1555.0,7.349230824613334
+528,SD,South Dakota,Fall,Bald Eagle,257.0,5.54907608489522
+529,TN,Tennessee,Fall,Bald Eagle,1132.0,7.0317412587631285
+530,TX,Texas,Fall,Bald Eagle,1492.0,7.307872780763706
+531,UT,Utah,Fall,Bald Eagle,507.0,6.2285110035911835
+532,VT,Vermont,Fall,Bald Eagle,713.0,6.569481420414296
+533,VI,Virgin Islands,Fall,Bald Eagle,1.0,0.0
+534,VA,Virginia,Fall,Bald Eagle,5110.0,8.53895468319775
+535,WA,Washington,Fall,Bald Eagle,7777.0,8.958925938694943
+536,WV,West Virginia,Fall,Bald Eagle,344.0,5.840641657373398
+537,WI,Wisconsin,Fall,Bald Eagle,2520.0,7.832014180505469
+538,WY,Wyoming,Fall,Bald Eagle,453.0,6.115892125483034
+539,2,District of Columbia,Fall,Bald Eagle,334.0,5.811140992976701
+540,AL,Alabama,Winter,Bald Eagle,781.0,6.660575149839686
+541,AK,Alaska,Winter,Bald Eagle,1524.0,7.329093736246592
+542,AS,American Samoa,Winter,Bald Eagle,1.0,0.0
+543,AZ,Arizona,Winter,Bald Eagle,956.0,6.862757913051401
+544,AR,Arkansas,Winter,Bald Eagle,537.0,6.285998094508865
+545,CA,California,Winter,Bald Eagle,3848.0,8.255308811785596
+546,CO,Colorado,Winter,Bald Eagle,4300.0,8.366370301681654
+547,CT,Connecticut,Winter,Bald Eagle,1088.0,6.992096427415888
+548,DE,Delaware,Winter,Bald Eagle,1523.0,7.328437352895162
+549,DC,District Of Columbia,Winter,Bald Eagle,1.0,0.0
+550,FM,Federated States Of Micronesia,Winter,Bald Eagle,1.0,0.0
+551,FL,Florida,Winter,Bald Eagle,12599.0,9.44137272471063
+552,GA,Georgia,Winter,Bald Eagle,1322.0,7.186901020411631
+553,GU,Guam,Winter,Bald Eagle,1.0,0.0
+554,HI,Hawaii,Winter,Bald Eagle,1.0,0.0
+555,ID,Idaho,Winter,Bald Eagle,1073.0,6.9782137426306985
+556,IL,Illinois,Winter,Bald Eagle,3850.0,8.25582842728183
+557,IN,Indiana,Winter,Bald Eagle,2026.0,7.613818684808629
+558,IA,Iowa,Winter,Bald Eagle,2232.0,7.710653323501202
+559,KS,Kansas,Winter,Bald Eagle,1973.0,7.587310506022615
+560,KY,Kentucky,Winter,Bald Eagle,566.0,6.338594078203183
+561,LA,Louisiana,Winter,Bald Eagle,1085.0,6.98933526597456
+562,ME,Maine,Winter,Bald Eagle,1523.0,7.328437352895162
+563,MH,Marshall Islands,Winter,Bald Eagle,1.0,0.0
+564,MD,Maryland,Winter,Bald Eagle,6166.0,8.726805608446096
+565,MA,Massachusetts,Winter,Bald Eagle,2202.0,7.697121317282625
+566,MI,Michigan,Winter,Bald Eagle,4400.0,8.389359819906353
+567,MN,Minnesota,Winter,Bald Eagle,4354.0,8.378850241794492
+568,MS,Mississippi,Winter,Bald Eagle,709.0,6.5638555265321274
+569,MO,Missouri,Winter,Bald Eagle,2484.0,7.81762544305337
+570,MT,Montana,Winter,Bald Eagle,2466.0,7.81035268372429
+571,NE,Nebraska,Winter,Bald Eagle,931.0,6.836259277277067
+572,NV,Nevada,Winter,Bald Eagle,211.0,5.351858133476067
+573,NH,New Hampshire,Winter,Bald Eagle,663.0,6.4967749901858625
+574,NJ,New Jersey,Winter,Bald Eagle,3716.0,8.22040309993373
+575,NM,New Mexico,Winter,Bald Eagle,859.0,6.755768921984255
+576,NY,New York,Winter,Bald Eagle,6314.0,8.750524669117937
+577,NC,North Carolina,Winter,Bald Eagle,1983.0,7.592366128519796
+578,ND,North Dakota,Winter,Bald Eagle,301.0,5.707110264748875
+579,MP,Northern Mariana Islands,Winter,Bald Eagle,1.0,0.0
+580,OH,Ohio,Winter,Bald Eagle,4617.0,8.43750042250699
+581,OK,Oklahoma,Winter,Bald Eagle,452.0,6.113682179832232
+582,OR,Oregon,Winter,Bald Eagle,6982.0,8.851090687664982
+583,PW,Palau,Winter,Bald Eagle,1.0,0.0
+584,PA,Pennsylvania,Winter,Bald Eagle,4826.0,8.481773246184977
+585,PR,Puerto Rico,Winter,Bald Eagle,1.0,0.0
+586,RI,Rhode Island,Winter,Bald Eagle,128.0,4.852030263919617
+587,SC,South Carolina,Winter,Bald Eagle,2107.0,7.653020413804189
+588,SD,South Dakota,Winter,Bald Eagle,447.0,6.102558594613569
+589,TN,Tennessee,Winter,Bald Eagle,1569.0,7.358193752733032
+590,TX,Texas,Winter,Bald Eagle,2128.0,7.662937850461535
+591,UT,Utah,Winter,Bald Eagle,1702.0,7.43955930913332
+592,VT,Vermont,Winter,Bald Eagle,892.0,6.79346613258001
+593,VI,Virgin Islands,Winter,Bald Eagle,1.0,0.0
+594,VA,Virginia,Winter,Bald Eagle,5751.0,8.657129031713755
+595,WA,Washington,Winter,Bald Eagle,12530.0,9.435881047890113
+596,WV,West Virginia,Winter,Bald Eagle,340.0,5.8289456176102075
+597,WI,Wisconsin,Winter,Bald Eagle,3660.0,8.205218426395412
+598,WY,Wyoming,Winter,Bald Eagle,534.0,6.280395838960195
+599,1,District of Columbia,Winter,Bald Eagle,369.0,5.910796644040527
+600,AL,Alabama,Spring,Bald Eagle,399.0,5.988961416889864
+601,AK,Alaska,Spring,Bald Eagle,5901.0,8.682877107057168
+602,AS,American Samoa,Spring,Bald Eagle,1.0,0.0
+603,AZ,Arizona,Spring,Bald Eagle,688.0,6.5337888379333435
+604,AR,Arkansas,Spring,Bald Eagle,376.0,5.929589143389895
+605,CA,California,Spring,Bald Eagle,2363.0,7.767687277186908
+606,CO,Colorado,Spring,Bald Eagle,2957.0,7.9919305198524775
+607,CT,Connecticut,Spring,Bald Eagle,1099.0,7.002155954403621
+608,DE,Delaware,Spring,Bald Eagle,1825.0,7.509335266016592
+609,DC,District Of Columbia,Spring,Bald Eagle,1.0,0.0
+610,FM,Federated States Of Micronesia,Spring,Bald Eagle,1.0,0.0
+611,FL,Florida,Spring,Bald Eagle,5163.0,8.54927308487965
+612,GA,Georgia,Spring,Bald Eagle,582.0,6.366470447731438
+613,GU,Guam,Spring,Bald Eagle,1.0,0.0
+614,HI,Hawaii,Spring,Bald Eagle,1.0,0.0
+615,ID,Idaho,Spring,Bald Eagle,754.0,6.625392368007956
+616,IL,Illinois,Spring,Bald Eagle,2295.0,7.738488122494646
+617,IN,Indiana,Spring,Bald Eagle,2023.0,7.612336837167746
+618,IA,Iowa,Spring,Bald Eagle,1278.0,7.15305163493748
+619,KS,Kansas,Spring,Bald Eagle,970.0,6.877296071497429
+620,KY,Kentucky,Spring,Bald Eagle,576.0,6.3561076606958915
+621,LA,Louisiana,Spring,Bald Eagle,403.0,5.998936561946683
+622,ME,Maine,Spring,Bald Eagle,2932.0,7.983440063006542
+623,MH,Marshall Islands,Spring,Bald Eagle,1.0,0.0
+624,MD,Maryland,Spring,Bald Eagle,5468.0,8.60666819784384
+625,MA,Massachusetts,Spring,Bald Eagle,1385.0,7.233455418621439
+626,MI,Michigan,Spring,Bald Eagle,5199.0,8.556221578383715
+627,MN,Minnesota,Spring,Bald Eagle,6451.0,8.771990436532242
+628,MS,Mississippi,Spring,Bald Eagle,478.0,6.169610732491456
+629,MO,Missouri,Spring,Bald Eagle,2026.0,7.613818684808629
+630,MT,Montana,Spring,Bald Eagle,2136.0,7.666690200080086
+631,NE,Nebraska,Spring,Bald Eagle,634.0,6.452048954437226
+632,NV,Nevada,Spring,Bald Eagle,80.0,4.382026634673881
+633,NH,New Hampshire,Spring,Bald Eagle,679.0,6.520621127558696
+634,NJ,New Jersey,Spring,Bald Eagle,3767.0,8.23403420769204
+635,NM,New Mexico,Spring,Bald Eagle,25.0,3.2188758248682006
+636,NY,New York,Spring,Bald Eagle,7328.0,8.899457906353966
+637,NC,North Carolina,Spring,Bald Eagle,1191.0,7.0825485693553
+638,ND,North Dakota,Spring,Bald Eagle,659.0,6.490723534502507
+639,MP,Northern Mariana Islands,Spring,Bald Eagle,1.0,0.0
+640,OH,Ohio,Spring,Bald Eagle,10816.0,9.288781798282745
+641,OK,Oklahoma,Spring,Bald Eagle,295.0,5.68697535633982
+642,OR,Oregon,Spring,Bald Eagle,5417.0,8.597297435657898
+643,PW,Palau,Spring,Bald Eagle,1.0,0.0
+644,PA,Pennsylvania,Spring,Bald Eagle,5397.0,8.593598522618644
+645,PR,Puerto Rico,Spring,Bald Eagle,1.0,0.0
+646,RI,Rhode Island,Spring,Bald Eagle,57.0,4.04305126783455
+647,SC,South Carolina,Spring,Bald Eagle,1021.0,6.928537818164665
+648,SD,South Dakota,Spring,Bald Eagle,440.0,6.0867747269123065
+649,TN,Tennessee,Spring,Bald Eagle,886.0,6.786716950605081
+650,TX,Texas,Spring,Bald Eagle,851.0,6.7464121285733745
+651,UT,Utah,Spring,Bald Eagle,433.0,6.07073772800249
+652,VT,Vermont,Spring,Bald Eagle,1058.0,6.964135612418245
+653,VI,Virgin Islands,Spring,Bald Eagle,1.0,0.0
+654,VA,Virginia,Spring,Bald Eagle,4848.0,8.48632152774915
+655,WA,Washington,Spring,Bald Eagle,11447.0,9.345482965918476
+656,WV,West Virginia,Spring,Bald Eagle,251.0,5.5254529391317835
+657,WI,Wisconsin,Spring,Bald Eagle,5147.0,8.546169299652755
+658,WY,Wyoming,Spring,Bald Eagle,616.0,6.423246963533519
+659,1,District of Columbia,Spring,Bald Eagle,358.0,5.8805329864007
+660,AL,Alabama,Summer,Bald Eagle,95.0,4.553876891600541
+661,AK,Alaska,Summer,Bald Eagle,3572.0,8.18088094199639
+662,AS,American Samoa,Summer,Bald Eagle,1.0,0.0
+663,AZ,Arizona,Summer,Bald Eagle,338.0,5.823045895483019
+664,AR,Arkansas,Summer,Bald Eagle,184.0,5.214935757608986
+665,CA,California,Summer,Bald Eagle,1111.0,7.01301578963963
+666,CO,Colorado,Summer,Bald Eagle,1112.0,7.013915474810528
+667,CT,Connecticut,Summer,Bald Eagle,313.0,5.746203190540153
+668,DE,Delaware,Summer,Bald Eagle,1084.0,6.988413181999592
+669,DC,District Of Columbia,Summer,Bald Eagle,1.0,0.0
+670,FM,Federated States Of Micronesia,Summer,Bald Eagle,1.0,0.0
+671,FL,Florida,Summer,Bald Eagle,1167.0,7.062191632286556
+672,GA,Georgia,Summer,Bald Eagle,174.0,5.159055299214529
+673,GU,Guam,Summer,Bald Eagle,1.0,0.0
+674,HI,Hawaii,Summer,Bald Eagle,1.0,0.0
+675,ID,Idaho,Summer,Bald Eagle,442.0,6.091309882077698
+676,IL,Illinois,Summer,Bald Eagle,979.0,6.88653164253051
+677,IN,Indiana,Summer,Bald Eagle,697.0,6.546785410760524
+678,IA,Iowa,Summer,Bald Eagle,428.0,6.059123195581797
+679,KS,Kansas,Summer,Bald Eagle,439.0,6.0844994130751715
+680,KY,Kentucky,Summer,Bald Eagle,291.0,5.673323267171493
+681,LA,Louisiana,Summer,Bald Eagle,96.0,4.564348191467836
+682,ME,Maine,Summer,Bald Eagle,2430.0,7.795646536334594
+683,MH,Marshall Islands,Summer,Bald Eagle,1.0,0.0
+684,MD,Maryland,Summer,Bald Eagle,2895.0,7.970740390007095
+685,MA,Massachusetts,Summer,Bald Eagle,574.0,6.352629396319567
+686,MI,Michigan,Summer,Bald Eagle,2924.0,7.980707820869669
+687,MN,Minnesota,Summer,Bald Eagle,3192.0,8.068402958569699
+688,MS,Mississippi,Summer,Bald Eagle,113.0,4.727387818712341
+689,MO,Missouri,Summer,Bald Eagle,763.0,6.637258031284457
+690,MT,Montana,Summer,Bald Eagle,1101.0,7.00397413672268
+691,NE,Nebraska,Summer,Bald Eagle,184.0,5.214935757608986
+692,NV,Nevada,Summer,Bald Eagle,75.0,4.31748811353631
+693,NH,New Hampshire,Summer,Bald Eagle,507.0,6.2285110035911835
+694,NJ,New Jersey,Summer,Bald Eagle,1472.0,7.294377299288821
+695,NM,New Mexico,Summer,Bald Eagle,34.0,3.5263605246161616
+696,NY,New York,Summer,Bald Eagle,3503.0,8.161375023197486
+697,NC,North Carolina,Summer,Bald Eagle,639.0,6.459904454377535
+698,ND,North Dakota,Summer,Bald Eagle,271.0,5.602118820879701
+699,MP,Northern Mariana Islands,Summer,Bald Eagle,1.0,0.0
+700,OH,Ohio,Summer,Bald Eagle,2949.0,7.989221408815276
+701,OK,Oklahoma,Summer,Bald Eagle,103.0,4.634728988229636
+702,OR,Oregon,Summer,Bald Eagle,2117.0,7.6577552711348655
+703,PW,Palau,Summer,Bald Eagle,1.0,0.0
+704,PA,Pennsylvania,Summer,Bald Eagle,2613.0,7.868254265520613
+705,PR,Puerto Rico,Summer,Bald Eagle,1.0,0.0
+706,RI,Rhode Island,Summer,Bald Eagle,23.0,3.1354942159291497
+707,SC,South Carolina,Summer,Bald Eagle,313.0,5.746203190540153
+708,SD,South Dakota,Summer,Bald Eagle,130.0,4.867534450455582
+709,TN,Tennessee,Summer,Bald Eagle,481.0,6.175867270105761
+710,TX,Texas,Summer,Bald Eagle,190.0,5.247024072160486
+711,UT,Utah,Summer,Bald Eagle,110.0,4.700480365792417
+712,VT,Vermont,Summer,Bald Eagle,657.0,6.48768401848461
+713,VI,Virgin Islands,Summer,Bald Eagle,1.0,0.0
+714,VA,Virginia,Summer,Bald Eagle,2329.0,7.753194269884341
+715,WA,Washington,Summer,Bald Eagle,5439.0,8.60135049942296
+716,WV,West Virginia,Summer,Bald Eagle,173.0,5.153291594497779
+717,WI,Wisconsin,Summer,Bald Eagle,2191.0,7.692113339595466
+718,WY,Wyoming,Summer,Bald Eagle,619.0,6.428105272684596
+719,DC,District of Columbia,Summer,Bald Eagle,131.0,4.875197323201151
+720,AL,Alabama,Fall,Ruby-Throated Hummingbird,695.0,6.543911845564792
+721,AK,Alaska,Fall,Ruby-Throated Hummingbird,2.0,0.6931471805599453
+722,AS,American Samoa,Fall,Ruby-Throated Hummingbird,2.0,0.6931471805599453
+723,AZ,Arizona,Fall,Ruby-Throated Hummingbird,2.0,0.6931471805599453
+724,AR,Arkansas,Fall,Ruby-Throated Hummingbird,469.0,6.150602768446279
+725,CA,California,Fall,Ruby-Throated Hummingbird,2.0,0.6931471805599453
+726,CO,Colorado,Fall,Ruby-Throated Hummingbird,46.0,3.828641396489095
+727,CT,Connecticut,Fall,Ruby-Throated Hummingbird,170.0,5.135798437050262
+728,DE,Delaware,Fall,Ruby-Throated Hummingbird,139.0,4.9344739331306915
+729,DC,District Of Columbia,Fall,Ruby-Throated Hummingbird,2.0,0.6931471805599453
+730,FM,Federated States Of Micronesia,Fall,Ruby-Throated Hummingbird,2.0,0.6931471805599453
+731,FL,Florida,Fall,Ruby-Throated Hummingbird,2995.0,8.00469951054955
+732,GA,Georgia,Fall,Ruby-Throated Hummingbird,1280.0,7.154615356913663
+733,GU,Guam,Fall,Ruby-Throated Hummingbird,2.0,0.6931471805599453
+734,HI,Hawaii,Fall,Ruby-Throated Hummingbird,2.0,0.6931471805599453
+735,ID,Idaho,Fall,Ruby-Throated Hummingbird,2.0,0.6931471805599453
+736,IL,Illinois,Fall,Ruby-Throated Hummingbird,1000.0,6.907755278982137
+737,IN,Indiana,Fall,Ruby-Throated Hummingbird,735.0,6.5998704992128365
+738,IA,Iowa,Fall,Ruby-Throated Hummingbird,307.0,5.726847747587197
+739,KS,Kansas,Fall,Ruby-Throated Hummingbird,338.0,5.823045895483019
+740,KY,Kentucky,Fall,Ruby-Throated Hummingbird,551.0,6.311734809152915
+741,LA,Louisiana,Fall,Ruby-Throated Hummingbird,821.0,6.710523109452428
+742,ME,Maine,Fall,Ruby-Throated Hummingbird,27.0,3.295836866004329
+743,MH,Marshall Islands,Fall,Ruby-Throated Hummingbird,2.0,0.6931471805599453
+744,MD,Maryland,Fall,Ruby-Throated Hummingbird,681.0,6.523562306149512
+745,MA,Massachusetts,Fall,Ruby-Throated Hummingbird,91.0,4.51085950651685
+746,MI,Michigan,Fall,Ruby-Throated Hummingbird,489.0,6.192362489474872
+747,MN,Minnesota,Fall,Ruby-Throated Hummingbird,225.0,5.41610040220442
+748,MS,Mississippi,Fall,Ruby-Throated Hummingbird,493.0,6.20050917404269
+749,MO,Missouri,Fall,Ruby-Throated Hummingbird,719.0,6.577861357721047
+750,MT,Montana,Fall,Ruby-Throated Hummingbird,2.0,0.6931471805599453
+751,NE,Nebraska,Fall,Ruby-Throated Hummingbird,78.0,4.356708826689592
+752,NV,Nevada,Fall,Ruby-Throated Hummingbird,2.0,0.6931471805599453
+753,NH,New Hampshire,Fall,Ruby-Throated Hummingbird,24.0,3.1780538303479458
+754,NJ,New Jersey,Fall,Ruby-Throated Hummingbird,610.0,6.413458957167357
+755,NM,New Mexico,Fall,Ruby-Throated Hummingbird,6.0,1.791759469228055
+756,NY,New York,Fall,Ruby-Throated Hummingbird,416.0,6.030685260261263
+757,NC,North Carolina,Fall,Ruby-Throated Hummingbird,1443.0,7.274479558773871
+758,ND,North Dakota,Fall,Ruby-Throated Hummingbird,4.0,1.3862943611198906
+759,MP,Northern Mariana Islands,Fall,Ruby-Throated Hummingbird,2.0,0.6931471805599453
+760,OH,Ohio,Fall,Ruby-Throated Hummingbird,618.0,6.42648845745769
+761,OK,Oklahoma,Fall,Ruby-Throated Hummingbird,150.0,5.0106352940962555
+762,OR,Oregon,Fall,Ruby-Throated Hummingbird,2.0,0.6931471805599453
+763,PW,Palau,Fall,Ruby-Throated Hummingbird,2.0,0.6931471805599453
+764,PA,Pennsylvania,Fall,Ruby-Throated Hummingbird,678.0,6.519147287940395
+765,PR,Puerto Rico,Fall,Ruby-Throated Hummingbird,2.0,0.6931471805599453
+766,RI,Rhode Island,Fall,Ruby-Throated Hummingbird,9.0,2.1972245773362196
+767,SC,South Carolina,Fall,Ruby-Throated Hummingbird,864.0,6.761572768804055
+768,SD,South Dakota,Fall,Ruby-Throated Hummingbird,24.0,3.1780538303479458
+769,TN,Tennessee,Fall,Ruby-Throated Hummingbird,993.0,6.900730664045173
+770,TX,Texas,Fall,Ruby-Throated Hummingbird,4867.0,8.490233009833455
+771,UT,Utah,Fall,Ruby-Throated Hummingbird,2.0,0.6931471805599453
+772,VT,Vermont,Fall,Ruby-Throated Hummingbird,19.0,2.9444389791664403
+773,VI,Virgin Islands,Fall,Ruby-Throated Hummingbird,2.0,0.6931471805599453
+774,VA,Virginia,Fall,Ruby-Throated Hummingbird,937.0,6.842683282238422
+775,WA,Washington,Fall,Ruby-Throated Hummingbird,2.0,0.6931471805599453
+776,WV,West Virginia,Fall,Ruby-Throated Hummingbird,149.0,5.003946305945459
+777,WI,Wisconsin,Fall,Ruby-Throated Hummingbird,384.0,5.950642552587727
+778,WY,Wyoming,Fall,Ruby-Throated Hummingbird,2.0,0.6931471805599453
+779,2,District of Columbia,Fall,Ruby-Throated Hummingbird,46.0,3.828641396489095
+780,AL,Alabama,Winter,Ruby-Throated Hummingbird,93.0,4.532599493153256
+781,AK,Alaska,Winter,Ruby-Throated Hummingbird,1.0,0.0
+782,AS,American Samoa,Winter,Ruby-Throated Hummingbird,1.0,0.0
+783,AZ,Arizona,Winter,Ruby-Throated Hummingbird,1.0,0.0
+784,AR,Arkansas,Winter,Ruby-Throated Hummingbird,1.0,0.0
+785,CA,California,Winter,Ruby-Throated Hummingbird,1.0,0.0
+786,CO,Colorado,Winter,Ruby-Throated Hummingbird,1.0,0.0
+787,CT,Connecticut,Winter,Ruby-Throated Hummingbird,1.0,0.0
+788,DE,Delaware,Winter,Ruby-Throated Hummingbird,1.0,0.0
+789,DC,District Of Columbia,Winter,Ruby-Throated Hummingbird,1.0,0.0
+790,FM,Federated States Of Micronesia,Winter,Ruby-Throated Hummingbird,1.0,0.0
+791,FL,Florida,Winter,Ruby-Throated Hummingbird,2476.0,7.814399633804487
+792,GA,Georgia,Winter,Ruby-Throated Hummingbird,1000.0,6.907755278982137
+793,GU,Guam,Winter,Ruby-Throated Hummingbird,1.0,0.0
+794,HI,Hawaii,Winter,Ruby-Throated Hummingbird,1.0,0.0
+795,ID,Idaho,Winter,Ruby-Throated Hummingbird,1.0,0.0
+796,IL,Illinois,Winter,Ruby-Throated Hummingbird,1.0,0.0
+797,IN,Indiana,Winter,Ruby-Throated Hummingbird,1.0,0.0
+798,IA,Iowa,Winter,Ruby-Throated Hummingbird,1.0,0.0
+799,KS,Kansas,Winter,Ruby-Throated Hummingbird,1.0,0.0
+800,KY,Kentucky,Winter,Ruby-Throated Hummingbird,1.0,0.0
+801,LA,Louisiana,Winter,Ruby-Throated Hummingbird,327.0,5.7899601708972535
+802,ME,Maine,Winter,Ruby-Throated Hummingbird,1.0,0.0
+803,MH,Marshall Islands,Winter,Ruby-Throated Hummingbird,1.0,0.0
+804,MD,Maryland,Winter,Ruby-Throated Hummingbird,1.0,0.0
+805,MA,Massachusetts,Winter,Ruby-Throated Hummingbird,1.0,0.0
+806,MI,Michigan,Winter,Ruby-Throated Hummingbird,20.0,2.995732273553991
+807,MN,Minnesota,Winter,Ruby-Throated Hummingbird,1.0,0.0
+808,MS,Mississippi,Winter,Ruby-Throated Hummingbird,56.0,4.02535169073515
+809,MO,Missouri,Winter,Ruby-Throated Hummingbird,1.0,0.0
+810,MT,Montana,Winter,Ruby-Throated Hummingbird,1.0,0.0
+811,NE,Nebraska,Winter,Ruby-Throated Hummingbird,1.0,0.0
+812,NV,Nevada,Winter,Ruby-Throated Hummingbird,1.0,0.0
+813,NH,New Hampshire,Winter,Ruby-Throated Hummingbird,1.0,0.0
+814,NJ,New Jersey,Winter,Ruby-Throated Hummingbird,1.0,0.0
+815,NM,New Mexico,Winter,Ruby-Throated Hummingbird,1.0,0.0
+816,NY,New York,Winter,Ruby-Throated Hummingbird,1.0,0.0
+817,NC,North Carolina,Winter,Ruby-Throated Hummingbird,134.0,4.897839799950911
+818,ND,North Dakota,Winter,Ruby-Throated Hummingbird,1.0,0.0
+819,MP,Northern Mariana Islands,Winter,Ruby-Throated Hummingbird,1.0,0.0
+820,OH,Ohio,Winter,Ruby-Throated Hummingbird,1.0,0.0
+821,OK,Oklahoma,Winter,Ruby-Throated Hummingbird,1.0,0.0
+822,OR,Oregon,Winter,Ruby-Throated Hummingbird,1.0,0.0
+823,PW,Palau,Winter,Ruby-Throated Hummingbird,1.0,0.0
+824,PA,Pennsylvania,Winter,Ruby-Throated Hummingbird,1.0,0.0
+825,PR,Puerto Rico,Winter,Ruby-Throated Hummingbird,1.0,0.0
+826,RI,Rhode Island,Winter,Ruby-Throated Hummingbird,1.0,0.0
+827,SC,South Carolina,Winter,Ruby-Throated Hummingbird,210.0,5.3471075307174685
+828,SD,South Dakota,Winter,Ruby-Throated Hummingbird,1.0,0.0
+829,TN,Tennessee,Winter,Ruby-Throated Hummingbird,1.0,0.0
+830,TX,Texas,Winter,Ruby-Throated Hummingbird,763.0,6.637258031284457
+831,UT,Utah,Winter,Ruby-Throated Hummingbird,1.0,0.0
+832,VT,Vermont,Winter,Ruby-Throated Hummingbird,1.0,0.0
+833,VI,Virgin Islands,Winter,Ruby-Throated Hummingbird,1.0,0.0
+834,VA,Virginia,Winter,Ruby-Throated Hummingbird,6.0,1.791759469228055
+835,WA,Washington,Winter,Ruby-Throated Hummingbird,1.0,0.0
+836,WV,West Virginia,Winter,Ruby-Throated Hummingbird,1.0,0.0
+837,WI,Wisconsin,Winter,Ruby-Throated Hummingbird,1.0,0.0
+838,WY,Wyoming,Winter,Ruby-Throated Hummingbird,1.0,0.0
+839,1,District of Columbia,Winter,Ruby-Throated Hummingbird,1.0,0.0
+840,AL,Alabama,Spring,Ruby-Throated Hummingbird,1815.0,7.503840746698951
+841,AK,Alaska,Spring,Ruby-Throated Hummingbird,1.0,0.0
+842,AS,American Samoa,Spring,Ruby-Throated Hummingbird,1.0,0.0
+843,AZ,Arizona,Spring,Ruby-Throated Hummingbird,1.0,0.0
+844,AR,Arkansas,Spring,Ruby-Throated Hummingbird,1246.0,7.1276936993473985
+845,CA,California,Spring,Ruby-Throated Hummingbird,1.0,0.0
+846,CO,Colorado,Spring,Ruby-Throated Hummingbird,3.0,1.0986122886681098
+847,CT,Connecticut,Spring,Ruby-Throated Hummingbird,2097.0,7.64826303090192
+848,DE,Delaware,Spring,Ruby-Throated Hummingbird,806.0,6.692083742506628
+849,DC,District Of Columbia,Spring,Ruby-Throated Hummingbird,1.0,0.0
+850,FM,Federated States Of Micronesia,Spring,Ruby-Throated Hummingbird,1.0,0.0
+851,FL,Florida,Spring,Ruby-Throated Hummingbird,4632.0,8.440744019252831
+852,GA,Georgia,Spring,Ruby-Throated Hummingbird,3798.0,8.242229891372231
+853,GU,Guam,Spring,Ruby-Throated Hummingbird,1.0,0.0
+854,HI,Hawaii,Spring,Ruby-Throated Hummingbird,1.0,0.0
+855,ID,Idaho,Spring,Ruby-Throated Hummingbird,1.0,0.0
+856,IL,Illinois,Spring,Ruby-Throated Hummingbird,3706.0,8.217708406845306
+857,IN,Indiana,Spring,Ruby-Throated Hummingbird,3114.0,8.043663352393944
+858,IA,Iowa,Spring,Ruby-Throated Hummingbird,921.0,6.825460036255307
+859,KS,Kansas,Spring,Ruby-Throated Hummingbird,1153.0,7.050122520269059
+860,KY,Kentucky,Spring,Ruby-Throated Hummingbird,1086.0,6.990256500493881
+861,LA,Louisiana,Spring,Ruby-Throated Hummingbird,1905.0,7.552237287560802
+862,ME,Maine,Spring,Ruby-Throated Hummingbird,2713.0,7.905810312658931
+863,MH,Marshall Islands,Spring,Ruby-Throated Hummingbird,1.0,0.0
+864,MD,Maryland,Spring,Ruby-Throated Hummingbird,3125.0,8.047189562170502
+865,MA,Massachusetts,Spring,Ruby-Throated Hummingbird,3815.0,8.246695943718557
+866,MI,Michigan,Spring,Ruby-Throated Hummingbird,5399.0,8.593969030218288
+867,MN,Minnesota,Spring,Ruby-Throated Hummingbird,2602.0,7.86403565907245
+868,MS,Mississippi,Spring,Ruby-Throated Hummingbird,1061.0,6.966967138613983
+869,MO,Missouri,Spring,Ruby-Throated Hummingbird,3135.0,8.050384453067021
+870,MT,Montana,Spring,Ruby-Throated Hummingbird,1.0,0.0
+871,NE,Nebraska,Spring,Ruby-Throated Hummingbird,238.0,5.472270673671475
+872,NV,Nevada,Spring,Ruby-Throated Hummingbird,1.0,0.0
+873,NH,New Hampshire,Spring,Ruby-Throated Hummingbird,1250.0,7.1308988302963465
+874,NJ,New Jersey,Spring,Ruby-Throated Hummingbird,3145.0,8.05356916913454
+875,NM,New Mexico,Spring,Ruby-Throated Hummingbird,1.0,0.0
+876,NY,New York,Spring,Ruby-Throated Hummingbird,5938.0,8.689127655323706
+877,NC,North Carolina,Spring,Ruby-Throated Hummingbird,4500.0,8.411832675758411
+878,ND,North Dakota,Spring,Ruby-Throated Hummingbird,117.0,4.762173934797756
+879,MP,Northern Mariana Islands,Spring,Ruby-Throated Hummingbird,1.0,0.0
+880,OH,Ohio,Spring,Ruby-Throated Hummingbird,5992.0,8.698180525197055
+881,OK,Oklahoma,Spring,Ruby-Throated Hummingbird,693.0,6.541029999189903
+882,OR,Oregon,Spring,Ruby-Throated Hummingbird,1.0,0.0
+883,PW,Palau,Spring,Ruby-Throated Hummingbird,1.0,0.0
+884,PA,Pennsylvania,Spring,Ruby-Throated Hummingbird,5620.0,8.634086942887738
+885,PR,Puerto Rico,Spring,Ruby-Throated Hummingbird,1.0,0.0
+886,RI,Rhode Island,Spring,Ruby-Throated Hummingbird,287.0,5.659482215759621
+887,SC,South Carolina,Spring,Ruby-Throated Hummingbird,1904.0,7.55171221535131
+888,SD,South Dakota,Spring,Ruby-Throated Hummingbird,118.0,4.770684624465665
+889,TN,Tennessee,Spring,Ruby-Throated Hummingbird,2453.0,7.8050670442584895
+890,TX,Texas,Spring,Ruby-Throated Hummingbird,9590.0,9.168476167877484
+891,UT,Utah,Spring,Ruby-Throated Hummingbird,1.0,0.0
+892,VT,Vermont,Spring,Ruby-Throated Hummingbird,1593.0,7.373374309910049
+893,VI,Virgin Islands,Spring,Ruby-Throated Hummingbird,1.0,0.0
+894,VA,Virginia,Spring,Ruby-Throated Hummingbird,4024.0,8.300031711779575
+895,WA,Washington,Spring,Ruby-Throated Hummingbird,1.0,0.0
+896,WV,West Virginia,Spring,Ruby-Throated Hummingbird,736.0,6.601230118728877
+897,WI,Wisconsin,Spring,Ruby-Throated Hummingbird,4928.0,8.502688505213357
+898,WY,Wyoming,Spring,Ruby-Throated Hummingbird,1.0,0.0
+899,1,District of Columbia,Spring,Ruby-Throated Hummingbird,164.0,5.099866427824199
+900,AL,Alabama,Summer,Ruby-Throated Hummingbird,1831.0,7.5126175446745105
+901,AK,Alaska,Summer,Ruby-Throated Hummingbird,1.0,0.0
+902,AS,American Samoa,Summer,Ruby-Throated Hummingbird,1.0,0.0
+903,AZ,Arizona,Summer,Ruby-Throated Hummingbird,6.0,1.791759469228055
+904,AR,Arkansas,Summer,Ruby-Throated Hummingbird,1376.0,7.226936018493289
+905,CA,California,Summer,Ruby-Throated Hummingbird,1.0,0.0
+906,CO,Colorado,Summer,Ruby-Throated Hummingbird,34.0,3.5263605246161616
+907,CT,Connecticut,Summer,Ruby-Throated Hummingbird,2454.0,7.805474625270857
+908,DE,Delaware,Summer,Ruby-Throated Hummingbird,1268.0,7.145196134997171
+909,DC,District Of Columbia,Summer,Ruby-Throated Hummingbird,1.0,0.0
+910,FM,Federated States Of Micronesia,Summer,Ruby-Throated Hummingbird,1.0,0.0
+911,FL,Florida,Summer,Ruby-Throated Hummingbird,2775.0,7.928406026180535
+912,GA,Georgia,Summer,Ruby-Throated Hummingbird,4364.0,8.381144346952961
+913,GU,Guam,Summer,Ruby-Throated Hummingbird,1.0,0.0
+914,HI,Hawaii,Summer,Ruby-Throated Hummingbird,1.0,0.0
+915,ID,Idaho,Summer,Ruby-Throated Hummingbird,1.0,0.0
+916,IL,Illinois,Summer,Ruby-Throated Hummingbird,5079.0,8.532869670801245
+917,IN,Indiana,Summer,Ruby-Throated Hummingbird,3579.0,8.182838710766026
+918,IA,Iowa,Summer,Ruby-Throated Hummingbird,1205.0,7.094234845924755
+919,KS,Kansas,Summer,Ruby-Throated Hummingbird,1536.0,7.336936913707618
+920,KY,Kentucky,Summer,Ruby-Throated Hummingbird,1567.0,7.356918242356021
+921,LA,Louisiana,Summer,Ruby-Throated Hummingbird,1098.0,7.001245622069476
+922,ME,Maine,Summer,Ruby-Throated Hummingbird,3062.0,8.026823576217629
+923,MH,Marshall Islands,Summer,Ruby-Throated Hummingbird,1.0,0.0
+924,MD,Maryland,Summer,Ruby-Throated Hummingbird,4518.0,8.415824697027949
+925,MA,Massachusetts,Summer,Ruby-Throated Hummingbird,4989.0,8.514990767861038
+926,MI,Michigan,Summer,Ruby-Throated Hummingbird,6424.0,8.767796255626598
+927,MN,Minnesota,Summer,Ruby-Throated Hummingbird,4289.0,8.36380888451688
+928,MS,Mississippi,Summer,Ruby-Throated Hummingbird,854.0,6.74993119378857
+929,MO,Missouri,Summer,Ruby-Throated Hummingbird,3257.0,8.088561805276234
+930,MT,Montana,Summer,Ruby-Throated Hummingbird,17.0,2.833213344056216
+931,NE,Nebraska,Summer,Ruby-Throated Hummingbird,443.0,6.093569770045136
+932,NV,Nevada,Summer,Ruby-Throated Hummingbird,1.0,0.0
+933,NH,New Hampshire,Summer,Ruby-Throated Hummingbird,1772.0,7.4798641311650265
+934,NJ,New Jersey,Summer,Ruby-Throated Hummingbird,3766.0,8.233768709217097
+935,NM,New Mexico,Summer,Ruby-Throated Hummingbird,15.0,2.70805020110221
+936,NY,New York,Summer,Ruby-Throated Hummingbird,8733.0,9.074864232413733
+937,NC,North Carolina,Summer,Ruby-Throated Hummingbird,5895.0,8.68185981297147
+938,ND,North Dakota,Summer,Ruby-Throated Hummingbird,273.0,5.60947179518496
+939,MP,Northern Mariana Islands,Summer,Ruby-Throated Hummingbird,1.0,0.0
+940,OH,Ohio,Summer,Ruby-Throated Hummingbird,5205.0,8.557374981049069
+941,OK,Oklahoma,Summer,Ruby-Throated Hummingbird,838.0,6.731018100482083
+942,OR,Oregon,Summer,Ruby-Throated Hummingbird,1.0,0.0
+943,PW,Palau,Summer,Ruby-Throated Hummingbird,1.0,0.0
+944,PA,Pennsylvania,Summer,Ruby-Throated Hummingbird,7708.0,8.950014029534257
+945,PR,Puerto Rico,Summer,Ruby-Throated Hummingbird,1.0,0.0
+946,RI,Rhode Island,Summer,Ruby-Throated Hummingbird,299.0,5.700443573390687
+947,SC,South Carolina,Summer,Ruby-Throated Hummingbird,2458.0,7.80710329012598
+948,SD,South Dakota,Summer,Ruby-Throated Hummingbird,160.0,5.075173815233827
+949,TN,Tennessee,Summer,Ruby-Throated Hummingbird,3448.0,8.145549631783584
+950,TX,Texas,Summer,Ruby-Throated Hummingbird,5282.0,8.572060092857077
+951,UT,Utah,Summer,Ruby-Throated Hummingbird,1.0,0.0
+952,VT,Vermont,Summer,Ruby-Throated Hummingbird,2216.0,7.703459047867175
+953,VI,Virgin Islands,Summer,Ruby-Throated Hummingbird,1.0,0.0
+954,VA,Virginia,Summer,Ruby-Throated Hummingbird,5357.0,8.58615939588096
+955,WA,Washington,Summer,Ruby-Throated Hummingbird,1.0,0.0
+956,WV,West Virginia,Summer,Ruby-Throated Hummingbird,1083.0,6.9874902470009905
+957,WI,Wisconsin,Summer,Ruby-Throated Hummingbird,5868.0,8.677269139262872
+958,WY,Wyoming,Summer,Ruby-Throated Hummingbird,1.0,0.0
+959,DC,District of Columbia,Summer,Ruby-Throated Hummingbird,218.0,5.384495062789089
+960,AL,Alabama,Fall,Indigo Bunting,374.0,5.924255797414532
+961,AK,Alaska,Fall,Indigo Bunting,1.0,0.0
+962,AS,American Samoa,Fall,Indigo Bunting,1.0,0.0
+963,AZ,Arizona,Fall,Indigo Bunting,8.0,2.0794415416798357
+964,AR,Arkansas,Fall,Indigo Bunting,270.0,5.598421958998375
+965,CA,California,Fall,Indigo Bunting,28.0,3.332204510175204
+966,CO,Colorado,Fall,Indigo Bunting,1.0,0.0
+967,CT,Connecticut,Fall,Indigo Bunting,163.0,5.093750200806762
+968,DE,Delaware,Fall,Indigo Bunting,70.0,4.248495242049359
+969,DC,District Of Columbia,Fall,Indigo Bunting,1.0,0.0
+970,FM,Federated States Of Micronesia,Fall,Indigo Bunting,1.0,0.0
+971,FL,Florida,Fall,Indigo Bunting,2092.0,7.645875825184813
+972,GA,Georgia,Fall,Indigo Bunting,513.0,6.240275845170769
+973,GU,Guam,Fall,Indigo Bunting,1.0,0.0
+974,HI,Hawaii,Fall,Indigo Bunting,1.0,0.0
+975,ID,Idaho,Fall,Indigo Bunting,1.0,0.0
+976,IL,Illinois,Fall,Indigo Bunting,482.0,6.1779441140506
+977,IN,Indiana,Fall,Indigo Bunting,354.0,5.869296913133774
+978,IA,Iowa,Fall,Indigo Bunting,34.0,3.5263605246161616
+979,KS,Kansas,Fall,Indigo Bunting,244.0,5.497168225293202
+980,KY,Kentucky,Fall,Indigo Bunting,329.0,5.796057750765372
+981,LA,Louisiana,Fall,Indigo Bunting,667.0,6.502790045915623
+982,ME,Maine,Fall,Indigo Bunting,64.0,4.1588830833596715
+983,MH,Marshall Islands,Fall,Indigo Bunting,1.0,0.0
+984,MD,Maryland,Fall,Indigo Bunting,712.0,6.568077911411976
+985,MA,Massachusetts,Fall,Indigo Bunting,488.0,6.1903154058531475
+986,MI,Michigan,Fall,Indigo Bunting,205.0,5.3230099791384085
+987,MN,Minnesota,Fall,Indigo Bunting,63.0,4.143134726391533
+988,MS,Mississippi,Fall,Indigo Bunting,433.0,6.07073772800249
+989,MO,Missouri,Fall,Indigo Bunting,502.0,6.218600119691729
+990,MT,Montana,Fall,Indigo Bunting,1.0,0.0
+991,NE,Nebraska,Fall,Indigo Bunting,8.0,2.0794415416798357
+992,NV,Nevada,Fall,Indigo Bunting,1.0,0.0
+993,NH,New Hampshire,Fall,Indigo Bunting,68.0,4.219507705176107
+994,NJ,New Jersey,Fall,Indigo Bunting,889.0,6.790097235513905
+995,NM,New Mexico,Fall,Indigo Bunting,16.0,2.772588722239781
+996,NY,New York,Fall,Indigo Bunting,313.0,5.746203190540153
+997,NC,North Carolina,Fall,Indigo Bunting,637.0,6.456769655572163
+998,ND,North Dakota,Fall,Indigo Bunting,1.0,0.0
+999,MP,Northern Mariana Islands,Fall,Indigo Bunting,1.0,0.0
+1000,OH,Ohio,Fall,Indigo Bunting,337.0,5.820082930352362
+1001,OK,Oklahoma,Fall,Indigo Bunting,55.0,4.007333185232471
+1002,OR,Oregon,Fall,Indigo Bunting,1.0,0.0
+1003,PW,Palau,Fall,Indigo Bunting,1.0,0.0
+1004,PA,Pennsylvania,Fall,Indigo Bunting,633.0,6.450470422144176
+1005,PR,Puerto Rico,Fall,Indigo Bunting,1.0,0.0
+1006,RI,Rhode Island,Fall,Indigo Bunting,27.0,3.295836866004329
+1007,SC,South Carolina,Fall,Indigo Bunting,310.0,5.736572297479192
+1008,SD,South Dakota,Fall,Indigo Bunting,1.0,0.0
+1009,TN,Tennessee,Fall,Indigo Bunting,612.0,6.416732282512326
+1010,TX,Texas,Fall,Indigo Bunting,2234.0,7.711548979629146
+1011,UT,Utah,Fall,Indigo Bunting,1.0,0.0
+1012,VT,Vermont,Fall,Indigo Bunting,73.0,4.290459441148391
+1013,VI,Virgin Islands,Fall,Indigo Bunting,1.0,0.0
+1014,VA,Virginia,Fall,Indigo Bunting,783.0,6.663132695990803
+1015,WA,Washington,Fall,Indigo Bunting,30.0,3.4011973816621555
+1016,WV,West Virginia,Fall,Indigo Bunting,82.0,4.406719247264253
+1017,WI,Wisconsin,Fall,Indigo Bunting,51.0,3.9318256327243257
+1018,WY,Wyoming,Fall,Indigo Bunting,1.0,0.0
+1019,2,District of Columbia,Fall,Indigo Bunting,94.0,4.543294782270004
+1020,AL,Alabama,Winter,Indigo Bunting,46.0,3.828641396489095
+1021,AK,Alaska,Winter,Indigo Bunting,1.0,0.0
+1022,AS,American Samoa,Winter,Indigo Bunting,1.0,0.0
+1023,AZ,Arizona,Winter,Indigo Bunting,1.0,0.0
+1024,AR,Arkansas,Winter,Indigo Bunting,1.0,0.0
+1025,CA,California,Winter,Indigo Bunting,1.0,0.0
+1026,CO,Colorado,Winter,Indigo Bunting,1.0,0.0
+1027,CT,Connecticut,Winter,Indigo Bunting,1.0,0.0
+1028,DE,Delaware,Winter,Indigo Bunting,1.0,0.0
+1029,DC,District Of Columbia,Winter,Indigo Bunting,1.0,0.0
+1030,FM,Federated States Of Micronesia,Winter,Indigo Bunting,1.0,0.0
+1031,FL,Florida,Winter,Indigo Bunting,1165.0,7.060476365999801
+1032,GA,Georgia,Winter,Indigo Bunting,1.0,0.0
+1033,GU,Guam,Winter,Indigo Bunting,1.0,0.0
+1034,HI,Hawaii,Winter,Indigo Bunting,1.0,0.0
+1035,ID,Idaho,Winter,Indigo Bunting,1.0,0.0
+1036,IL,Illinois,Winter,Indigo Bunting,1.0,0.0
+1037,IN,Indiana,Winter,Indigo Bunting,1.0,0.0
+1038,IA,Iowa,Winter,Indigo Bunting,1.0,0.0
+1039,KS,Kansas,Winter,Indigo Bunting,1.0,0.0
+1040,KY,Kentucky,Winter,Indigo Bunting,1.0,0.0
+1041,LA,Louisiana,Winter,Indigo Bunting,25.0,3.2188758248682006
+1042,ME,Maine,Winter,Indigo Bunting,1.0,0.0
+1043,MH,Marshall Islands,Winter,Indigo Bunting,1.0,0.0
+1044,MD,Maryland,Winter,Indigo Bunting,1.0,0.0
+1045,MA,Massachusetts,Winter,Indigo Bunting,9.0,2.1972245773362196
+1046,MI,Michigan,Winter,Indigo Bunting,2.0,0.6931471805599453
+1047,MN,Minnesota,Winter,Indigo Bunting,1.0,0.0
+1048,MS,Mississippi,Winter,Indigo Bunting,3.0,1.0986122886681098
+1049,MO,Missouri,Winter,Indigo Bunting,1.0,0.0
+1050,MT,Montana,Winter,Indigo Bunting,1.0,0.0
+1051,NE,Nebraska,Winter,Indigo Bunting,1.0,0.0
+1052,NV,Nevada,Winter,Indigo Bunting,1.0,0.0
+1053,NH,New Hampshire,Winter,Indigo Bunting,1.0,0.0
+1054,NJ,New Jersey,Winter,Indigo Bunting,1.0,0.0
+1055,NM,New Mexico,Winter,Indigo Bunting,1.0,0.0
+1056,NY,New York,Winter,Indigo Bunting,1.0,0.0
+1057,NC,North Carolina,Winter,Indigo Bunting,1.0,0.0
+1058,ND,North Dakota,Winter,Indigo Bunting,1.0,0.0
+1059,MP,Northern Mariana Islands,Winter,Indigo Bunting,1.0,0.0
+1060,OH,Ohio,Winter,Indigo Bunting,1.0,0.0
+1061,OK,Oklahoma,Winter,Indigo Bunting,1.0,0.0
+1062,OR,Oregon,Winter,Indigo Bunting,1.0,0.0
+1063,PW,Palau,Winter,Indigo Bunting,1.0,0.0
+1064,PA,Pennsylvania,Winter,Indigo Bunting,1.0,0.0
+1065,PR,Puerto Rico,Winter,Indigo Bunting,1.0,0.0
+1066,RI,Rhode Island,Winter,Indigo Bunting,1.0,0.0
+1067,SC,South Carolina,Winter,Indigo Bunting,4.0,1.3862943611198906
+1068,SD,South Dakota,Winter,Indigo Bunting,1.0,0.0
+1069,TN,Tennessee,Winter,Indigo Bunting,1.0,0.0
+1070,TX,Texas,Winter,Indigo Bunting,355.0,5.872117789475416
+1071,UT,Utah,Winter,Indigo Bunting,1.0,0.0
+1072,VT,Vermont,Winter,Indigo Bunting,1.0,0.0
+1073,VI,Virgin Islands,Winter,Indigo Bunting,1.0,0.0
+1074,VA,Virginia,Winter,Indigo Bunting,2.0,0.6931471805599453
+1075,WA,Washington,Winter,Indigo Bunting,12.0,2.4849066497880004
+1076,WV,West Virginia,Winter,Indigo Bunting,1.0,0.0
+1077,WI,Wisconsin,Winter,Indigo Bunting,1.0,0.0
+1078,WY,Wyoming,Winter,Indigo Bunting,1.0,0.0
+1079,1,District of Columbia,Winter,Indigo Bunting,1.0,0.0
+1080,AL,Alabama,Spring,Indigo Bunting,2946.0,7.988203597022576
+1081,AK,Alaska,Spring,Indigo Bunting,1.0,0.0
+1082,AS,American Samoa,Spring,Indigo Bunting,1.0,0.0
+1083,AZ,Arizona,Spring,Indigo Bunting,169.0,5.1298987149230735
+1084,AR,Arkansas,Spring,Indigo Bunting,1909.0,7.554334823725748
+1085,CA,California,Spring,Indigo Bunting,121.0,4.795790545596741
+1086,CO,Colorado,Spring,Indigo Bunting,163.0,5.093750200806762
+1087,CT,Connecticut,Spring,Indigo Bunting,1405.0,7.247792581767846
+1088,DE,Delaware,Spring,Indigo Bunting,1106.0,7.00850518208228
+1089,DC,District Of Columbia,Spring,Indigo Bunting,1.0,0.0
+1090,FM,Federated States Of Micronesia,Spring,Indigo Bunting,1.0,0.0
+1091,FL,Florida,Spring,Indigo Bunting,4552.0,8.423321975806166
+1092,GA,Georgia,Spring,Indigo Bunting,3423.0,8.138272638530186
+1093,GU,Guam,Spring,Indigo Bunting,1.0,0.0
+1094,HI,Hawaii,Spring,Indigo Bunting,1.0,0.0
+1095,ID,Idaho,Spring,Indigo Bunting,22.0,3.091042453358316
+1096,IL,Illinois,Spring,Indigo Bunting,8309.0,9.02509454366498
+1097,IN,Indiana,Spring,Indigo Bunting,4626.0,8.439447842791385
+1098,IA,Iowa,Spring,Indigo Bunting,1625.0,7.393263094763838
+1099,KS,Kansas,Spring,Indigo Bunting,2538.0,7.839131648274333
+1100,KY,Kentucky,Spring,Indigo Bunting,2279.0,7.731492029245684
+1101,LA,Louisiana,Spring,Indigo Bunting,2736.0,7.914252278742441
+1102,ME,Maine,Spring,Indigo Bunting,641.0,6.46302945692067
+1103,MH,Marshall Islands,Spring,Indigo Bunting,1.0,0.0
+1104,MD,Maryland,Spring,Indigo Bunting,5948.0,8.690810307580046
+1105,MA,Massachusetts,Spring,Indigo Bunting,1627.0,7.394493107219038
+1106,MI,Michigan,Spring,Indigo Bunting,6300.0,8.748304912379623
+1107,MN,Minnesota,Spring,Indigo Bunting,2008.0,7.60489448081162
+1108,MS,Mississippi,Spring,Indigo Bunting,2115.0,7.656810091480378
+1109,MO,Missouri,Spring,Indigo Bunting,4879.0,8.492695559815838
+1110,MT,Montana,Spring,Indigo Bunting,6.0,1.791759469228055
+1111,NE,Nebraska,Spring,Indigo Bunting,495.0,6.20455776256869
+1112,NV,Nevada,Spring,Indigo Bunting,53.0,3.970291913552122
+1113,NH,New Hampshire,Spring,Indigo Bunting,526.0,6.26530121273771
+1114,NJ,New Jersey,Spring,Indigo Bunting,3884.0,8.264620829411216
+1115,NM,New Mexico,Spring,Indigo Bunting,132.0,4.882801922586371
+1116,NY,New York,Spring,Indigo Bunting,4981.0,8.513385953073284
+1117,NC,North Carolina,Spring,Indigo Bunting,5427.0,8.599141774063405
+1118,ND,North Dakota,Spring,Indigo Bunting,108.0,4.68213122712422
+1119,MP,Northern Mariana Islands,Spring,Indigo Bunting,1.0,0.0
+1120,OH,Ohio,Spring,Indigo Bunting,8621.0,9.061956366209925
+1121,OK,Oklahoma,Spring,Indigo Bunting,1059.0,6.9650803456014065
+1122,OR,Oregon,Spring,Indigo Bunting,1.0,0.0
+1123,PW,Palau,Spring,Indigo Bunting,1.0,0.0
+1124,PA,Pennsylvania,Spring,Indigo Bunting,7563.0,8.93102321585603
+1125,PR,Puerto Rico,Spring,Indigo Bunting,1.0,0.0
+1126,RI,Rhode Island,Spring,Indigo Bunting,99.0,4.59511985013459
+1127,SC,South Carolina,Spring,Indigo Bunting,1493.0,7.30854279753919
+1128,SD,South Dakota,Spring,Indigo Bunting,106.0,4.663439094112067
+1129,TN,Tennessee,Spring,Indigo Bunting,4209.0,8.344980368770571
+1130,TX,Texas,Spring,Indigo Bunting,11925.0,9.386392315756542
+1131,UT,Utah,Spring,Indigo Bunting,14.0,2.6390573296152584
+1132,VT,Vermont,Spring,Indigo Bunting,881.0,6.78105762593618
+1133,VI,Virgin Islands,Spring,Indigo Bunting,1.0,0.0
+1134,VA,Virginia,Spring,Indigo Bunting,8755.0,9.077380244719953
+1135,WA,Washington,Spring,Indigo Bunting,1.0,0.0
+1136,WV,West Virginia,Spring,Indigo Bunting,1202.0,7.091742115095153
+1137,WI,Wisconsin,Spring,Indigo Bunting,5449.0,8.603187384583098
+1138,WY,Wyoming,Spring,Indigo Bunting,5.0,1.6094379124341003
+1139,1,District of Columbia,Spring,Indigo Bunting,503.0,6.220590170099739
+1140,AL,Alabama,Summer,Indigo Bunting,998.0,6.905753276311464
+1141,AK,Alaska,Summer,Indigo Bunting,1.0,0.0
+1142,AS,American Samoa,Summer,Indigo Bunting,1.0,0.0
+1143,AZ,Arizona,Summer,Indigo Bunting,251.0,5.5254529391317835
+1144,AR,Arkansas,Summer,Indigo Bunting,1205.0,7.094234845924755
+1145,CA,California,Summer,Indigo Bunting,222.0,5.402677381872279
+1146,CO,Colorado,Summer,Indigo Bunting,127.0,4.844187086458591
+1147,CT,Connecticut,Summer,Indigo Bunting,885.0,6.785587645007929
+1148,DE,Delaware,Summer,Indigo Bunting,1234.0,7.1180162044653335
+1149,DC,District Of Columbia,Summer,Indigo Bunting,1.0,0.0
+1150,FM,Federated States Of Micronesia,Summer,Indigo Bunting,1.0,0.0
+1151,FL,Florida,Summer,Indigo Bunting,286.0,5.655991810819852
+1152,GA,Georgia,Summer,Indigo Bunting,1886.0,7.542213463193403
+1153,GU,Guam,Summer,Indigo Bunting,1.0,0.0
+1154,HI,Hawaii,Summer,Indigo Bunting,1.0,0.0
+1155,ID,Idaho,Summer,Indigo Bunting,1.0,0.0
+1156,IL,Illinois,Summer,Indigo Bunting,5541.0,8.61993026886735
+1157,IN,Indiana,Summer,Indigo Bunting,3058.0,8.025516386489008
+1158,IA,Iowa,Summer,Indigo Bunting,1159.0,7.055312843339752
+1159,KS,Kansas,Summer,Indigo Bunting,1852.0,7.524021415206125
+1160,KY,Kentucky,Summer,Indigo Bunting,1790.0,7.489970898834801
+1161,LA,Louisiana,Summer,Indigo Bunting,443.0,6.093569770045136
+1162,ME,Maine,Summer,Indigo Bunting,372.0,5.918893854273146
+1163,MH,Marshall Islands,Summer,Indigo Bunting,1.0,0.0
+1164,MD,Maryland,Summer,Indigo Bunting,4250.0,8.354674261918463
+1165,MA,Massachusetts,Summer,Indigo Bunting,1269.0,7.1459844677143876
+1166,MI,Michigan,Summer,Indigo Bunting,4318.0,8.370547611074752
+1167,MN,Minnesota,Summer,Indigo Bunting,2156.0,7.6760099320288875
+1168,MS,Mississippi,Summer,Indigo Bunting,666.0,6.501289670540389
+1169,MO,Missouri,Summer,Indigo Bunting,3728.0,8.223627175805483
+1170,MT,Montana,Summer,Indigo Bunting,1.0,0.0
+1171,NE,Nebraska,Summer,Indigo Bunting,310.0,5.736572297479192
+1172,NV,Nevada,Summer,Indigo Bunting,30.0,3.4011973816621555
+1173,NH,New Hampshire,Summer,Indigo Bunting,462.0,6.135564891081739
+1174,NJ,New Jersey,Summer,Indigo Bunting,2449.0,7.803435056952168
+1175,NM,New Mexico,Summer,Indigo Bunting,100.0,4.605170185988092
+1176,NY,New York,Summer,Indigo Bunting,3123.0,8.046549357283078
+1177,NC,North Carolina,Summer,Indigo Bunting,2968.0,7.995643604287271
+1178,ND,North Dakota,Summer,Indigo Bunting,30.0,3.4011973816621555
+1179,MP,Northern Mariana Islands,Summer,Indigo Bunting,1.0,0.0
+1180,OH,Ohio,Summer,Indigo Bunting,4941.0,8.50532301884575
+1181,OK,Oklahoma,Summer,Indigo Bunting,509.0,6.2324480165505225
+1182,OR,Oregon,Summer,Indigo Bunting,1.0,0.0
+1183,PW,Palau,Summer,Indigo Bunting,1.0,0.0
+1184,PA,Pennsylvania,Summer,Indigo Bunting,5102.0,8.537387898701757
+1185,PR,Puerto Rico,Summer,Indigo Bunting,1.0,0.0
+1186,RI,Rhode Island,Summer,Indigo Bunting,77.0,4.343805421853684
+1187,SC,South Carolina,Summer,Indigo Bunting,1024.0,6.931471805599453
+1188,SD,South Dakota,Summer,Indigo Bunting,138.0,4.927253685157205
+1189,TN,Tennessee,Summer,Indigo Bunting,2618.0,7.870165946469845
+1190,TX,Texas,Summer,Indigo Bunting,1181.0,7.074116816197362
+1191,UT,Utah,Summer,Indigo Bunting,13.0,2.5649493574615367
+1192,VT,Vermont,Summer,Indigo Bunting,806.0,6.692083742506628
+1193,VI,Virgin Islands,Summer,Indigo Bunting,1.0,0.0
+1194,VA,Virginia,Summer,Indigo Bunting,6345.0,8.755422380148488
+1195,WA,Washington,Summer,Indigo Bunting,1.0,0.0
+1196,WV,West Virginia,Summer,Indigo Bunting,853.0,6.748759547491679
+1197,WI,Wisconsin,Summer,Indigo Bunting,5459.0,8.605020901781758
+1198,WY,Wyoming,Summer,Indigo Bunting,2.0,0.6931471805599453
+1199,DC,District of Columbia,Summer,Indigo Bunting,164.0,5.099866427824199
+1200,AL,Alabama,Fall,Osprey,788.0,6.669498089857879
+1201,AK,Alaska,Fall,Osprey,10.0,2.302585092994046
+1202,AS,American Samoa,Fall,Osprey,1.0,0.0
+1203,AZ,Arizona,Fall,Osprey,1401.0,7.244941546337007
+1204,AR,Arkansas,Fall,Osprey,93.0,4.532599493153256
+1205,CA,California,Fall,Osprey,5860.0,8.675904882571059
+1206,CO,Colorado,Fall,Osprey,539.0,6.289715570908998
+1207,CT,Connecticut,Fall,Osprey,735.0,6.5998704992128365
+1208,DE,Delaware,Fall,Osprey,382.0,5.945420608606575
+1209,DC,District Of Columbia,Fall,Osprey,1.0,0.0
+1210,FM,Federated States Of Micronesia,Fall,Osprey,1.0,0.0
+1211,FL,Florida,Fall,Osprey,16826.0,9.73068058811076
+1212,GA,Georgia,Fall,Osprey,991.0,6.898714534329988
+1213,GU,Guam,Fall,Osprey,1.0,0.0
+1214,HI,Hawaii,Fall,Osprey,13.0,2.5649493574615367
+1215,ID,Idaho,Fall,Osprey,137.0,4.919980925828125
+1216,IL,Illinois,Fall,Osprey,369.0,5.910796644040527
+1217,IN,Indiana,Fall,Osprey,277.0,5.6240175061873385
+1218,IA,Iowa,Fall,Osprey,52.0,3.9512437185814275
+1219,KS,Kansas,Fall,Osprey,262.0,5.568344503761097
+1220,KY,Kentucky,Fall,Osprey,126.0,4.836281906951478
+1221,LA,Louisiana,Fall,Osprey,990.0,6.897704943128636
+1222,ME,Maine,Fall,Osprey,193.0,5.262690188904886
+1223,MH,Marshall Islands,Fall,Osprey,1.0,0.0
+1224,MD,Maryland,Fall,Osprey,640.0,6.461468176353717
+1225,MA,Massachusetts,Fall,Osprey,676.0,6.516193076042964
+1226,MI,Michigan,Fall,Osprey,152.0,5.0238805208462765
+1227,MN,Minnesota,Fall,Osprey,155.0,5.043425116919247
+1228,MS,Mississippi,Fall,Osprey,674.0,6.513230110912307
+1229,MO,Missouri,Fall,Osprey,251.0,5.5254529391317835
+1230,MT,Montana,Fall,Osprey,147.0,4.990432586778736
+1231,NE,Nebraska,Fall,Osprey,90.0,4.499809670330265
+1232,NV,Nevada,Fall,Osprey,143.0,4.962844630259907
+1233,NH,New Hampshire,Fall,Osprey,169.0,5.1298987149230735
+1234,NJ,New Jersey,Fall,Osprey,3308.0,8.104099056143582
+1235,NM,New Mexico,Fall,Osprey,214.0,5.365976015021851
+1236,NY,New York,Fall,Osprey,1544.0,7.342131730584722
+1237,NC,North Carolina,Fall,Osprey,850.0,6.745236349484363
+1238,ND,North Dakota,Fall,Osprey,20.0,2.995732273553991
+1239,MP,Northern Mariana Islands,Fall,Osprey,1.0,0.0
+1240,OH,Ohio,Fall,Osprey,508.0,6.230481447578482
+1241,OK,Oklahoma,Fall,Osprey,163.0,5.093750200806762
+1242,OR,Oregon,Fall,Osprey,339.0,5.82600010738045
+1243,PW,Palau,Fall,Osprey,1.0,0.0
+1244,PA,Pennsylvania,Fall,Osprey,884.0,6.784457062637643
+1245,PR,Puerto Rico,Fall,Osprey,1.0,0.0
+1246,RI,Rhode Island,Fall,Osprey,144.0,4.969813299576001
+1247,SC,South Carolina,Fall,Osprey,1400.0,7.24422751560335
+1248,SD,South Dakota,Fall,Osprey,17.0,2.833213344056216
+1249,TN,Tennessee,Fall,Osprey,306.0,5.723585101952381
+1250,TX,Texas,Fall,Osprey,8151.0,9.005895898094458
+1251,UT,Utah,Fall,Osprey,96.0,4.564348191467836
+1252,VT,Vermont,Fall,Osprey,107.0,4.672828834461906
+1253,VI,Virgin Islands,Fall,Osprey,1.0,0.0
+1254,VA,Virginia,Fall,Osprey,1419.0,7.257707677160043
+1255,WA,Washington,Fall,Osprey,496.0,6.206575926724928
+1256,WV,West Virginia,Fall,Osprey,32.0,3.4657359027997265
+1257,WI,Wisconsin,Fall,Osprey,73.0,4.290459441148391
+1258,WY,Wyoming,Fall,Osprey,74.0,4.30406509320417
+1259,2,District of Columbia,Fall,Osprey,41.0,3.713572066704308
+1260,AL,Alabama,Winter,Osprey,671.0,6.508769136971682
+1261,AK,Alaska,Winter,Osprey,1.0,0.0
+1262,AS,American Samoa,Winter,Osprey,1.0,0.0
+1263,AZ,Arizona,Winter,Osprey,1142.0,7.040536390215956
+1264,AR,Arkansas,Winter,Osprey,15.0,2.70805020110221
+1265,CA,California,Winter,Osprey,6881.0,8.83651926920248
+1266,CO,Colorado,Winter,Osprey,52.0,3.9512437185814275
+1267,CT,Connecticut,Winter,Osprey,13.0,2.5649493574615367
+1268,DE,Delaware,Winter,Osprey,44.0,3.784189633918261
+1269,DC,District Of Columbia,Winter,Osprey,1.0,0.0
+1270,FM,Federated States Of Micronesia,Winter,Osprey,1.0,0.0
+1271,FL,Florida,Winter,Osprey,29432.0,10.28983779678461
+1272,GA,Georgia,Winter,Osprey,901.0,6.803505257608338
+1273,GU,Guam,Winter,Osprey,1.0,0.0
+1274,HI,Hawaii,Winter,Osprey,2.0,0.6931471805599453
+1275,ID,Idaho,Winter,Osprey,17.0,2.833213344056216
+1276,IL,Illinois,Winter,Osprey,1.0,0.0
+1277,IN,Indiana,Winter,Osprey,24.0,3.1780538303479458
+1278,IA,Iowa,Winter,Osprey,1.0,0.0
+1279,KS,Kansas,Winter,Osprey,2.0,0.6931471805599453
+1280,KY,Kentucky,Winter,Osprey,30.0,3.4011973816621555
+1281,LA,Louisiana,Winter,Osprey,860.0,6.756932389247553
+1282,ME,Maine,Winter,Osprey,1.0,0.0
+1283,MH,Marshall Islands,Winter,Osprey,1.0,0.0
+1284,MD,Maryland,Winter,Osprey,432.0,6.068425588244111
+1285,MA,Massachusetts,Winter,Osprey,14.0,2.6390573296152584
+1286,MI,Michigan,Winter,Osprey,10.0,2.302585092994046
+1287,MN,Minnesota,Winter,Osprey,1.0,0.0
+1288,MS,Mississippi,Winter,Osprey,793.0,6.675823221634848
+1289,MO,Missouri,Winter,Osprey,14.0,2.6390573296152584
+1290,MT,Montana,Winter,Osprey,1.0,0.0
+1291,NE,Nebraska,Winter,Osprey,1.0,0.0
+1292,NV,Nevada,Winter,Osprey,133.0,4.890349128221754
+1293,NH,New Hampshire,Winter,Osprey,1.0,0.0
+1294,NJ,New Jersey,Winter,Osprey,91.0,4.51085950651685
+1295,NM,New Mexico,Winter,Osprey,51.0,3.9318256327243257
+1296,NY,New York,Winter,Osprey,39.0,3.6635616461296463
+1297,NC,North Carolina,Winter,Osprey,564.0,6.335054251498059
+1298,ND,North Dakota,Winter,Osprey,1.0,0.0
+1299,MP,Northern Mariana Islands,Winter,Osprey,1.0,0.0
+1300,OH,Ohio,Winter,Osprey,35.0,3.5553480614894135
+1301,OK,Oklahoma,Winter,Osprey,5.0,1.6094379124341003
+1302,OR,Oregon,Winter,Osprey,163.0,5.093750200806762
+1303,PW,Palau,Winter,Osprey,1.0,0.0
+1304,PA,Pennsylvania,Winter,Osprey,36.0,3.58351893845611
+1305,PR,Puerto Rico,Winter,Osprey,1.0,0.0
+1306,RI,Rhode Island,Winter,Osprey,3.0,1.0986122886681098
+1307,SC,South Carolina,Winter,Osprey,1548.0,7.344719054149673
+1308,SD,South Dakota,Winter,Osprey,1.0,0.0
+1309,TN,Tennessee,Winter,Osprey,368.0,5.908082938168931
+1310,TX,Texas,Winter,Osprey,8529.0,9.05122740031911
+1311,UT,Utah,Winter,Osprey,4.0,1.3862943611198906
+1312,VT,Vermont,Winter,Osprey,1.0,0.0
+1313,VI,Virgin Islands,Winter,Osprey,1.0,0.0
+1314,VA,Virginia,Winter,Osprey,923.0,6.827629234502852
+1315,WA,Washington,Winter,Osprey,23.0,3.1354942159291497
+1316,WV,West Virginia,Winter,Osprey,5.0,1.6094379124341003
+1317,WI,Wisconsin,Winter,Osprey,1.0,0.0
+1318,WY,Wyoming,Winter,Osprey,1.0,0.0
+1319,1,District of Columbia,Winter,Osprey,53.0,3.970291913552122
+1320,AL,Alabama,Spring,Osprey,1391.0,7.237778191923443
+1321,AK,Alaska,Spring,Osprey,269.0,5.594711379601839
+1322,AS,American Samoa,Spring,Osprey,1.0,0.0
+1323,AZ,Arizona,Spring,Osprey,1164.0,7.059617628291383
+1324,AR,Arkansas,Spring,Osprey,93.0,4.532599493153256
+1325,CA,California,Spring,Osprey,6822.0,8.82790796297859
+1326,CO,Colorado,Spring,Osprey,3605.0,8.190077049719049
+1327,CT,Connecticut,Spring,Osprey,5393.0,8.592857095337227
+1328,DE,Delaware,Spring,Osprey,2455.0,7.805882040228621
+1329,DC,District Of Columbia,Spring,Osprey,1.0,0.0
+1330,FM,Federated States Of Micronesia,Spring,Osprey,1.0,0.0
+1331,FL,Florida,Spring,Osprey,20048.0,9.90588467713585
+1332,GA,Georgia,Spring,Osprey,1650.0,7.408530566894626
+1333,GU,Guam,Spring,Osprey,1.0,0.0
+1334,HI,Hawaii,Spring,Osprey,2.0,0.6931471805599453
+1335,ID,Idaho,Spring,Osprey,1382.0,7.231287004327616
+1336,IL,Illinois,Spring,Osprey,1183.0,7.075808863978387
+1337,IN,Indiana,Spring,Osprey,817.0,6.705639094860003
+1338,IA,Iowa,Spring,Osprey,317.0,5.75890177387728
+1339,KS,Kansas,Spring,Osprey,343.0,5.8377304471659395
+1340,KY,Kentucky,Spring,Osprey,436.0,6.077642243349034
+1341,LA,Louisiana,Spring,Osprey,727.0,6.588926477533519
+1342,ME,Maine,Spring,Osprey,3830.0,8.250620082174692
+1343,MH,Marshall Islands,Spring,Osprey,1.0,0.0
+1344,MD,Maryland,Spring,Osprey,8553.0,9.054037377580782
+1345,MA,Massachusetts,Spring,Osprey,6909.0,8.840580188488795
+1346,MI,Michigan,Spring,Osprey,2660.0,7.886081401775745
+1347,MN,Minnesota,Spring,Osprey,1485.0,7.3031700512368
+1348,MS,Mississippi,Spring,Osprey,1384.0,7.232733136177615
+1349,MO,Missouri,Spring,Osprey,375.0,5.926926025970411
+1350,MT,Montana,Spring,Osprey,2132.0,7.664815785285735
+1351,NE,Nebraska,Spring,Osprey,169.0,5.1298987149230735
+1352,NV,Nevada,Spring,Osprey,191.0,5.25227342804663
+1353,NH,New Hampshire,Spring,Osprey,773.0,6.650279048587422
+1354,NJ,New Jersey,Spring,Osprey,9341.0,9.14216859187285
+1355,NM,New Mexico,Spring,Osprey,353.0,5.8664680569332965
+1356,NY,New York,Spring,Osprey,12232.0,9.411810747608898
+1357,NC,North Carolina,Spring,Osprey,2974.0,7.9976631270201
+1358,ND,North Dakota,Spring,Osprey,76.0,4.330733340286331
+1359,MP,Northern Mariana Islands,Spring,Osprey,1.0,0.0
+1360,OH,Ohio,Spring,Osprey,3564.0,8.1786387885907
+1361,OK,Oklahoma,Spring,Osprey,227.0,5.424950017481403
+1362,OR,Oregon,Spring,Osprey,5505.0,8.61341204915678
+1363,PW,Palau,Spring,Osprey,1.0,0.0
+1364,PA,Pennsylvania,Spring,Osprey,5021.0,8.521384396034705
+1365,PR,Puerto Rico,Spring,Osprey,1.0,0.0
+1366,RI,Rhode Island,Spring,Osprey,1151.0,7.048386408721883
+1367,SC,South Carolina,Spring,Osprey,2782.0,7.930925372483388
+1368,SD,South Dakota,Spring,Osprey,133.0,4.890349128221754
+1369,TN,Tennessee,Spring,Osprey,1968.0,7.584773077612199
+1370,TX,Texas,Spring,Osprey,4562.0,8.425516402844334
+1371,UT,Utah,Spring,Osprey,913.0,6.816735880594968
+1372,VT,Vermont,Spring,Osprey,1749.0,7.466799475018602
+1373,VI,Virgin Islands,Spring,Osprey,1.0,0.0
+1374,VA,Virginia,Spring,Osprey,7821.0,8.964567702601611
+1375,WA,Washington,Spring,Osprey,6486.0,8.777401286867264
+1376,WV,West Virginia,Spring,Osprey,314.0,5.749392985908253
+1377,WI,Wisconsin,Spring,Osprey,1924.0,7.562161631225652
+1378,WY,Wyoming,Spring,Osprey,629.0,6.444131256700441
+1379,1,District of Columbia,Spring,Osprey,928.0,6.833031732786201
+1380,AL,Alabama,Summer,Osprey,665.0,6.499787040655854
+1381,AK,Alaska,Summer,Osprey,163.0,5.093750200806762
+1382,AS,American Samoa,Summer,Osprey,1.0,0.0
+1383,AZ,Arizona,Summer,Osprey,757.0,6.6293632534374485
+1384,AR,Arkansas,Summer,Osprey,35.0,3.5553480614894135
+1385,CA,California,Summer,Osprey,6280.0,8.745125259462244
+1386,CO,Colorado,Summer,Osprey,2410.0,7.787382026484701
+1387,CT,Connecticut,Summer,Osprey,3088.0,8.035278911144667
+1388,DE,Delaware,Summer,Osprey,2343.0,7.759187438507795
+1389,DC,District Of Columbia,Summer,Osprey,1.0,0.0
+1390,FM,Federated States Of Micronesia,Summer,Osprey,1.0,0.0
+1391,FL,Florida,Summer,Osprey,9725.0,9.182455168486648
+1392,GA,Georgia,Summer,Osprey,953.0,6.859614903654202
+1393,GU,Guam,Summer,Osprey,1.0,0.0
+1394,HI,Hawaii,Summer,Osprey,20.0,2.995732273553991
+1395,ID,Idaho,Summer,Osprey,1271.0,7.147559271189454
+1396,IL,Illinois,Summer,Osprey,775.0,6.652863029353347
+1397,IN,Indiana,Summer,Osprey,505.0,6.22455842927536
+1398,IA,Iowa,Summer,Osprey,164.0,5.099866427824199
+1399,KS,Kansas,Summer,Osprey,240.0,5.480638923341991
+1400,KY,Kentucky,Summer,Osprey,364.0,5.8971538676367405
+1401,LA,Louisiana,Summer,Osprey,393.0,5.973809611869261
+1402,ME,Maine,Summer,Osprey,3512.0,8.163940954755008
+1403,MH,Marshall Islands,Summer,Osprey,1.0,0.0
+1404,MD,Maryland,Summer,Osprey,5367.0,8.588024372176829
+1405,MA,Massachusetts,Summer,Osprey,5797.0,8.665095821339733
+1406,MI,Michigan,Summer,Osprey,1791.0,7.490529402060711
+1407,MN,Minnesota,Summer,Osprey,1259.0,7.138073034044347
+1408,MS,Mississippi,Summer,Osprey,616.0,6.423246963533519
+1409,MO,Missouri,Summer,Osprey,268.0,5.5909869805108565
+1410,MT,Montana,Summer,Osprey,1607.0,7.382124365737512
+1411,NE,Nebraska,Summer,Osprey,126.0,4.836281906951478
+1412,NV,Nevada,Summer,Osprey,163.0,5.093750200806762
+1413,NH,New Hampshire,Summer,Osprey,647.0,6.472346294500901
+1414,NJ,New Jersey,Summer,Osprey,5193.0,8.555066843844319
+1415,NM,New Mexico,Summer,Osprey,278.0,5.627621113690637
+1416,NY,New York,Summer,Osprey,9114.0,9.117566971823829
+1417,NC,North Carolina,Summer,Osprey,2249.0,7.718240951959316
+1418,ND,North Dakota,Summer,Osprey,52.0,3.9512437185814275
+1419,MP,Northern Mariana Islands,Summer,Osprey,1.0,0.0
+1420,OH,Ohio,Summer,Osprey,2145.0,7.6708948313621175
+1421,OK,Oklahoma,Summer,Osprey,90.0,4.499809670330265
+1422,OR,Oregon,Summer,Osprey,4696.0,8.454466361507933
+1423,PW,Palau,Summer,Osprey,1.0,0.0
+1424,PA,Pennsylvania,Summer,Osprey,2707.0,7.903596289614301
+1425,PR,Puerto Rico,Summer,Osprey,1.0,0.0
+1426,RI,Rhode Island,Summer,Osprey,1099.0,7.002155954403621
+1427,SC,South Carolina,Summer,Osprey,1768.0,7.477604243197589
+1428,SD,South Dakota,Summer,Osprey,120.0,4.787491742782046
+1429,TN,Tennessee,Summer,Osprey,1351.0,7.208600337960199
+1430,TX,Texas,Summer,Osprey,1089.0,6.9930151229329605
+1431,UT,Utah,Summer,Osprey,580.0,6.363028103540465
+1432,VT,Vermont,Summer,Osprey,1342.0,7.201916317531627
+1433,VI,Virgin Islands,Summer,Osprey,1.0,0.0
+1434,VA,Virginia,Summer,Osprey,4735.0,8.462737005620179
+1435,WA,Washington,Summer,Osprey,5929.0,8.687610843707368
+1436,WV,West Virginia,Summer,Osprey,202.0,5.308267697401205
+1437,WI,Wisconsin,Summer,Osprey,1053.0,6.959398512133975
+1438,WY,Wyoming,Summer,Osprey,871.0,6.769641976852503
+1439,DC,District of Columbia,Summer,Osprey,420.0,6.040254711277414
