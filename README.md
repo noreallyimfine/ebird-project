@@ -9,11 +9,10 @@ If you want to dive into the code, check out the `/migration_analysis` folder. I
 
 
 ### Predictive Model
-For the predictive model, I labelled bird sightings in my training set as either 'Common', 'Uncommon', or 'Rare' based on the percentage of all bird sightings in their region during that season they represented. Then I trained some models to predict off new bird sightings.
-
-
+For the predictive model, I labelled bird sightings in my training set as either [**'Common'**, **'Uncommon'**, or **'Rare'**] based on the percentage of all bird sightings in their region during that season they represented. Then I trained some models to predict off new bird sightings.
 
 
 ### Lookup Model
+
 
 ### Backend
