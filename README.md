@@ -1,2 +1,12 @@
 # ebird-project
-Analyze eBird data and draw insights. Build model to classify bird sightings as Common or Rare
+Analyze eBird bird sighting data to track migration patterns and build model to determine rareness of given bird sightings.
+
+### Bird Migration
+
+
+### Predictive Model
+
+
+### Lookup Model
+
+### Backend
