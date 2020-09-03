@@ -9,10 +9,15 @@ If you want to dive into the code, check out the `/migration_analysis` folder. I
 
 
 ### Predictive Model
-For the predictive model, I labelled bird sightings in my training set as either [**'Common'**, **'Uncommon'**, or **'Rare'**] based on the percentage of all bird sightings in their region during that season they represented. Then I trained some models to predict off new bird sightings.
+For the predictive model, I labelled bird sightings in my training set as either [**'Common'**, **'Uncommon'**, or **'Rare'**] based on the percentage of all bird sightings in their region during that season they represented. Then I trained a Random Forest Classifier to predict off new bird sightings.
 
+You can check out the work done for this stage in the `/rareness_predictor` folder. 
 
 ### Lookup Model
+Turned out, a predictive model was the wrong was to go. If someone would enter a bird that was never seen in that region during that season before, I know what I want that to return - Rare!
+
+So I moved to a lookup table model. Here, I loaded the database with the percent of total sightings (in a region during a season) each bird was and return a label based on that.
 
 
 ### Backend
+That database is cur
